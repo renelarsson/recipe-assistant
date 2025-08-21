@@ -1,2 +1,2 @@
 # recipe-assistant
-This RAG application is a recipe assistant built for the LLM Zoomcamp Capstone
+AI-powered recipe recommendation system built as part of LLM Zoomcamp Capstone
