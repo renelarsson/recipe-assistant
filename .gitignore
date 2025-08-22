@@ -75,7 +75,11 @@ docs/_build/
 .pybuilder/
 target/
 
+# Project plans and notes
+plan.md
+
 # Jupyter Notebook
+.jupyter/
 .ipynb_checkpoints
 
 # IPython
@@ -136,6 +140,7 @@ celerybeat.pid
 
 # Environments
 .env
+*.env
 .envrc
 .venv
 env/
@@ -143,6 +148,9 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Data and datasets
+data/raw/
 
 # Spyder project settings
 .spyderproject
@@ -205,3 +213,4 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+

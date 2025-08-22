@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+openai = "*"
+pandas = "*"
+scikit-learn = "*"
+flask = "*"
+gunicorn = "*"
+requests = "*"
+python-dotenv = "*"
+
+[dev-packages]
+jupyter = "*"
+ipywidgets = "*"
+tqdm = "*"
+notebook = "*"
+pytest = "*"
+black = "*"
+isort = "*"
+flake8 = "*"
+pre-commit = "*"
+
+[requires]
+python_version = "3.12"
