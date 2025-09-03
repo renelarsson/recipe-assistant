@@ -1,55 +1,69 @@
-import uuid
-from flask import Flask, request, jsonify
-from rag import rag  # Import the RAG pipeline for serving live user queries
-import db            # Import database utility functions
+"""
+Flask API for Recipe Assistant.
+- Exposes endpoints for question answering and feedback collection.
+- Uses advanced RAG pipeline (cover, hybrid, LLM rerank) via rag.py/retrieval.py.
+- Logs conversations and feedback to PostgreSQL via db.py.
+- Designed for containerization and cloud deployment (e.g., AWS EC2).
+"""
 
-# Initialize Flask app
+import uuid
+import os
+from flask import Flask, request, jsonify
+from rag import rag  # Advanced RAG pipeline (uses retrieval.py)
+import db  # Database logging
+
 app = Flask(__name__)
 
-# Flask URL endpoint decorator listens for HTTP POST requests sent to the /question path
-@app.route("/question", methods=["POST"]) # Creates a virtual route 
-def handle_question(): # Called by Flask when a client sends a POST to process the user's recipe question
+@app.route("/question", methods=["POST"])
+def handle_question():
+    """
+    Accepts a POST request with a JSON payload: {"question": "..."}
+    Runs the RAG pipeline and returns the answer and conversation_id.
+    """
     data = request.json
-    question = data["question"]
+    question = data.get("question")
+    approach = data.get("approach")  # Optional: allow user to select retrieval approach
 
-    # Validate input
     if not question:
         return jsonify({"error": "No question provided"}), 400
 
-    # Generate a unique conversation ID for tracking
     conversation_id = str(uuid.uuid4())
 
-    # Call the RAG pipeline to get an answer for the question
-    answer_data = rag(question)
+    # Run the RAG pipeline (default: best approach)
+    answer_data = rag(question, approach=approach or os.getenv("RETRIEVAL_APPROACH", "best"))
 
-    # Prepare the response
-    result = {
-        "conversation_id": conversation_id,
-        "question": question,
-        "answer": answer_data["answer"],
-    }
-
-    # Save the conversation to the database
+    # Log the conversation to the database
     db.save_conversation(
         conversation_id=conversation_id,
         question=question,
         answer_data=answer_data,
     )
 
+    result = {
+        "conversation_id": conversation_id,
+        "question": question,
+        "answer": answer_data["answer"],
+        "relevance": answer_data.get("relevance"),
+        "relevance_explanation": answer_data.get("relevance_explanation"),
+        "model_used": answer_data.get("model_used"),
+        "response_time": answer_data.get("response_time"),
+        "openai_cost": answer_data.get("openai_cost"),
+    }
     return jsonify(result)
 
-# Endpoint to handle user feedback on answers
 @app.route("/feedback", methods=["POST"])
 def handle_feedback():
+    """
+    Accepts a POST request with a JSON payload: {"conversation_id": "...", "feedback": 1 or -1}
+    Logs user feedback to the database.
+    """
     data = request.json
-    conversation_id = data["conversation_id"]
-    feedback = data["feedback"]
+    conversation_id = data.get("conversation_id")
+    feedback = data.get("feedback")
 
-    # Validate input: feedback must be 1 (positive) or -1 (negative)
     if not conversation_id or feedback not in [1, -1]:
         return jsonify({"error": "Invalid input"}), 400
 
-    # Save the feedback to the database
     db.save_feedback(
         conversation_id=conversation_id,
         feedback=feedback,
@@ -60,15 +74,11 @@ def handle_feedback():
     }
     return jsonify(result)
 
-# Run the Flask app in debug mode if executed directly
-if __name__ == "__main__":
-    app.run(debug=True)
+@app.route("/health", methods=["GET"])
+def health_check():
+    """Simple health check endpoint for monitoring and cloud deployment."""
+    return jsonify({"status": "ok"})
 
-# ----------------------------------------------------------------------
-# This file implements a simple Flask API for a recipe assistant.
-# - For production, relevant notebook logic is moved into this Python module.
-# - The /question endpoint accepts a user question, generates an answer using a RAG pipeline,
-#   saves the conversation, and returns the answer with a unique conversation ID.
-# - The /feedback endpoint allows users to submit feedback (positive/negative) on a conversation,
-#   which is saved for future analysis or improvement.
-# - All data persistence is handled through the db module.
+if __name__ == "__main__":
+    # For local development only; use gunicorn or similar in production
+    app.run(host="0.0.0.0", port=int(os.getenv("APP_PORT", 5000)), debug=True)

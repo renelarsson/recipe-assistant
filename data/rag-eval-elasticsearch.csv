@@ -1,792 +1,565 @@
 id,question,answer,relevance,explanation
-60,What is the cooking time required for this recipe?,The cooking time required for the Falafel Wrap recipe is 15 minutes.,RELEVANT,"The generated answer directly addresses the question by providing the specific cooking time required for the recipe, which is exactly what was asked."
-68,What are the main ingredients in this dish?,"The main ingredients in Chicken Tikka Masala are chicken, yogurt, tomato sauce, and spices. 
+60,What can I cook with fish and potatoes that will be ready in under two hours?,"Based on the provided context, the Korean Cheese Stir-Fry includes fish and potatoes as main ingredients, but its total cook time is 157 minutes, which exceeds your two-hour timeframe. Therefore, I recommend some alternative recipes that match your requested ingredients of fish and potatoes and can be prepared in under two hours. Here are a couple of options:
 
-### Recipe Recommendations:
+1. **Fish Tacos with Potato Hash**:
+   - **Explanation**: You can quickly pan-fry fish fillets and serve them in tortillas with a side of crispy potato hash. The potatoes can be diced and sautéed with a pinch of seasoning for a flavorful accompaniment. This dish is typically ready in about 30-45 minutes, well within your time limit.
 
-1. **Chicken Tikka Masala (as listed)**
-   - **Explanation**: This recipe perfectly matches the requested ingredients with chicken as the protein, yogurt for marinating, tomato sauce for the base, and a variety of spices to enhance flavor.
+2. **Baked Fish with Lemon-Butter Potatoes**:
+   - **Explanation**: Season fish fillets with lemon, garlic, and herbs, then bake them alongside halved potatoes coated in butter and herbs. This dish can be prepared and cooked in around 45-60 minutes, making it a quick and satisfying meal that highlights both fish and potatoes.
 
-2. **Butter Chicken**
-   - **Closest Match**: This dish also uses chicken, a creamy tomato sauce, and spices. 
-   - **Substitutions Needed**: If you want to keep a similar flavor profile, you can use cream instead of yogurt, though it will change the texture and tanginess slightly.
+Both of these recipes make efficient use of fish and potatoes while being completed in under two hours, ensuring a satisfying meal without the extended cooking time of the Korean Cheese Stir-Fry.",RELEVANT,"The generated answer directly addresses the question by providing appropriate recipes that include fish and potatoes and can be prepared in under two hours. It also mentions a recipe that exceeds the time limit while offering alternatives that meet the criteria, fulfilling the user's request effectively."
+68,"What can I make with shrimp, lentils, and cream for dessert?","Based on your request for a dessert that includes shrimp, lentils, and cream, the recipe ""Thai Lentils Tom Kha"" is available in our database. 
 
-3. **Chicken Curry**
-   - **Closest Match**: Chicken curry dishes typically include chicken, tomato, and a blend of spices.
-   - **Substitutions Needed**: You might not find yogurt in every curry recipe, but you can easily add it for a creamier texture in place of coconut milk or simply omit it.
+However, please note that ""Thai Lentils Tom Kha"" is not a dessert; it is categorized under meal types as a dessert but consists of lentils, shrimp, and cream, which lends itself more to a savory dish rather than a sweet dessert. If you're interested in preparing it with those ingredients, it can be made as a hearty, savory dish rather than a traditional dessert.
 
-4. **Vegetable Tikka Masala (for Vegetarian Option)**
-   - **Closest Match**: This can include similar spices and tomato sauce, but uses vegetables instead of chicken.
-   - **Substitutions Needed**: Replace the chicken with a mix of your favorite vegetables (like bell peppers, cauliflower, and peas) and utilize yogurt in the marinade for similar flavor integration.
+If you're open to exploring other options, consider making a savory dish instead, or if you're specifically looking for a dessert, you might need to adjust your ingredient expectations, as shrimp and lentils are not typical dessert ingredients. Alternatively, using cream, you could create a dessert like a panna cotta or custard, though you would need to omit the shrimp and lentils for a traditional sweet flavor. 
 
-These alternatives will provide similar flavor profiles and maintain the essence of the original Chicken Tikka Masala dish.",RELEVANT,"The generated answer directly addresses the question by listing the main ingredients of Chicken Tikka Masala, which is what was asked. The subsequent recipe recommendations, while informative, are not necessary to ascertain the relevance of the answer to the question."
-9,Which ingredients are used for protein in the recipe?,"In the Falafel Wrap recipe, the primary source of protein is **chickpeas**. They are blended with spices and herbs to create the falafel, which is then fried and served in pita. 
+If you still want to use lentils, you might consider a creative dessert option like lentil-based cookies or cakes, but they would not include shrimp or cream. Would you like suggestions for a dessert that uses cream without shrimp or lentils?",PARTLY_RELEVANT,"The generated answer discusses the ingredients (shrimp, lentils, and cream) but ultimately concludes that they do not align with traditional dessert recipes. While it creatively suggests alternatives, the primary focus remains on a savory dish rather than directly answering the dessert inquiry. Therefore, it is somewhat relevant but does not fully address the question."
+9,"Can you suggest a quick recipe using shrimp, egg, and garlic?","Certainly! Here are a couple of quick recipes using shrimp, egg, and garlic:
 
-For additional protein pairings or substitutions, consider the following recommendations:
+1. **Shrimp Fried Rice**:
+   - **Ingredients**: Cooked shrimp, cooked rice, eggs, garlic, green onions, soy sauce, and vegetable oil.
+   - **Explanation**: This dish is a classic and comes together quickly. You can sauté minced garlic in oil, add the shrimp until they're heated through, then push them to the side and scramble the eggs in the same pan. Mix in pre-cooked rice, add soy sauce for flavor, and finish with chopped green onions.
 
-1. **Chickpea Salad Wrap**: If you want to explore different flavors, make a chickpea salad using mashed chickpeas, diced tomatoes, cucumbers, onions, and a lemon-tahini dressing. This retains the focus on chickpeas for protein while adding fresh vegetables.
+2. **Garlic Shrimp and Egg Scramble**:
+   - **Ingredients**: Shrimp, eggs, garlic, salt, pepper, and olive oil or butter.
+   - **Explanation**: This is a very fast dish where you start by sautéing minced garlic in olive oil or butter. Once fragrant, add the shrimp until they turn pink, then whisk in beaten eggs to scramble everything together. Season with salt and pepper to taste for a simple, protein-packed meal.
 
-2. **Lentil Wrap**: If chickpeas are not available, you can substitute them with **cooked lentils**. Lentils are also a good source of protein and can be spiced similarly to form patties, which can then be served in a pita wrap with fresh veggies and tahini sauce.
+If you don't have cooked shrimp, fresh shrimp can be quickly sautéed in the dishes above, just ensure they are cleaned and deveined before cooking. If you lack rice for the fried rice recipe, you could serve the shrimp and egg scramble over toast instead.",RELEVANT,"The generated answer provides two quick recipes that specifically use shrimp, egg, and garlic, which directly addresses the user's request for a quick recipe involving those ingredients. The detailed explanations for each recipe enhance the relevance by offering practical cooking instructions and additional tips."
+13,"Can you suggest a meal that combines chicken, beef, and soy sauce?","Based on the context provided for the Mexican Cheese Bowl, here’s a recipe that matches your request for a meal combining chicken, beef, and soy sauce:
 
-3. **Quinoa Bowl**: Quinoa can be used as a base in a wrap to add protein. While it's not a bean like chickpeas, quinoa is a complete protein and can be mixed with similar spices and herbs to achieve a compatible flavor profile.
+**Recipe: Mexican Cheese Bowl**
+- **Ingredients:** Chicken, Beef, Cheese, Honey, Soy Sauce, Spices, Onion
+- **Explanation:** This recipe directly incorporates both chicken and beef as main proteins. The addition of soy sauce contributes a savory, umami flavor that enhances the dish. The combination of cheese offers a rich and creamy texture that complements the proteins. It is also suitable for breakfast, making it a versatile option to start the day.
 
-These alternatives provide a satisfying protein source while staying aligned with the plant-based aspect of the original recipe.",RELEVANT,"The generated answer directly addresses the question by identifying chickpeas as the primary source of protein in the Falafel Wrap recipe. Additionally, it provides alternatives like lentils and quinoa, which are also sources of protein, thus enriching the response and staying relevant to the inquiry about protein ingredients."
-13,Are there any specific spices needed for the seasoning?,"The recipe for Beef Tacos does not specify the exact spices needed for the seasoning, but common spices used in taco seasoning typically include cumin, chili powder, garlic powder, onion powder, and paprika. You can mix these spices to reach your desired flavor profile for the beef.
+If you do not have cheese available, you can substitute it with a dairy-free alternative like nutritional yeast or a plant-based cheese to maintain a similar flavor profile. 
 
-If you are interested in a recipe that incorporates similar spices, here’s another suggestion:
+Overall, this recipe meets your criteria and utilizes the ingredients you're interested in effectively.",PARTLY_RELEVANT,"The generated answer suggests a recipe that includes chicken, beef, and soy sauce, which aligns with the request. However, it also introduces cheese, which was not part of the original request and may not be relevant to all users. While it does meet the basic criteria, the additional ingredient might detract from its overall relevance to those specifically asking for a meal that focuses solely on chicken, beef, and soy sauce."
+95,"What can I prepare with fish, onions, and butter for a quick and easy dish?","Based on the ingredients you have: fish, onions, and butter, here are a couple of recipe recommendations that can be prepared:
 
-**Recipe: Beef Enchiladas**
-- **Cuisine:** Mexican
-- **Meal Type:** Dinner
-- **Difficulty:** Easy
-- **Prep Time:** 20 minutes
-- **Cook Time:** 30 minutes
-- **Main Ingredients:** Ground Beef, Tortillas, Enchilada Sauce, Cheese
-- **Instructions:** Brown the ground beef with taco seasoning, fill tortillas with beef, roll them up, place in a baking dish, top with enchilada sauce and cheese, and bake until bubbly.
+1. **Fish with Caramelized Onions**: 
+   - You can quickly pan-sear or bake the fish and complement it with caramelized onions. To make this dish, simply cut the onions and cook them in butter until they are soft and golden brown. Season the fish with salt and pepper, and cook it in another pan until done. Serve the sautéed fish topped with the caramelized onions. This combination highlights the savory flavor of the fish and the sweetness of the onions.
 
-**Explanation:** This recipe also uses ground beef and tortillas, similar to the Beef Tacos, and incorporates spices that are typically familiar in Mexican cuisine. You can use the same spice mix you would use for your tacos.
+2. **Sushi Rolls with Fish**:
+   - If you have sushi rice and nori on hand alongside your fish, you can make sushi rolls. While the recipe typically doesn't call for onions, you can add thinly sliced raw onions (such as scallions) as an additional filling. Simply prepare the sushi rice, season it, and follow the sushi roll instructions while incorporating your fish and onions as desired. This can be a fresh and delicious option that features your fish prominently.
 
-If you don't have specific spices on hand, you can substitute pre-made taco seasoning for the seasoning in these recipes. Alternatively, if you want to explore vegetarian options, the **Falafel Wrap** recipe can be a delicious alternative, using chickpeas instead of beef and keeping the simplicity in preparation. Adjust the toppings as needed to match your preferences!",RELEVANT,"The generated answer directly addresses the question by discussing common spices used for taco seasoning, thereby providing relevant information. It also provides additional context by suggesting a recipe that uses similar spices, which enhances the relevance of the response to the question about spices for seasoning."
-95,Does this recipe contain any allergens?,"To answer your question about allergens, I'll need to know which specific recipe you're referring to, as allergen content can vary widely based on the ingredients used. Common allergens in recipes include dairy, eggs, nuts, gluten, soy, and shellfish, among others. 
+If you don't have sushi rice or nori, you could consider making a simple fish filet with a side of sautéed onions to keep it straightforward and quick. 
 
-If you provide me with the recipe or the key ingredients in question, I can check for potential allergens and also suggest suitable recipe recommendations or substitutions if needed.",PARTLY_RELEVANT,"The generated answer acknowledges the need for specific information about the recipe to determine allergen content. However, it does not directly answer the question regarding whether there are any allergens in the unspecified recipe, making it only partly relevant."
-97,What are the main ingredients used in this dish?,"The main ingredients used in the Chicken Tikka Masala dish are chicken, yogurt, tomato sauce, and spices.
+These suggestions leverage the ingredients you have while ensuring that you can create a delicious and satisfying meal with minimal fuss.",RELEVANT,"The generated answer provides relevant and practical recipe suggestions using the specified ingredients of fish, onions, and butter. It includes specific cooking methods and descriptions, making it easy to follow for someone looking for a quick and easy dish. Both suggested recipes utilize the ingredients effectively and relate directly to the question asked."
+97,"What can I make for breakfast with tomatoes, spinach, and eggs?","Based on the ingredients you have—tomatoes, spinach, and eggs—here are some recipe recommendations for breakfast:
 
-If you are looking for recipes that utilize similar ingredients, here are some recommendations:
+1. **Tomato, Spinach, and Egg Scramble**: This dish can be quickly prepared by sautéing spinach and diced tomatoes in a pan, then adding beaten eggs to create a flavorful scramble. It’s a simple and nutritious breakfast that highlights your main ingredients. You can also add spices or cheese based on your preference.
 
-1. **Chicken Curry**: 
-   - Like Chicken Tikka Masala, a chicken curry also includes chicken and a variety of spices. You can use yogurt to enhance the sauce's creaminess and flavor, similar to the marinade in Tikka Masala. The tomato sauce is generally used as a base in many curries, providing a rich taste.
+2. **Shakshuka**: This is a popular Middle Eastern dish made by poaching eggs in a sauce of tomatoes, onions, and spices. You can incorporate your spinach into the sauce for added nutrition. This dish is hearty, warming, and perfect for breakfast.
 
-2. **Butter Chicken**:
-   - This dish features chicken cooked in a creamy tomato sauce, much like Tikka Masala. It also typically involves marinating the chicken in yogurt and spices, aligning closely with the main ingredients of your request.
+3. **Vegetable Omelette**: You can make a delicious omelette using eggs, chopped tomatoes, and spinach. Just beat the eggs, pour them into a heated pan, and add the vegetables for a filling breakfast option.
 
-3. **Paneer Tikka Masala** (Vegetarian Option):
-   - If you want to maintain similar flavors but prefer a vegetarian dish, Paneer Tikka Masala uses paneer (Indian cottage cheese), yogurt, and spices, serving as a great substitute for chicken while retaining the essence of the dish.
+If you find you're missing any specific ingredients, these dishes are flexible. For example, if you don’t have onions for the shakshuka, you can simply omit them or substitute with shallots or green onions if available.",RELEVANT,"The generated answer directly addresses the question by providing multiple breakfast recipe suggestions utilizing the specified ingredients: tomatoes, spinach, and eggs. Each suggestion is relevant and appropriately incorporates the ingredients mentioned in the question."
+62,"Can you suggest a recipe with shrimp, tofu, and soy sauce for lunch?","I recommend the ""American Shrimp Sandwich"" for your lunch recipe, as it includes shrimp, tofu, and soy sauce among its ingredients. 
 
-4. **Chickpea Masala** (Vegan Option):
-   - For a plant-based alternative, consider a chickpea masala. While it substitutes chicken with chickpeas and may not include yogurt, you can use coconut cream or cashew cream to replicate a rich, creamy texture.
+### American Shrimp Sandwich
+- **Main Ingredients**: Shrimp, Cheese, Tofu
+- **Explanation**: This recipe perfectly matches your request as it prominently features shrimp and tofu. The inclusion of soy sauce adds a savory depth to the dish. The preparation involves cooking the shrimp with these ingredients, making it a cohesive meal. 
 
-All these suggestions incorporate either the main ingredients or closely related ones, ensuring that you can create a dish with similar flavors and textures to Chicken Tikka Masala. If specific ingredients aren’t available, consider the suggested substitutions to maintain the profile of the recipe.",RELEVANT,"The generated answer directly addresses the question by listing the main ingredients of Chicken Tikka Masala, which are chicken, yogurt, tomato sauce, and spices. Additionally, it provides context by suggesting recipes that use similar ingredients, enhancing the relevance to the original query."
-62,What type of pasta can I use for a gluten-free option?,"The recipe for Korean Tofu Brownies contains pasta, but it is not gluten-free due to the presence of regular pasta. However, if you are looking for gluten-free pasta options to use in a similar dish, consider the following recommendations:
+If you want to adjust the dish to focus more on shrimp and tofu, you can reduce the amount of cheese or even omit it if you're looking for a lighter version. 
 
-1. **Gluten-Free Rice Noodles**: These can be a versatile substitute in many pasta dishes and will work well in a recipe requiring pasta. They have a neutral flavor and a texture similar to traditional pasta when cooked properly.
+This dish is not only filled with the requested ingredients but also is designed for lunch, making it ideal for a fulfilling midday meal. Additionally, it aligns with a low-carb dietary preference.",PARTLY_RELEVANT,"The generated answer suggests a recipe that includes shrimp and tofu; however, the recipe also includes cheese, which was not requested. Additionally, the dish's name 'American Shrimp Sandwich' does not immediately convey a relation to the request for a recipe specifically using shrimp, tofu, and soy sauce. While it contains some of the requested ingredients, the overall suggestion may not fully meet the user's request."
+6,I'm looking for a comforting dinner recipe that features baguette and onions.,"For a comforting dinner recipe that features onions, I recommend the **French Onion Soup** from our recipe database. 
 
-2. **Gluten-Free Quinoa Pasta**: This option has a slightly nutty flavor and a high protein content. It's a great substitute that adds some nutritional value to your dish.
+**French Onion Soup** is a classic dish that prominently features caramelized onions, providing a deep, rich flavor. The soup is typically served with crusty bread, like a baguette, which can be topped with Gruyere cheese and broiled until melted, creating a delicious, comforting meal. This recipe aligns perfectly with your request for onions, and while it doesn't specifically include a baguette, you can easily substitute the bread topping for sliced baguette, which will complement the soup beautifully.
 
-3. **Gluten-Free Chickpea Pasta**: This pasta is made from chickpeas and has a similar taste profile to the chickpeas used in the Falafel Wrap. It can be a great way to tie in similar flavors if you're looking for a cohesive meal experience.
+If you're set on using baguette as a main ingredient, you can serve it alongside the soup, either toasted or fresh, making it a perfect match for dipping. This recipe is medium in difficulty and takes about 80 minutes total (20 minutes prep and 60 minutes cook time), making it a fulfilling dinner option.",PARTLY_RELEVANT,"The generated answer offers a comforting dinner recipe featuring onions, specifically French Onion Soup, which aligns with the request for onions. However, it only loosely connects with the inclusion of baguette, as it suggests using baguette as a topping instead of as a main ingredient in the recipe itself. Therefore, while it partially meets the criteria, it does not fully address the explicit request for a dinner recipe that prominently features both baguette and onions."
+49,What dish can I cook using rice and some type of meat that fits a low-carb diet?,"You can prepare the Mediterranean Rice Stew using rice and meat, which fits a low-carb diet. 
 
-4. **Zucchini Noodles (Zoodles)**: While not traditional pasta, using spiralized zucchini is a fantastic low-carb, gluten-free option. It pairs well with many sauces and can absorb flavors effectively.
+### Recipe Recommendation: Mediterranean Rice Stew
+- **Ingredients:** Rice, Pork, Chicken, Sugar, Spices, Herbs, Honey
+- **Explanation:** This dish prominently features rice and includes both pork and chicken, making it a suitable option for your request. The use of sugar, spices, and herbs enhances the flavor profile, while being mindful of portion sizes can help maintain the low-carb aspect of the meal. 
 
-If you substitute any of these gluten-free options in the Korean Tofu Brownies recipe, make sure to adjust cooking times and methods accordingly, especially for rice noodles or quinoa pasta, which may require different cooking instructions than regular pasta. 
+### Substitutions (if needed):
+- If you don't have both types of meat (pork and chicken), you can use just one type of meat available to you, either pork or chicken, as they will work well with the rice and the flavoring components of the dish. 
+- For an even lower-carb approach, consider using cauliflower rice in place of traditional rice, which significantly reduces the carbohydrate content while still allowing you to create a flavorful stew.
 
-While the Falafel Wrap is already vegetarian and vegan, using chickpea pasta can also yield a unique take on the traditional flavors while adhering to dietary restrictions.",RELEVANT,"The generated answer directly addresses the question by providing multiple gluten-free pasta options, including gluten-free rice noodles, quinoa pasta, chickpea pasta, and zucchini noodles. It not only lists these alternatives but also offers contextual information about their flavors and potential uses, which is pertinent to finding a suitable gluten-free option."
-6,How long should the onions be caramelized?,"The recipe does not specify an exact duration for caramelizing the onions. However, typically, onions should be caramelized for about 15-20 minutes over medium heat until they are golden brown and soft.
+This recipe not only meets your requirements for containing rice and meat but also adheres to a low-carb guideline with mindful preparation.",PARTLY_RELEVANT,"The generated answer suggests a dish (Mediterranean Rice Stew) that contains rice and meat, which addresses part of the user's request. However, the presence of rice, which is inherently high in carbohydrates, conflicts with the low-carb diet requirement. While it does mention a substitute (cauliflower rice) for a lower-carb option, the primary focus remains on a dish that includes traditional rice, making it partially relevant but not fully aligned with the low-carb criteria."
+18,Can I find a dessert recipe that uses tofu and cream?,"Yes, you can find a dessert recipe that uses both tofu and cream. The **Korean Tofu Brownies** from our recipe database fits this requirement. Here’s why it matches:
 
-If you're looking for recipe recommendations based on caramelized onions and the other main ingredients, consider the following options:
+1. **Main Ingredients**: The recipe specifically includes tofu and cream, which are the key ingredients you mentioned.
+2. **Dessert Type**: As a dessert, it aligns perfectly with your request for a sweet dish.
+3. **Unique Cuisine**: The Korean twist may provide a unique flavor profile compared to traditional brownie recipes, making it an interesting option.
 
-1. **French Onion Tart**: This dish also utilizes caramelized onions and Gruyere cheese. It involves creating a light pastry crust, filling it with caramelized onions, and topping it with Gruyere before baking. This matches well with the flavors of French onion soup.
+If you are looking for something that can substitute or complement the original recipe, here are some suggestions:
 
-2. **Croque Monsieur**: This classic French sandwich features layers of ham and cheese (often Gruyere), topped with béchamel sauce. You could include caramelized onions as a delicious addition between the layers to complement the richness of the sandwich.
+- **Substitutions for Tofu**: If you want a creamier texture, you can use silken tofu, which can blend smoothly and add moisture to the brownies. 
+- **Substitutions for Cream**: If you need a dairy-free option for cream, consider using coconut cream, which will give a rich texture similar to dairy cream.
 
-3. **Beef Stroganoff**: Incorporate caramelized onions into a creamy beef stroganoff. The beef broth and onions will pair well together, similar to the soup, creating a rich, savory sauce that's wonderful over egg noodles.
+Overall, the **Korean Tofu Brownies** are a great choice that directly matches your criteria.",RELEVANT,"The generated answer provides a specific dessert recipe that includes both tofu and cream, directly addressing the user's request. It also elaborates on the recipe's ingredients and offers suggestions for substitutions, reinforcing its relevance."
+64,I'm looking for a lunch idea with beef and potatoes that includes some vegetables too.,"Based on your request for a lunch idea with beef and potatoes that also includes some vegetables, the provided recipes in our database do not directly meet these criteria. 
 
-If you don't have Gruyere cheese, a good substitute would be Swiss cheese or Emmental cheese, as they have a similar texture and flavor profile. If fresh onions are not available, you can use frozen caramelized onions instead, but they may require less cooking time to warm through.",RELEVANT,"The generated answer directly addresses the question by providing a typical duration for caramelizing onions (15-20 minutes) and explains the desired result of the cooking process (golden brown and soft). Additionally, it offers context about the recipe, which is relevant to someone looking for further culinary guidance related to caramelized onions."
-49,Is this dish suitable for a low-carb diet?,"The Falafel Wrap is not suitable for a low-carb diet, as it primarily contains chickpeas and pita, which are high in carbohydrates.
+1. **African Potatoes Curry**: Although this recipe uses potatoes and beef, it is designated as a dinner meal and has a difficulty rating of hard, which might not make it ideal for lunch. However, you could adapt it for lunch by preparing a smaller portion and possibly serving it as a hearty dish alongside steamed vegetables.
 
-For low-carb options, you might consider the following dishes:
+For a quick suggestion, if you can find a way to repurpose the African Potatoes Curry into a lunch-friendly dish, consider adding a side of mixed greens or roasted vegetables to enhance the vegetable content. 
 
-1. **Mediterranean Rice Stew**:
-   - **Reason**: Although it contains rice, this recipe is labeled as low-carb. Adjusting the portion of rice or substituting it with cauliflower rice could further lower the carb content.
-   - **Key Ingredients**: Rice, Pork, Chicken.
-   - **Adjustments**: You could use cauliflower rice instead of traditional rice to significantly reduce the carbohydrate content while still retaining the flavorful elements of the stew.
+Unfortunately, we do not have a specific lunch recipe that includes beef and potatoes with additional vegetables in our current database. If you are open to substitutions, consider making a simple beef and potato stir-fry, adding any available vegetables such as bell peppers or broccoli, which could provide a nutritious option for lunch.
 
-2. **Middle Eastern Tomatoes Cookies**:
-   - **Reason**: While it’s also labeled low-carb, it contains tomatoes and tofu which are lower in carbs compared to traditional dessert ingredients.
-   - **Key Ingredients**: Tomatoes, Tofu, Rice.
-   - **Adjustments**: To meet a stricter low-carb requirement, consider replacing the rice with an alternative like almond flour if you're looking for a cookie-like texture.
+If you need a fully fleshed-out recipe recommending specific steps, please let me know!",PARTLY_RELEVANT,"The generated answer acknowledges the user's request for a lunch idea with beef and potatoes and suggests an adaptation of an existing recipe, along with a quick alternative suggestion. However, it ultimately states that there isn’t a direct recipe that meets all the criteria specified by the user, which makes it only partially relevant."
+33,I need a dinner recipe that fits paleo and halal diets and uses milk and honey.,"For a dinner recipe that fits both paleo and halal diets while utilizing milk and honey, consider the following suggestions:
 
-If you're strictly focused on avoiding carbohydrates, the Falafel Wrap wouldn’t be ideal, but you can modify these recommended recipes to fit a low-carb diet effectively.",RELEVANT,"The generated answer directly addresses the suitability of the Falafel Wrap for a low-carb diet, clearly stating that it is not suitable due to its high carbohydrate content. Additionally, it provides relevant alternatives that can be modified for low-carb diets, which adds value to the response."
-18,What are the main ingredients used in this recipe?,"The main ingredients used in the Chicken Tikka Masala recipe are chicken, yogurt, tomato sauce, and spices.
+### Honey-Glazed Chicken Thighs with Cauliflower Rice
 
-### Recipe Recommendations Based on Main Ingredients:
+**Ingredients:**
+- Chicken thighs (boneless and skinless)
+- Honey
+- Garlic (fresh or powdered)
+- Olive oil
+- Cauliflower (grated or riced for a low-carb substitute for rice)
+- Spinach or other leafy greens
+- Almond milk (as a substitute for regular milk, adhering to paleo and halal guidelines)
 
-1. **Butter Chicken**:
-   - **Explanation**: Similar to Chicken Tikka Masala, Butter Chicken features chicken marinated in spices and cooked in a creamy tomato sauce. It also includes yogurt and various spices, making it a close match for the main ingredients while retaining that rich, savory flavor.
+**Explanation:**
+This recipe works for several reasons:
+1. **Paleo-Friendly:** The use of chicken, honey, and vegetables adheres to the paleo principles, avoiding grains, dairy (normal milk), and processed foods.
+2. **Halal-Compatible:** Chicken thighs can be sourced from halal-certified providers, ensuring the dish meets halal dietary laws.
+3. **Use of Substitutions:** The recipe replaces regular milk with almond milk, which is suitable for both paleo and halal diets. Honey serves as a natural sweetener, complementing the dish while fitting the request.
 
-2. **Chicken Korma**:
-   - **Explanation**: Chicken Korma is another Indian dish that uses chicken and a rich, creamy sauce. It typically includes yogurt and a blend of aromatic spices. While it may differ slightly in flavor profile, it shares the same core ingredients of chicken and yogurt.
+### Instructions:
+1. Marinate chicken thighs in a mixture of honey, garlic, and olive oil for at least 30 minutes.
+2. Cook the marinated chicken in a skillet over medium heat until fully cooked, about 6-7 minutes per side.
+3. Meanwhile, prepare the cauliflower rice by sautéing riced cauliflower in olive oil until tender.
+4. Serve the honey-glazed chicken over cauliflower rice and garnish with sautéed spinach.
 
-3. **Vegetarian Tikka Masala**:
-   - **Explanation**: If you're looking for a vegetarian option, a vegetarian version of Tikka Masala can be made using paneer instead of chicken. The recipe would still include yogurt, tomato sauce, and a variety of spices, closely mirroring the original dish while making it suitable for vegetarians.
+This recipe strikes a perfect balance, combining essential flavors and maintaining dietary restrictions while including the requested ingredients.",PARTLY_RELEVANT,"The generated answer provides a dinner recipe that is suitable for both paleo and halal diets, as it uses halal chicken and honey, and it replaces regular milk with almond milk to align with paleo guidelines. However, the use of almond milk instead of regular milk slightly deviates from the specific mention of 'milk' in the question, making it partially relevant rather than fully relevant."
+23,What can I cook that includes tofu and is suitable for a low-carb diet?,"You can cook the **Middle Eastern Tomatoes Cookies** which include tofu and are suitable for a low-carb diet.
 
-4. **Chickpea Curry (Chana Masala)**:
-   - **Explanation**: While this option diverges from chicken, it incorporates a similar array of spices and can be enriched with yogurt for creaminess. It features tomato sauce and can be adapted to include yogurt for flavor if desired.
-
-If some ingredients are not available, you can make the following substitutions:
-- **Chicken**: Use firm tofu or paneer for a vegetarian version.
-- **Yogurt**: Use a non-dairy yogurt alternative if you want to keep it vegan or dairy-free.
-- **Tomato Sauce**: If you don't have tomato sauce, crushed tomatoes or tomato paste mixed with a little water can serve as a substitute.
-
-These substitutions and recommendations will help retain some of the original flavor while accommodating dietary preferences.",RELEVANT,"The generated answer directly addresses the question by clearly listing the main ingredients used in the Chicken Tikka Masala recipe, which are chicken, yogurt, tomato sauce, and spices. Additionally, the extra information about recipe recommendations and substitutions is relevant and provides helpful context without straying from the main focus of the question."
-64,Are there any sweeteners included in the ingredients?,"Based on the provided recipes, there are no sweeteners listed in the ingredients for either the Chicken Tikka Masala or the Falafel Wrap. Both recipes focus on their main ingredients and spices without any mention of sweeteners.
-
-If you're looking for a recipe that might include sweeteners or could potentially be modified to include them, consider exploring the following substitutions or alternatives:
-
-1. **Chicken Tikka Masala**:
-   - Although this recipe does not contain sweeteners, you could incorporate a bit of honey or sugar into the marinade or sauce for a touch of sweetness to balance the spices. However, this is not traditional and would alter the flavor significantly.
-
-2. **Falafel Wrap**:
-   - The Falafel Wrap could be enhanced with a sweet element by adding a sweet sauce such as a sweet chili sauce or even a drizzle of honey on top when serving, especially if using a yogurt sauce as a complement. 
-
-In conclusion, neither recipe inherently contains sweeteners, but small modifications can introduce sweetness if desired.",RELEVANT,"The generated answer addresses the question directly by confirming that there are no sweeteners listed in the ingredients for the recipes in question. It also provides additional context by suggesting potential modifications to include sweeteners, which is relevant to the inquiry about ingredients."
-33,Can this dish be made vegetarian by excluding beef?,"The dishes in the provided context all feature beef as a main ingredient. As such, none of these recipes can be made vegetarian by simply excluding the beef, as they are centered around beef as a key component.
-
-However, if you are looking for vegetarian alternatives or close matches, here are some recommendations based on the provided dishes, though they may require creating a new recipe rather than modifying the existing ones:
-
-1. **Vegetarian Burrito Bowl**: 
-   - **Substitutions**: Instead of beef, use a combination of black beans or lentils for protein. Include the tomatoes and season with similar herbs and spices. 
-   - **Why It Matches**: The foundational structure of a burrito bowl can be maintained with beans or lentils providing a hearty texture.
-
-2. **Vegetarian Potato Curry**:
-   - **Substitutions**: Replace beef with chickpeas or tofu for protein. Keep the potatoes and dairy (or use coconut milk as a replacement for yogurt and milk if necessary).
-   - **Why It Matches**: Potatoes provide a filling base, and the spices along with chickpeas or tofu can create a fulfilling dish similar in flavor profile to the original recipe.
-
-3. **Mediterranean Spinach and Cheese Parfait**: 
-   - **Substitutions**: Omit beef, and consider using additional spinach or a mix of other vegetables such as kale or zucchini. Cheese remains a good source of protein.
-   - **Why It Matches**: The structure of a parfait can be achieved with layers of spinach, cheese, and the right herbs without meat. 
-
-4. **Mediterranean Fish orzo salad**: 
-   - **Substitutions**: Replace fish and beef with a variety of vegetables like bell peppers and cherry tomatoes while keeping the orzo. Use vegetable broth instead of milk for cooking.
-   - **Why It Matches**: The concept of a salad with orzo can still be achieved with a variety of fresh veggies.
-
-5. **Middle Eastern Spinach Shawarma**:
-   - **Substitutions**: Exclude beef and use marinated mushrooms or roasted vegetables instead, maintaining the spinach and spices for authentic flavor.
-   - **Why It Matches**: The shawarma flavor can still be captured with umami-rich vegetables and spices, providing a satisfying meal without meat.
-
-Overall, while none of the current recipes can be made vegetarian by removing beef, with some creativity and substitutions, you can create similar flavorful vegetarian dishes that align with the essence of the original recipes.",RELEVANT,"The generated answer directly addresses the question by stating that the dishes cannot be made vegetarian simply by excluding beef, as they center around beef as a key component. It also provides several appropriate vegetarian alternatives, demonstrating an understanding of the user's request for vegetarian options, which enhances the relevance of the response."
-23,Is this dish suitable for someone following a low-carb diet?,"The Falafel Wrap is not suitable for someone following a low-carb diet because it primarily uses chickpeas and pita, which are both high in carbohydrates.
-
-Instead, you may consider the following recipe:
-
-**Mediterranean Rice Stew**
-- **Cuisine**: Mediterranean
-- **Meal Type**: Snacks
+### Recipe: Middle Eastern Tomatoes Cookies
+- **Main Ingredients**: Tomatoes, Tofu, Rice
 - **Dietary Info**: Low-carb
 
-This dish features rice, pork, and chicken, which can be a hearty option. Although rice is typically considered high in carbs, in some low-carb diets, certain types might be portioned appropriately or substituted with alternatives like cauliflower rice to reduce overall carb intake. 
+**Explanation**: This recipe directly includes tofu and aligns with your low-carb dietary requirement. The overall preparation involves cooking with tomatoes and other ingredients, making it a unique dessert option that utilizes tofu. 
 
-**Substitution suggestion**: If a lower-carb rice alternative is preferred, consider using cauliflower rice instead of traditional rice. This would align better with low-carb dietary requirements while still keeping the Mediterranean flavor profile.
+If you don't have tofu, you could potentially substitute with another low-carb protein source, like tempeh, though this may slightly alter the flavor profile. 
 
-Overall, while the Falafel Wrap is delicious and vegetarian-friendly, it doesn't align with low-carb guidelines, whereas the Mediterranean Rice Stew, with adaptations, could be a suitable alternative.",PARTLY_RELEVANT,"The generated answer starts by correctly stating that the Falafel Wrap is not suitable for a low-carb diet, which directly addresses the question. However, it shifts focus to an alternative dish that, while potentially suitable with substitutions, does not directly answer the original question regarding the suitability of the Falafel Wrap. The discussion about the Mediterranean Rice Stew dilutes the relevance as it introduces a different dish rather than thoroughly elaborating on the low-carb compatibility of the initial dish."
-13,How long do I need to cook the chicken and beef?,"To determine the total cooking time for chicken and beef, we need to look at the recipes that contain both ingredients.
+Currently, this is the only recipe in our database that features tofu and fits a low-carb profile. If you're looking for more options outside of those parameters, additional creativity may be required in ingredient substitution or modifications.",PARTLY_RELEVANT,"The generated answer mentions a recipe that includes tofu and claims to be suitable for a low-carb diet. However, the inclusion of rice as a main ingredient contradicts the low-carb requirement, which raises concerns about the recipe's overall suitability. Therefore, while it attempts to address the query, it doesn't fully comply with the low-carb criteria, making it only partly relevant."
+13,"I have some cheese, beef, and honey on hand; what can I cook with those?","Based on the ingredients you have—cheese, beef, and honey—you can prepare the following recipe:
 
-1. **Mexican Beef Burrito Bowl**
-   - **Cook Time**: 161 minutes
-   - This recipe includes both chicken and beef, making it suitable for your ingredients. 
+**African Potatoes Curry**
 
-2. **Mediterranean Fish Orzo Salad**
-   - **Cook Time**: 133 minutes
-   - Although this recipe also contains chicken and beef, it primarily emphasizes fish, and may not fully align with your request focused on chicken and beef.
+**Explanation:** This recipe includes beef and cheese as main ingredients, along with potatoes. Honey is used in the cooking process, making it a perfect match for the ingredients you have on hand. Although potatoes aren't listed in your available ingredients, you can easily incorporate them if you have them in your pantry. 
 
-3. **Middle Eastern Spinach Shawarma**
-   - **Cook Time**: 177 minutes
-   - This recipe features chicken and beef along with spinach, making it a strong contender for your requirements.
+If you don't have potatoes, you could consider making a beef and cheese dish such as a cheesy beef casserole or a beef stroganoff, where cheese can be used to create a creamy sauce and honey can add a hint of sweetness, balancing the flavors.
 
-4. **American Lentils Salad**
-   - **Cook Time**: 46 minutes 
-   - This recipe combines chicken and beef with lentils, and while it has a much shorter cooking time, it may not focus on chicken and beef as the main ingredients.
+For an adapted version without potatoes:
 
-5. **Chinese Chicken Hot Pot**
-   - **Cook Time**: 142 minutes
-   - This recipe includes chicken and beef, and while it also contains shrimp, the main focus is on meeting the chicken and beef requirement.
+**Beef and Cheese Casserole:**
+- Use beef as the main protein.
+- Incorporate cheese to create a creamy layer.
+- Substitute honey for any sugar or sweetener required in the recipe.
 
-**Summary of Recommendations**:
-- **For a long cooking time**, the **Middle Eastern Spinach Shawarma** (177 minutes) would be excellent if you’re looking for depth of flavor with chicken and beef.
-- The **Mexican Beef Burrito Bowl** (161 minutes) also works well for those wanting a substantial meal focusing on these meats.
-- If you're pressed for time, **American Lentils Salad** (46 minutes) can be a quicker, albeit different approach due to the addition of lentils.
+This way, you can still utilize your available ingredients in a delicious way!",PARTLY_RELEVANT,"The generated answer offers a recipe that includes beef and cheese, which are relevant to the user's ingredients. However, the primary recipe suggested (African Potatoes Curry) is not appropriate since potatoes are not listed among the available ingredients. The mention of alternative dishes is useful, but the initial recipe does not fully align with the user's request for recipes strictly using cheese, beef, and honey."
+61,"What can I make using chicken, fish, and spinach?","Based on the provided information, you can make the ""Vietnamese Chicken Crumble"" using chicken, fish, and spinach. This dessert recipe uniquely incorporates these ingredients, showcasing their versatility in a sweet dish. 
 
-In conclusion, for chicken and beef preparation, the Mexican Beef Burrito Bowl and the Middle Eastern Spinach Shawarma are best suited for a full-flavored experience with longer cooking times, while the American Lentils Salad provides a quicker option with a different focus. 
-",PARTLY_RELEVANT,"The generated answer provides information about cooking times for various recipes that include chicken and beef, but it does not give a direct answer to the question about the specific cooking times for chicken and beef alone. Instead, it focuses on recipes, which may not directly answer the user's query."
-61,"What type of chicken is used in this recipe, and how should it be prepared?","The recipe for Chicken Tikka Masala uses chicken, which should be marinated in yogurt and spices. After marination, the chicken is grilled until charred and then simmered in a sauce made with onion, garlic, ginger, spices, tomato paste, and cream.
+### Recipe Recommendation:
+1. **Vietnamese Chicken Crumble**
+   - **Explanation**: This recipe directly uses chicken, fish, and spinach as its main ingredients. It combines these elements with butter, onion, flour, and chili to create a flavorful and complex dessert. While it may seem unconventional to use these ingredients in a sweet dish, the preparation method and flavors make it a noteworthy choice.
 
-### Recipe Recommendations:
+If you don't have the exact ingredients on hand, consider the following substitutions:
+- **Chicken**: You can substitute chicken with turkey or duck if necessary.
+- **Fish**: If you don’t have fish, you could try using tofu for a vegetarian option, keeping in mind that the flavor profile will change significantly.
+- **Spinach**: If spinach isn’t available, kale could be a suitable substitute, though it has a stronger taste.
 
-1. **Chicken Kebabs**: These can be made using marinated chicken pieces similar to Chicken Tikka Masala. The chicken can be grilled on skewers to achieve that charred flavor. Using a mix of spices like cumin, coriander, and paprika will give a result that is reminiscent of the tikka.
+For a different approach using the same ingredients, consider savory adaptations or create a stir-fry by integrating chicken, fish, and spinach with a soy sauce or sesame-based sauce. However, these would not fit into the dessert category as specified.",NON_RELEVANT,"The generated answer mentioned a recipe called 'Vietnamese Chicken Crumble,' which is stated to be a dessert using chicken, fish, and spinach, despite these ingredients typically being associated with savory dishes. The idea of using these ingredients in desserts is unconventional and may mislead the reader, as the combination is not commonly recognized or practical for a dessert. Although the answer provides some substitutions and mentions alternative recipes, the central suggestion is not relevant to typical meal preparation focused on the question asked."
+37,Can I find a simple dish that involves onion and butter with my pork?,"Yes, you can find simple dishes that involve onion and butter with pork. Here are a couple of recommendations:
 
-2. **Butter Chicken**: This dish also utilizes chicken and has a creamy tomato-based sauce. You can replicate the marination step and then serve it over rice or with naan. If cream isn't available, you can substitute it with coconut milk for a lighter option.
+1. **Butter-Braised Pork Chops with Onions**: This dish involves searing pork chops in butter and then adding sliced onions to the pan. The onions caramelize in the butter, creating a rich flavor that complements the pork beautifully. This matches your request as it features both onions and butter alongside pork.
 
-3. **Grilled Chicken with Spiced Yogurt Marinade**: For a simpler approach, you can prepare grilled chicken by marinating it in yogurt mixed with spices. Serve it with a quick tomato sauce on the side to capture the essence of Chicken Tikka Masala.
+2. **Pork Tenderloin with Onion and Garlic Butter Sauce**: For this recipe, you sear a pork tenderloin and then prepare a sauce using butter, onions, and garlic. The sauce is drizzled over the sliced pork, offering a savory and aromatic addition. Here again, onions and butter are key ingredients that enhance the dish’s flavor.
 
-If you don't have yogurt, you can use sour cream or a vegan yogurt alternative, keeping in mind that the flavor profile may change slightly.",RELEVANT,"The generated answer directly addresses the type of chicken used in the recipe (which is general chicken) and provides specific preparation instructions (marinating in yogurt and spices, grilling until charred, and simmering in a sauce). It remains focused on the question by detailing the process that follows the initial preparation, thereby fully answering both parts of the question."
-37,What dairy products are included in the recipe?,"The Chicken Tikka Masala recipe includes yogurt and cream as dairy products.
+If you don't have pork tenderloin or chops, you could use any pork cut you have on hand, such as loin or shoulder, though you may need to adjust cooking times to ensure the pork is tender and fully cooked.",RELEVANT,"The generated answer directly addresses the question by providing two simple dish recommendations that include both onion and butter along with pork. It offers specific recipes and explanations of how onion and butter are integrated into the dishes, fulfilling the request for a simple dish involving those ingredients."
+86,"What can I cook with chicken, olive oil, and sugar that doesn’t take too long?","Based on the ingredients chicken, olive oil, and sugar, here are a couple of quick recipe recommendations:
 
-For a meal that includes these dairy ingredients, I recommend the following recipes:
+1. **Honey Garlic Chicken Stir-fry**
+   - **Explanation:** This recipe combines diced chicken cooked in olive oil with a honey and sugar glaze, making it sweet and savory. You can quickly stir-fry vegetables alongside for a balanced meal. It typically takes around 30-40 minutes to prepare and cook.
+   - **Substitutions:** If you don’t have honey, you can use brown sugar or maple syrup to achieve a similar sweetness.
 
-1. **Chicken Tikka Masala**: This dish prominently features yogurt for marinating the chicken, which helps tenderize it and infuse flavor. The cream in the sauce adds richness and a smooth texture, making it a perfect match for those looking for dairy products in their meal.
+2. **Pan-Seared Chicken with a Sweet Glaze**
+   - **Explanation:** Season chicken breasts and sear them in olive oil. Add a mixture of sugar and any available vinegar or fruit juice (like orange or apple) to create a quick glaze. This dish not only comes together quickly but also provides a flavorful, caramelized coating on the chicken in about 30-35 minutes.
+   - **Substitutions:** If you don't have sugar, you could use honey as a sweetener in the glaze instead.
 
-If you'd like a similar dish without dairy, consider a **plant-based alternative** such as:
+Both recipes utilize chicken, olive oil, and sugar while ensuring that preparation and cooking times remain efficient.",RELEVANT,"The generated answer provides two specific recipes that include chicken, olive oil, and sugar as requested. It also addresses the requirement for quick preparation and cooking times, making it highly relevant to the question."
+57,I have some eggs and need a recipe that takes less than an hour to make. What can I do?,"Based on your request for a recipe that takes less than an hour to make and uses eggs, I can suggest a simple scrambled eggs dish or an egg salad. Here are a couple of recommendations:
 
-2. **Vegan Tikka Masala**: Substitute the yogurt with a dairy-free yogurt (such as coconut yogurt) and replace cream with coconut cream or cashew cream. This maintains the essence of the dish while accommodating a dairy-free diet.
+1. **Scrambled Eggs with Vegetables**:
+   - **Why it matches**: This dish can be made quickly, usually in about 10-15 minutes. You can sauté any vegetables you have on hand, such as bell peppers, onions, or spinach, and add whisked eggs to the pan to cook them together. 
+   - **Substitutions**: If you don't have certain vegetables, you can use whatever is available. You can also add cheese for extra flavor.
 
-For another option:
+2. **Egg Salad**:
+   - **Why it matches**: This is a quick dish that can be prepared in approximately 20-30 minutes. Simply boil the eggs, chop them, and mix them with mayonnaise, mustard, salt, and pepper.
+   - **Substitutions**: If you don't have mayonnaise, you can substitute it with Greek yogurt or avocado for a healthier option.
 
-3. **Chicken Curry with Yogurt Sauce**: This can use similar methodologies as Chicken Tikka Masala but focuses more on yogurts, such as using a yogurt sauce as a topping, and features classic spices. 
+Both of these recipes are easy to prepare and fit into your time constraint. Enjoy your cooking!",RELEVANT,"The generated answer directly addresses the question by providing two recipes that use eggs and can be prepared in less than an hour. It gives specific cooking methods and recommended substitutions, which are helpful for someone looking for quick recipes involving eggs."
+28,Can you suggest a recipe using mushrooms and soy sauce that takes less than 30 minutes?,"Based on the context given, while there's no specific recipe provided in the database that meets the criteria of using mushrooms and soy sauce and taking less than 30 minutes, I can suggest a couple of simple dish ideas that align with those ingredients.
 
-Each of these recommendations aligns with the desire for dairy inclusivity in the recipe while providing alternative dietary options if needed.",RELEVANT,"The generated answer directly addresses the question by identifying yogurt and cream as the dairy products included in the Chicken Tikka Masala recipe. Additionally, the answer elaborates on the role of these dairy ingredients in the dish, which further enhances its relevance to the question."
-86,What cooking methods are used to prepare the dish?,"The cooking methods used to prepare the Beef Tacos include browning the ground beef and warming the tortillas. 
+1. **Mushroom Soy Sauce Stir-Fry**: This dish can be quickly prepared by sautéing sliced mushrooms in a little oil, then adding soy sauce for seasoning. Keep it simple with garlic and green onions for flavor. This recipe typically takes around 15-20 minutes and highlights both key ingredients.
 
-If you're looking for a recipe that utilizes ground beef and tortillas, Beef Tacos is a perfect choice, as it requires minimal preparation and cook time. Here’s a brief recommendation based on the context:
+2. **Mushroom Fried Rice**: You can make a quick fried rice by stir-frying cooked rice with mushrooms, a splash of soy sauce, and any vegetables you have on hand. It usually takes around 20-25 minutes and is a great way to incorporate mushrooms and soy sauce in a satisfying meal.
 
-**Beef Tacos**:
-- **Why it matches**: This recipe prominently features ground beef, which is browned, and tortillas, which are warmed and filled. The assembly of tacos allows for incorporation of various toppings, making it versatile. The easy difficulty level and quick total time (30 minutes) make it suitable for a weeknight dinner.
+Both of these recipes incorporate mushrooms and soy sauce and are achievable within the time limit, allowing for delicious and quick meal options. If you don’t have specific types of mushrooms, any common variety like button or shiitake would work well, and for soy sauce, if you have low-sodium or tamari, these can be used as suitable substitutions.",RELEVANT,"The generated answer provides two specific recipes that use mushrooms and soy sauce, both of which can be prepared in less than 30 minutes. It clearly addresses the question by suggesting relevant dish ideas and incorporates the specified ingredients."
+29,"I'm looking for a recipe that includes cream, chili, and onion. Any suggestions?","Here are some recipe recommendations that include cream, chili, and onion:
 
-If ground beef or tortillas are not available, you could consider using **ground turkey or chicken** as a leaner alternative to ground beef and **lettuce wraps** instead of tortillas for a different presentation and dietary preference.",RELEVANT,"The generated answer directly addresses the question by specifying the cooking methods used to prepare Beef Tacos, namely browning the ground beef and warming the tortillas. It also provides additional context about the dish, enhancing the relevance to the question without deviating from it."
-57,How long does it take to prepare and cook the entire dish?,"To find the total time it takes to prepare and cook the dishes from your recipe database, we can simply add the prep time and cook time for each recipe. Here’s the breakdown:
+1. **Creamy Chili Chicken**: This dish features chicken cooked with sautéed onions and a rich cream sauce infused with chili peppers. The cream balances the heat from the chili, creating a flavorful and comforting dish.
 
-1. **Mediterranean Pasta Soup**
-   - Prep Time: 71 minutes
-   - Cook Time: 169 minutes
-   - Total Time: 71 + 169 = 240 minutes
+2. **Chili Cream Soup**: A warm and hearty soup made with blended roasted chili peppers, sautéed onions, and heavy cream. The cream adds a velvety texture while mellowing the spiciness of the chilies, making it a delicious option for a cozy meal.
 
-2. **Indian Eggs Salad**
-   - Prep Time: 67 minutes
-   - Cook Time: 57 minutes
-   - Total Time: 67 + 57 = 124 minutes
+3. **Spicy Creamy Pasta**: This recipe combines pasta with a sauce made from sautéed onions, cream, and crushed red chili flakes. The creaminess of the sauce complements the heat of the chilies, resulting in a well-rounded pasta dish.
 
-3. **Korean Cheese Stir-Fry**
-   - Prep Time: 30 minutes
-   - Cook Time: 157 minutes
-   - Total Time: 30 + 157 = 187 minutes
+If you don't have certain ingredients on hand, consider these substitutions:
+- If fresh chilis are unavailable, you can use chili powder or hot sauce to achieve a similar heat level.
+- For the cream, options like half-and-half or evaporated milk could be used, though the final texture and flavor may differ slightly.
 
-4. **Korean Tofu Brownies**
-   - Prep Time: 44 minutes
-   - Cook Time: 105 minutes
-   - Total Time: 44 + 105 = 149 minutes
+These recipes are perfect for incorporating cream, chili, and onion, delivering a satisfying blend of flavors and textures.",RELEVANT,"The generated answer provides multiple recipe suggestions that specifically include cream, chili, and onion, directly addressing the query. Each recipe details how the ingredients are used, ensuring the response meets the user's request for recipe ideas."
+58,I need a lunch recipe that can be prepared in under an hour.,"Here are a few lunch recipes that can be prepared in under an hour:
 
-5. **Thai Tomatoes Power Bowl**
-   - Prep Time: 25 minutes
-   - Cook Time: 2 minutes
-   - Total Time: 25 + 2 = 27 minutes
+1. **Vegetable Stir-Fry**:
+   - **Why it matches**: This dish is quick to prepare and can be made using a variety of vegetables you have on hand. Simply chop the vegetables (like bell peppers, broccoli, and carrots), stir-fry them in a pan with some oil, garlic, and soy sauce. Serve it over rice or noodles, which can cook simultaneously.
+   - **Substitutions**: If you don't have soy sauce, you can use teriyaki sauce or a splash of vinegar mixed with a bit of sugar for a similar flavor.
 
-### Summary of Total Times:
-- Mediterranean Pasta Soup: 240 minutes
-- Indian Eggs Salad: 124 minutes
-- Korean Cheese Stir-Fry: 187 minutes
-- Korean Tofu Brownies: 149 minutes
-- Thai Tomatoes Power Bowl: 27 minutes
+2. **Caprese Pasta Salad**:
+   - **Why it matches**: This refreshing salad can be ready in about 30 minutes. Cook pasta, toss it with cherry tomatoes, fresh mozzarella, basil, olive oil, and balsamic vinegar for a delicious dish.
+   - **Substitutions**: If fresh mozzarella isn't available, you can use cubed feta cheese or any cheese you have.
 
-### Recommendations Based on Ingredients:
-If you are looking for recommendations based on the main ingredients you have (Pasta, Spinach, Tomatoes), the **Mediterranean Pasta Soup** aligns perfectly because it uses all these ingredients. 
+3. **Chickpea Salad**:
+   - **Why it matches**: This no-cook salad is quick to assemble. Combine canned chickpeas with diced cucumbers, cherry tomatoes, red onion, and parsley. Drizzle with olive oil and lemon juice.
+   - **Substitutions**: If you don’t have chickpeas, you can substitute with canned black beans or any beans you prefer.
 
-#### If something is missing:
-- If pasta is not available, you could substitute it with a similar type of noodle or a grain like quinoa to maintain texture.
-- If spinach isn’t available, kale or Swiss chard could work as substitutes.
-- In place of tomatoes, canned diced tomatoes or tomato paste could substitute, keeping in mind that it may alter the freshness of the flavor slightly.
+4. **Quesadillas**:
+   - **Why it matches**: Quesadillas can be made in about 15 minutes. Fill tortillas with cheese and any cooked proteins or vegetables you have, such as beans, chicken, or spinach, then heat them on a skillet until the cheese melts.
+   - **Substitutions**: If tortillas are not available, you can use pita bread or even sliced bread to create similar stuffed snacks.
 
-This approach ensures that you maintain the essence of the Mediterranean flavors while accommodating whatever you have on hand.",RELEVANT,"The generated answer directly addresses the question by providing a breakdown of the preparation and cooking times for multiple dishes, along with the total time for each. This information is relevant to understanding how long it takes to prepare and cook the entire dish."
-28,Are there specific spices suggested for this recipe?,"The recipe for Falafel Wrap highlights the importance of spices, but it does not specify which exact spices to use. Common spices for falafel typically include cumin, coriander, garlic powder, and paprika. These spices complement the chickpeas and elevate flavor.
+Each of these recipes provides a quick and easy lunch option and can easily be adjusted based on the ingredients you have available.",RELEVANT,"The generated answer provides several lunch recipes that can be prepared in under an hour, directly addressing the question. Each recipe includes preparation details and substitutions, making it practical and relevant for someone seeking quick lunch ideas."
+62,"What can I cook with shrimp, chili, and olive oil that fits a gluten-free diet?","Based on the ingredients shrimp, chili, and olive oil, here are a couple of gluten-free recipe recommendations:
 
-If you're looking for recommendations to enhance the falafel wrap using these spices, you could consider:
+1. **Garlic Shrimp with Chili and Olive Oil**
+   - **Explanation**: This dish features shrimp sautéed in olive oil with minced garlic and red chili flakes. It is quick to prepare and is naturally gluten-free. You can serve it over a bed of steamed vegetables or gluten-free pasta to make it a complete meal. If you like it spicier, you can increase the amount of chili.
 
-1. **Cumin**: Adds a warm, earthy flavor and is a classic spice in Middle Eastern cuisine.
-2. **Coriander**: Offers a slightly citrusy note that pairs well with the chickpeas and fresh vegetables.
-3. **Garlic Powder**: Provides a savory depth and complements the overall dish.
-4. **Paprika**: Adds a touch of smokiness and color; you could opt for smoked paprika for a more intense flavor.
+2. **Shrimp Tacos with Chili Lime Dressing**
+   - **Explanation**: For a gluten-free twist on tacos, you can use lettuce wraps instead of traditional tortillas. Season the shrimp with chili powder, sauté in olive oil, and serve in lettuce leaves topped with a lime dressing. This dish is fresh and light, making it perfect for a gluten-free diet.
 
-If you don't have these spices on hand, you can substitute:
+If you need any additional ingredients such as lime or garlic for additional flavor, they are gluten-free and can complement these recipes well!",RELEVANT,"The generated answer directly addresses the question by providing two gluten-free recipe recommendations that utilize shrimp, chili, and olive oil. Both suggested dishes are appropriate for a gluten-free diet and offer clear instructions on how to prepare them, making the content relevant and useful."
+62,"I have pasta and herbs, what can I make with those ingredients?","Based on the provided context, you can make the Korean Tofu Brownies, as they include pasta and herbs among their main ingredients. However, since this recipe is more complex and combines tofu with fish and flour, if you only have pasta and herbs, here are a couple of alternative recommendations:
 
-- **Cumin** with allspice for a different flavor profile.
-- **Coriander** with dried parsley would work, though it has a milder taste.
-- **Garlic Powder** can be substituted with fresh minced garlic; use a smaller quantity as fresh garlic is more potent.
-- **Paprika** can be replaced with chili powder, but note that this will add more heat to the dish.
+1. **Pasta Primavera**:
+   - **Explanation**: This classic dish can be made using fresh herbs to elevate the flavor of simple cooked pasta. You can toss cooked pasta with any seasonal vegetables you have, sautéed in olive oil, and seasoned with herbs such as basil or parsley. This dish captures the essence of what you already have and requires minimal additional ingredients.
+   - **Substitutions**: If you want to add protein and have access to other ingredients, consider including tofu for a plant-based option.
 
-Always adjust the amounts according to your taste preference and the specific spices you choose to use!",RELEVANT,"The generated answer directly addresses the question by discussing specific spices that can be used for the falafel wrap recipe. It provides a list of recommended spices along with their flavor profiles and even offers substitutions, which enhances the answer's relevance to the question asked."
-29,"How do I prepare the spinach, tomatoes, and shrimp?","To prepare spinach, tomatoes, and shrimp, you can use two recipes from our database: the Mediterranean Spinach Crumble and the Thai Shrimp Skillet. Both of these recipes feature the main ingredients you've requested.
+2. **Herbed Pasta Salad**:
+   - **Explanation**: A cold pasta salad could be another quick and refreshing option, where you simply combine cooked pasta with fresh herbs, a drizzle of olive oil, vinegar, and any other veggies or protein you might have on hand. This allows the herbs to shine and pairs well with the starch from the pasta.
+   - **Substitutions**: You could add nuts (like pine nuts or walnuts) if you're not avoiding them, or use diced tofu as a protein source.
 
-1. **Mediterranean Spinach Crumble**:
-   - **Explanation**: This dish prominently features spinach, tomatoes, and shrimp as its main ingredients. The recipe entails preparing the spinach, tomatoes, and shrimp, then cooking them with cream, chili, onion, and sugar. While this is a dessert, the combination of these ingredients creates a unique and flavorful dish.
-   - **Dietary Note**: This recipe contains nuts.
+3. **Pasta with Herb Cream Sauce**:
+   - **Explanation**: A cream sauce flavored with fresh herbs can be quickly prepared. Just cook the pasta, make a simple sauce using cream and your choice of herbs, then combine. This is an easy dish that showcases pasta and herbs beautifully.
+   - **Substitutions**: If you don’t have cream, you could use a yogurt-based sauce or a pureed tofu mix to create a dairy-free version.
 
-2. **Thai Shrimp Skillet**:
-   - **Explanation**: Similar to the Mediterranean recipe, this dish utilizes shrimp, tomatoes, and spinach. You will prepare these three ingredients and then cook them together with yogurt, spices, chili, and garlic. This dish serves as a snack and provides a different flavor profile, emphasizing Thai cuisine.
-   - **Dietary Note**: This recipe contains shellfish.
+Note that the original Korean Tofu Brownies recipe may not be directly applicable if you lack the other ingredients, but these alternatives should work well with the pasta and herbs you have.",RELEVANT,"The generated answer provides multiple relevant recipe options that utilize pasta and herbs, directly addressing the question. It also offers substitutions and additional details that enhance the usefulness of the suggestions, making it a comprehensive response to the user's needs."
+98,I'm looking for a quick recipe with eggs and pasta that I can whip up in under an hour.,"I recommend the **Indian Beef Bake** for your quick recipe that includes eggs and pasta. Here’s why it matches your request:
 
-If you do not have any of the specific ingredients mentioned (like cream for the Mediterranean recipe or yogurt for the Thai recipe), you can substitute as follows:
-- For **cream** in the Mediterranean Spinach Crumble, you can use a dairy-free alternative such as coconut cream if adhering to dietary restrictions or seeking a different flavor.
-- For **yogurt** in the Thai Shrimp Skillet, you could substitute with sour cream or a plant-based yogurt if preferred.
+- **Quick Cooking Time**: The preparation for this dish takes only 11 minutes, and it cooks in just 6 minutes, making it extremely quick and easy to prepare, well under your one-hour timeframe.
+- **Main Ingredients**: The recipe specifically includes eggs and pasta, aligning perfectly with the ingredients you're looking for.
 
-Feel free to choose either recipe based on your desired cuisine and meal type!",RELEVANT,"The generated answer provides detailed instructions on how to prepare dishes that include spinach, tomatoes, and shrimp, directly addressing the question. It includes two specific recipes, descriptions of the dishes, and ingredient substitutions, all of which are relevant to the question asked."
-58,Is the dish suitable for someone following a paleo diet?,"The dish ""Falafel Wrap"" is **not suitable** for someone following a **paleo diet**. Falafel is made primarily from chickpeas, which are legumes and not allowed on the paleo diet. 
+If you're looking for a vegetarian option or want to substitute, consider using a different protein source in place of beef (like tofu or additional vegetables) while keeping the eggs and pasta in the dish. However, the original recipe includes beef and cream, so for a vegetarian version, you could skip the beef and add sautéed vegetables or legumes instead. 
 
-For someone following a paleo diet, I recommend the following recipes from the context:
+This dish provides a hearty breakfast option that satisfies your criteria!",PARTLY_RELEVANT,"While the generated answer mentions a dish that includes eggs and pasta and cites a quick cooking time, it primarily focuses on a beef recipe, which is not aligned with the initial request for a quick recipe featuring eggs and pasta. The mention of vegetarian substitutions does not address the user's specific request directly, leading to a partial relevance."
+13,"What can I make for breakfast that includes cheese, chicken, and onions?","Based on the provided recipes, there aren't any specific breakfast options that include cheese, chicken, and onions. However, we can suggest the following to meet your ingredient request:
 
-1. **Japanese Pork Katsu**
-   - **Cuisine**: Japanese
-   - **Meal Type**: Snacks
-   - **Reason**: This dish contains pork, which is compliant with paleo principles. To stay within paleo guidelines, substitute any non-paleo ingredients like refined grains or conventional dairy found in traditional recipes (if applicable) with compliant alternatives.
+1. **Mediterranean Lentils Bowl (with modifications)**: 
+   - **Why it matches**: The main ingredients include chicken and cheese, and while lentils and yogurt are part of the recipe, you can easily incorporate onions into the dish.
+   - **Modification**: To make it more breakfast-friendly, you could adjust the spices to be milder and consider serving it with a fried or poached egg on top. 
 
-2. **French Beef Soup**
-   - **Cuisine**: French
-   - **Meal Type**: Lunch
-   - **Reason**: This soup includes beef and potatoes, both of which can fit into a paleo diet. You may choose to omit any non-paleo ingredients, such as honey, depending on dietary strictness, and ensure the spices used are also compliant.
+2. **Cheesy Chicken Onion Omelette (not in the database)**:
+   - **Why it could be a perfect option**: While this recipe isn't in the provided context, you can create a breakfast dish by combining scrambled eggs with sautéed onions, diced cooked chicken, and cheese. 
+   - **Ingredients**: Simply sauté onions until translucent, add cooked chicken, and then pour beaten eggs over it, topping with cheese until melted.
 
-Feel free to adjust seasonings and sides to better fit individual preferences or stricter paleo guidelines.",RELEVANT,"The generated answer directly addresses the question by stating that the dish 'Falafel Wrap' is not suitable for someone following a paleo diet due to its ingredients. Additionally, it provides alternative recipe suggestions that are compliant with the paleo diet, thereby offering useful information related to the question."
-62,How long should I cook the pasta and shrimp together?,"Based on the provided recipes, the cooking time for pasta can be referenced from the recipe for ""Thai Lentils Tom Kha,"" which includes both lentils and pasta, and indicates a total cook time of 120 minutes. However, this is a combined time for multiple ingredients rather than just for the pasta and shrimp.
+If you want something more aligned with the flavors of the recipes, you could explore using leftover components or adjusting the Mediterranean Lentils Bowl to create a satisfying breakfast dish. 
 
-In ""Spanish Fish Brownies,"" although it includes shrimp and pasta, it has a very short cook time of just 9 minutes, which may not be enough to fully cook the pasta. It's important to check the specific cooking instructions on your pasta packaging for the best results, as cooking times can vary based on the type of pasta used.
+**Substitutions**: If you don't have cheese, consider adding nutritional yeast for a cheesy flavor, or use any mild cheese you might have on hand. For chicken, any leftover cooked protein can work well, such as turkey or even a protein-rich plant-based option if preferred.",RELEVANT,"The generated answer directly addresses the question by providing specific meal ideas that include cheese, chicken, and onions. It suggests a modified Mediterranean Lentils Bowl and a Cheesy Chicken Onion Omelette, both of which incorporate the requested ingredients. The explanations included for each suggestion clarify how to include the ingredients effectively, making the response appropriate for the question asked."
+74,Is there a dessert option using yogurt and fish that would take less than 2 hours to cook?,"Based on the provided context, there does not appear to be a conventional dessert option that combines yogurt and fish. Generally, desserts are sweet and do not include fish, which is typically used in savory dishes. 
 
-For the best match based on your request for cooking pasta and shrimp together, if you desire a Thai-inspired dish, I recommend making Pad Thai. Here, while pasta is not used, rice noodles are a suitable substitute, cooking quickly in hot water. The shrimp in Pad Thai is typically stir-fried for about 3-4 minutes before mixing everything together.
+However, if you are interested in a creative approach to incorporating yogurt into a sweet dish, you might consider making a yogurt parfait or mousse. Here’s a simple recipe concept that aligns with your request for a dessert using yogurt:
 
-For a close match with the requested ingredients (pasta and shrimp), you could adapt the ""Spanish Fish Brownies,"" replacing fish with shrimp, and following the overall cooking time per the pasta’s package instructions (likely around 8-12 minutes) while ensuring the shrimp are cooked through.
+### Yogurt Parfait
+**Ingredients:**
+- Yogurt (any flavor or plain)
+- Honey or maple syrup (for sweetness)
+- Granola or crushed cookies
+- Fresh fruits (like berries or bananas)
 
-In summary, your best cooking time will depend on the specific noodle used, but don't forget to keep an eye on the shrimp to ensure it achieves an internal temperature of 145°F for safety. Would you like to know more about specific types of pasta or shrimp cooking techniques?",PARTLY_RELEVANT,"The generated answer touches on the cooking time for pasta and shrimp but does not provide a direct, concise answer to the question. It references related recipes and indicates general cooking guidance while outlining various considerations. However, it lacks a clear, focused response that specifically answers how long to cook pasta and shrimp together."
-62,Can I substitute shrimp with another protein in this recipe?,"The Chicken Tikka Masala recipe does not directly involve shrimp; however, if you're looking for alternative proteins that can work well in a similar cooking method, I suggest the following options:
+**Instructions:**
+1. In a glass or bowl, layer yogurt.
+2. Drizzle with honey or maple syrup.
+3. Add a layer of granola or cookies.
+4. Top with fresh fruits.
+5. Repeat the layering until the glass is filled.
 
-1. **Tofu**: This is a great vegetarian option that can absorb flavors similarly to chicken. When marinated in yogurt and spices, tofu will provide a creamy texture and flavor that complements the dish. You'll need to press the tofu to remove excess moisture before marinating.
+**Why it matches:**
+This dessert uses yogurt and can be made quickly (within 30 minutes). It’s versatile, allowing for various types of yogurt and fruits. Although it does not include fish, it remains a delicious and easy dessert option.
 
-2. **Paneer**: Another excellent match for the Chicken Tikka Masala is paneer, which is also a dairy item made from curdled milk. It can be marinated and grilled, similar to chicken, and will hold up well in the spicy sauce while adding a pleasant creaminess.
+### Important Note:
+If you must incorporate fish for any reason, consider a savory dish or an appetizer rather than a dessert, as dessert concepts traditionally do not include fish. 
 
-3. **Beef**: If you prefer red meat, using cubed beef in place of chicken could work, but you may need to adjust the cooking time depending on the cut used to ensure it becomes tender. 
+If you are looking for a true dessert but are flexible with the ingredients, feel free to ask for additional options!",PARTLY_RELEVANT,"The generated answer addresses the initial inquiry about yogurt but clearly states that there are no conventional dessert options combining yogurt and fish. It provides an alternative dessert option (yogurt parfait) that aligns with the use of yogurt, but it does not fulfill the requirement of including fish, which is a key component of the original question. Therefore, while it provides a relevant dessert suggestion, it fails to meet the specific criteria of using both yogurt and fish."
+6,"What recipe can I use that includes butter, bay leaf, and is safe for gluten and dairy restrictions?","Based on the recipes provided in the context, there is no recipe that includes butter, bay leaf, and is safe for gluten and dairy restrictions. However, I can suggest possible alternatives that could work.
 
-4. **Tempeh**: This fermented soy product can also be a substitute. It has a firmer texture than tofu, and when marinated and grilled, it can add a nutty flavor that pairs well with spices.
+1. **Prepare a Vegetarian/ Vegan version inspired by a soup recipe**: Since bay leaf is often used in soups and stews, you could create a vegetable soup using a base of vegetable broth. Even though butter isn't available in a gluten-free and dairy-free version, you can use olive oil or a dairy-free margarine as a substitute. This would still provide a base for flavor while ensuring it fits dietary restrictions.
 
-For any substitutions, you would follow the same marinade instructions and adjust cooking times as necessary based on the protein you choose to use. Note that if substituting non-dairy options like tofu or tempeh, the dish would no longer contain dairy unless you retain the cream in the sauce.",PARTLY_RELEVANT,"The generated answer discusses alternative protein options for a recipe but focuses on Chicken Tikka Masala instead of shrimp, which may not directly address the question about substituting shrimp. While it provides valuable information about protein substitutes, it falls short of being fully relevant to the specific context of shrimp substitution."
-98,How long does it typically take to prepare the ingredients before cooking?,"Based on the provided recipes, the typical preparation times before cooking are as follows:
+2. **Curries or Casseroles**: Consider making a plant-based curry that incorporates coconut oil instead of butter and add a bay leaf for depth of flavor. Use gluten-free grains or legumes for the base.
 
-1. **Mediterranean Pasta Soup**: 71 minutes
-2. **Indian Eggs Salad**: 67 minutes
-3. **Korean Cheese Stir-Fry**: 30 minutes
-4. **Korean Tofu Brownies**: 44 minutes
-5. **Thai Tomatoes Power Bowl**: 25 minutes
+While these aren't direct matches from the recipes listed, they offer a way to methodically include the flavors you're looking for while considering dietary restrictions. You would need to create your own method of preparation, incorporating any vegetables or legumes you prefer along with spices.",PARTLY_RELEVANT,"The generated answer identifies that there is no direct recipe with butter, bay leaf, and adhering to gluten and dairy restrictions. However, it provides alternatives that align with the user's dietary restrictions, although they do not fulfill the original request for a specific recipe including butter and bay leaf."
+68,Can you suggest a gluten-free recipe with shrimp and pasta that's easy to prepare?,"Based on the provided context, I recommend the **Thai Lentils Tom Kha** recipe as it aligns with your request for a gluten-free dish containing shrimp and pasta that is easy to prepare.
 
-If you're asking for recommendations based on the preparation time, here are a few suggestions:
+### Thai Lentils Tom Kha
+- **Cuisine**: Thai
+- **Meal Type**: Dessert
+- **Difficulty**: Easy
+- **Prep Time**: 72 minutes
+- **Cook Time**: 120 minutes
+- **Main Ingredients**: Lentils, Pasta (make sure to use a gluten-free variety), Shrimp
+- **Instructions**: Prepare the lentils, gluten-free pasta, and shrimp. Cook them together with additional ingredients like flour (substitute with a gluten-free flour), cream, herbs, and garlic. Season and serve.
 
-1. **Korean Cheese Stir-Fry**: With a prep time of only 30 minutes, this dish uses cheese and fish, similar in texture and flavors to other Mediterranean seafood dishes. If you want to make it Mediterranean, you could substitute some of the fish for any available shellfish.
+This recipe is suitable because it includes shrimp and pasta, and it is specifically labeled as gluten-free. You might want to adjust the flour to ensure it fits your gluten-free requirements, making substitutions with a gluten-free flour option as needed.
 
-2. **Thai Tomatoes Power Bowl**: This recipe has a very short preparation time of just 25 minutes and uses tomatoes and fish, which aligns well with Mediterranean flavors. You can substitute the fish with shrimp for a more Mediterranean touch.
+If you're looking for more options or variations, let me know!",PARTLY_RELEVANT,"The generated answer suggests a recipe that includes shrimp and pasta, which is aligned with the question. However, the main focus is on lentils rather than being a dedicated shrimp and pasta recipe, and the cooking times provided do not match the request for an easy recipe. Additionally, calling it a dessert is misleading as it doesn't fit the user's request for a meal."
+34,I need a quick breakfast recipe that uses spinach and takes less than 10 minutes to cook.,"Based on your request for a quick breakfast recipe that uses spinach and takes less than 10 minutes to cook, I would suggest a Spinach and Egg Scramble as a suitable option. Here’s why it matches your criteria:
 
-3. **Korean Tofu Brownies**: While this is a dessert, its prep time is moderate (44 minutes) and could be a unique way to enjoy pasta in a sweet dish. If looking for more savory, you could switch the main ingredients to a more traditional pasta dish by replacing tofu with more vegetables like spinach.
+**Spinach and Egg Scramble**
 
-If specific ingredients aren't available, it's best to ensure that any substitutions maintain a balance of flavors—for instance, if you lack fish, consider using chicken or another protein that complements the existing spices and ingredients in the dish.",RELEVANT,"The generated answer directly addresses the preparation times for various recipes, effectively answering the question about how long it typically takes to prepare ingredients before cooking. It provides specific time estimates for multiple dishes, which aligns closely with the inquiry."
-13,What types of cheese are used in this recipe?,"The recipes provided do not include any specific types of cheese, particularly in the Chicken Tikka Masala recipe, which is dairy-based through the use of yogurt and cream but does not utilize cheese. In the Beef Tacos recipe, cheese is mentioned as a potential topping but no specific type is listed. If you're looking for cheese options to use in the Beef Tacos, common varieties include:
+**Ingredients:**
+- Fresh spinach
+- Eggs (or egg substitutes)
+- Salt and pepper (to taste)
+- Olive oil or butter (for cooking)
 
-1. **Cheddar Cheese**: This is a classic choice for tacos, providing a sharp flavor that complements the seasoned beef.
-2. **Cotija Cheese**: A crumbly Mexican cheese that adds a salty kick; it's a great addition to enhance the flavor profile of tacos.
-3. **Monterey Jack Cheese**: A mild and creamy cheese that melts well, making it a suitable topping for tacos.
+**Instructions:**
+1. Heat a skillet over medium heat and add olive oil or butter.
+2. Add a handful of fresh spinach and sauté for about 1-2 minutes until wilted.
+3. Beat eggs in a bowl and pour over the spinach.
+4. Stir gently until the eggs are cooked to your desired consistency.
+5. Season with salt and pepper, then serve immediately.
 
-If you're specifically looking for cheese for the Chicken Tikka Masala, you might consider adding a side of cheese naan, which could complement the dish. Alternatively, if you want to maintain a similar flavor profile, you could use a yogurt sauce or raita (a yogurt-based sauce with cucumber, mint, etc.) instead of cheese.
+**Why It Matches:**
+- **Quick Cooking Time:** The eggs will cook in about 5-7 minutes, making it a speedy breakfast option.
+- **Use of Spinach:** This recipe prominently features spinach, aligning perfectly with your ingredient requirement.
+- **Adaptable:** If you don’t have fresh spinach, you can substitute with frozen spinach—just be sure to thaw and drain it before cooking.
 
-For the Beef Tacos, if you are avoiding dairy, consider using a dairy-free cheese alternative or simply omitting cheese altogether while adding extra toppings like guacamole or salsa for flavor.",RELEVANT,"The generated answer addresses the question by discussing the types of cheese used in the Beef Tacos recipe and mentions options like Cheddar, Cotija, and Monterey Jack. It also clarifies that the Chicken Tikka Masala recipe does not include cheese specifically, providing additional context and relevant alternatives for cheese in the recipes mentioned."
-74,Is this recipe suitable for a kosher diet?,"The recipe for the Falafel Wrap is suitable for a vegetarian and vegan diet, but it is not labeled as kosher. The American Pork Pilaf and Thai Tofu Stew are identified as kosher.
+This simple scramble provides a nutritious breakfast while fitting your time constraints and use of spinach.",RELEVANT,"The generated answer provides a specific breakfast recipe, the Spinach and Egg Scramble, which uses spinach and aligns with the requirement of taking less than 10 minutes to cook. It includes both ingredients and cooking instructions, making it a suitable response to the question."
+40,"What can I make with shrimp, tofu, and some spices for a Japanese-inspired dish?","You can make Japanese Pork Katsu, as it includes shrimp, tofu, and spices in its ingredients. While the primary focus of the dish is on pork, the use of shrimp and tofu complements the Japanese-inspired theme, especially if you want to incorporate those ingredients into a similar style dish.
 
-If you are looking for a kosher option that aligns with the essence of a lunch recipe, I recommend the following:
+**Recommendation: Japanese Pork Katsu**
+- **Explanation**: This recipe allows you to use shrimp and tofu alongside the pork, providing a way to utilize your requested ingredients within the context of a Japanese dish. You can either adjust the recipe to feature more shrimp and tofu or serve them as sides if you'd like to emphasize them differently.
 
-1. **Thai Tofu Stew**
-   - **Reason:** This recipe contains tofu, which is suitable for a vegetarian diet. It's labeled as kosher, making it a great option if you need to adhere to kosher dietary laws.
+If you're looking for a closer match that focuses less on pork but still captures the essence of Japanese cuisine, consider making a shrimp and tofu stir-fry, utilizing similar spices found in the original recipe. Simply sauté shrimp and tofu with garlic and your choice of seasonings.",PARTLY_RELEVANT,"The generated answer mentions Japanese Pork Katsu, which primarily focuses on pork, thus not directly addressing the question about making a dish with shrimp, tofu, and spices. However, it does suggest alternatives like a shrimp and tofu stir-fry that are more aligned with the ingredients mentioned in the question, making it partly relevant."
+35,Can you recommend a recipe that I can make in about an hour and includes fish and pasta?,"Based on the provided context, the Korean Tofu Brownies recipe requires a substantial prep and cook time of 44 minutes and 105 minutes respectively, totaling over two hours. Unfortunately, there isn’t a recipe in the database that can be prepared in about an hour with both fish and pasta.
 
-If you prefer something similar to a wrap, you might consider:
+However, if you are looking for a quick option that includes fish and pasta, I suggest considering a simple **Pasta with Garlic and Anchovies**. This dish typically takes around 15-20 minutes to prepare and cook, making it a great quick meal. Here's how you can adjust it based on common ingredients:
 
-2. **Chickpea Salad Wrap (Substitution Suggestion)**
-   - **Substitution:** Instead of the falafel wrap, create a salad using chickpeas, tahini, and vegetables like lettuce and tomatoes, served in a kosher tortilla or pita. Just ensure that the tortilla or pita is certified kosher.
+1. **Fish**: Use anchovies or any white fish you have on hand.
+2. **Pasta**: Any type of pasta will work, such as spaghetti or penne.
+3. **Garlic**: Essential for flavor; use fresh if you can, but garlic powder can substitute in a pinch.
+4. **Olive Oil and Red Pepper Flakes**: For seasoning and heat.
 
-While there are no exact substitutes for a kosher version of the Falafel Wrap in the provided recipes, these recommendations keep your dietary requirements in check while offering a satisfying lunch option.",PARTLY_RELEVANT,"The generated answer addresses the question of kosher suitability by stating that the Falafel Wrap is not kosher, while also providing recommendations for kosher options. However, the initial response about the Falafel Wrap could have been more specific and concise concerning its kosher status, which affects the overall clarity in answering the question directly."
-6,What is the total cook time for the soup?,"The total cook time for the French Onion Soup is 60 minutes.
+In terms of substitutions, if you don't have specific fish types, you can replace them with canned tuna or a similar canned fish, which will still provide a good flavor pairing with pasta.
 
-If you're looking for recipes that match the ingredients used in the French Onion Soup (onions, beef broth, Gruyere), here are some recommendations:
+If you’d like further assistance on quick recipes or specific ingredient adaptations, feel free to ask!",RELEVANT,"The generated answer provides a quick recipe that includes fish and pasta, addressing the original request for a recipe that can be made in about an hour. The suggestion of 'Pasta with Garlic and Anchovies' is well-aligned with the user's needs for a quick meal incorporating these ingredients."
+61,"I'm looking for a recipe that combines chicken, onion, and butter.","Here are a couple of recipe recommendations that combine chicken, onion, and butter:
 
-1. **Vegetarian Onion Soup**:
-   - **Substitution**: Instead of beef broth, use vegetable broth to make it vegetarian.
-   - **Explanation**: It retains the caramelized onion flavor while offering a meat-free alternative.
+1. **Chicken Fricassée**: This dish features chicken pieces cooked in a creamy sauce made with butter, onions, and often includes herbs and vegetables. The butter helps to sauté the onions until they're soft and sweet, which enhances the overall flavor of the chicken. This recipe is a delightful option if you're looking for a comforting meal.
 
-2. **French Onion Dip**:
-   - **Substitution**: Use cream cheese instead of Gruyere for a creamy texture, and the mix can include caramelized onions.
-   - **Explanation**: This keeps the rich onion flavor while making a popular appetizer.
+2. **Butter Chicken (Murgh Makhani)**: This popular Indian dish uses butter as a key ingredient in the sauce, which often includes marinated chicken, onions, tomatoes, and spices. The butter adds richness and depth to the sauce while the onions provide a base flavor. It's a great way to enjoy the combination of chicken and onions in a flavorful sauce.
 
-3. **Mushroom Stroganoff**:
-   - **Substitution**: Replace beef with mushrooms and use a vegetable broth instead of beef broth.
-   - **Explanation**: Presents a hearty, creamy alternative with a similar umami flavor profile.
+If you're missing any exact ingredients or spices for these recipes, you can adjust flavors by using lesser amounts of different onions (like green onions instead of yellow) or incorporating additional herbs to match the flavor profile.",RELEVANT,"The generated answer provides two specific recipes that directly incorporate chicken, onion, and butter, fulfilling the request for a recipe combining these ingredients. Additionally, it includes helpful information about the cooking methods and flavors, making it a comprehensive response to the question."
+46,I need a recipe that takes less than 40 minutes and includes mushrooms and potatoes.,"Unfortunately, the Thai Mushrooms Salad does not fit your request, as it has a total prep and cook time of 146 minutes, which exceeds the 40-minute limit you specified. 
 
-Each of these alternatives maintains the essence of French Onion Soup while incorporating ingredient substitutes for different dietary needs.",PARTLY_RELEVANT,"The generated answer provides the total cook time for French Onion Soup, which is a partial answer to the question. However, the additional information about alternative recipes and ingredient substitutions, while informative, does not directly address the question of total cook time, making it only partly relevant."
-68,How do I incorporate the shrimp into the cooking process?,"The content provided does not include any recipes that involve shrimp. Therefore, I cannot provide specific instructions on how to incorporate shrimp into either the Falafel Wrap or the French Onion Soup recipes listed.
+Unfortunately, based on the given recipe database, there are no other recipes that include both mushrooms and potatoes with a total preparation and cook time of under 40 minutes. 
 
-However, if you are looking for a recipe that does involve shrimp, I can suggest creating a shrimp version of a wrap or a soup, such as a Shrimp Tacos or Shrimp Chowder, if you have those ingredients available. 
+If you are open to substitutions or variations, consider the following:
 
-If you're interested in modifying the recipes involving chickpeas or onions to include shrimp, you could:
+1. **Mushroom and Potato Stir-Fry**: Use the same main ingredients (mushrooms and potatoes) but prepare them quickly by stir-frying with some oil and seasonings. This can typically take around 20-30 minutes.
 
-1. **Shrimp Wrap**: Replace the falafel in the Falafel Wrap with seasoned, grilled shrimp. Simply grill or sauté shrimp with spices (like cumin and paprika) similar to the falafel's flavor profile. Serve in pita with your choice of toppings, retaining the lettuce and tomato.
+2. **Substitution Option**: If fresh mushrooms are not available, you could use canned mushrooms, which would save time on prep.
 
-2. **Shrimp Onion Soup**: For a twist on French Onion Soup, add shrimp towards the end of the cooking process. Cook the onions and broth as directed and then add peeled, deveined shrimp to simmer for the last few minutes until they are cooked through. 
+If you have other ingredients you'd like to use or different constraints in mind, please let me know!",PARTLY_RELEVANT,"The generated answer correctly addresses the question by confirming that there are no recipes that meet the specified criteria of mushrooms and potatoes in under 40 minutes. However, it does offer a suggestion for a relevant dish (Mushroom and Potato Stir-Fry) that fits the time requirement, which makes it somewhat relevant but not fully aligned with the request for a complete recipe."
+88,Can you suggest a dish that includes beef and cheese?,"One recipe that includes both beef and cheese is the **African Potatoes Curry**. Here’s a brief explanation of why it matches the requested ingredients:
 
-Please let me know if you need specific recipes involving shrimp or any other culinary assistance!",RELEVANT,The generated answer directly addresses the question about how to incorporate shrimp into the cooking process by providing suggestions for modifying existing recipes (Shrimp Wrap and Shrimp Onion Soup) and includes specific instructions for doing so. This makes it relevant to the user's inquiry about incorporating shrimp into cooking.
-34,Does this recipe contain any gluten?,"Based on the provided recipe database, all listed recipes are marked as gluten-free, indicating that they do not contain any gluten. 
+- **African Potatoes Curry**: This dish contains beef and cheese as main ingredients, making it a suitable choice. It combines the flavors of beef cooked with potatoes and seasoned with various herbs, along with the creaminess offered by cheese. Additionally, this dish fits the criteria for a dinner meal and is prepared with an interesting blend of spices and other ingredients like yogurt and honey.
 
-Here are a few recipe recommendations along with brief explanations for why they match the requested ingredients:
+If you’re looking for alternative dishes, consider:
 
-1. **American Mushrooms Roast**
-   - **Main Ingredients:** Mushrooms, Shrimp, Cheese
-   - **Why it Matches:** This dish combines mushrooms and shrimp, which are both flavorful ingredients. The inclusion of cheese adds richness, making it a hearty option for those looking for a gluten-free dish. 
+1. **Cheesy Beef Casserole**: This casserole typically features ground beef, pasta, and a generous amount of cheese, baked until bubbly and golden. If you want to incorporate a similar flavor profile, you could use the African Potatoes Curry as a base and add cooked pasta and extra cheese.
 
-2. **Italian Potatoes Stew**
-   - **Main Ingredients:** Potatoes, Rice, Eggs
-   - **Why it Matches:** If you're looking for a comforting breakfast option, this stew features potatoes and eggs, which are fulfilling and versatile. It’s also gluten-free, making it suitable for those with gluten sensitivities.
+2. **Beef Enchiladas**: Another option could be beef enchiladas that are stuffed with beef and topped with cheese. You might replace traditional tortillas with thinly sliced potatoes to align with the main ingredient in the African Potatoes Curry while maintaining the core flavors.
 
-3. **Vietnamese Pasta Pilaf**
-   - **Main Ingredients:** Pasta, Tofu, Shrimp
-   - **Why it Matches:** Although pasta is typically not gluten-free, there are gluten-free pasta options available that can be substituted. This dish incorporates tofu and shrimp, offering a robust flavor profile, and the cooking method allows for a variety of seasoning options.
+For any substitutions, if you're missing cheese, you could try using a dairy-free cheese alternative or simply omit it for a lighter dish.",PARTLY_RELEVANT,"The generated answer suggests a dish (African Potatoes Curry) that is incorrectly stated to contain beef and cheese, but it does not explicitly include cheese as a common ingredient. The suggestions for alternative dishes (Cheesy Beef Casserole and Beef Enchiladas) are relevant as they do contain both beef and cheese. However, the initial suggestion leads to confusion regarding the inclusion of cheese in the main dish proposed."
+69,"Can you suggest a dish I can make with chicken, beef, and pasta?","A great dish you can make with chicken, beef, and pasta is **French Pasta Pilaf**. This recipe is a perfect match for your requested ingredients as it directly includes all three: pasta, chicken, and beef. 
 
-4. **Thai Lentils Tom Kha**
-   - **Main Ingredients:** Lentils, Pasta, Shrimp
-   - **Why it Matches:** Similar to the Vietnamese Pasta Pilaf, if gluten-free pasta is used, this dish can be a fantastic option. The combination of lentils and shrimp provides a good source of protein, and the complex spices and cream make it flavorful.
+Here's a brief explanation:
 
-5. **Vietnamese Chicken Banh Mi**
-   - **Main Ingredients:** Chicken, Shrimp, Pork
-   - **Why it Matches:** This snack option is wonderfully versatile and can be filled with chicken, shrimp, and pork. For gluten-free preparation, ensure that any bread used is gluten-free, and you can still enjoy the delicious flavors of this Vietnamese classic.
+- **French Pasta Pilaf**: This dish combines the robust flavors of both chicken and beef with pasta, creating a hearty meal ideal for lunch. The preparation involves cooking the pasta alongside seasoned chicken and beef, enhanced with olive oil, honey, milk, and a blend of herbs for added flavor. While this recipe is noted for its difficulty level, the effort results in a delicious and satisfying dish that showcases the ingredients beautifully.
 
-If you're missing some of the key ingredients for these recipes, we can discuss suitable substitutions to help achieve a similar outcome.",RELEVANT,"The generated answer directly addresses the question by confirming that all listed recipes are gluten-free, indicating that they do not contain any gluten. This directly answers the query regarding gluten content in the recipe."
-40,How should I prepare the pork and tofu before cooking?,"Based on the provided recipes, you have several options for preparing pork and tofu, with a focus on the specific combination of these ingredients. Here are the relevant recipes:
+If you don't have exactly the right types of pasta, you can substitute with any similar pasta types (like spaghetti or penne) based on availability. Additionally, if you want to lighten it up a bit, consider using less olive oil or opting for a leaner cut of beef. This flexibility will ensure you can create a similar delicious meal based on what you have available.",RELEVANT,"The generated answer directly addresses the question by suggesting a specific dish (French Pasta Pilaf) that includes chicken, beef, and pasta. It provides a brief explanation of the dish, how to prepare it, and offers flexibility in ingredient substitution, making it highly relevant to the user's request."
+25,I need a recipe that I can cook in under 3 hours with beef as the main ingredient.,"Based on the provided recipe database, the French Onion Soup qualifies as a recipe that can be cooked in under 3 hours, taking a total of 80 minutes (20 minutes prep and 60 minutes cook time). While the main ingredient is onions, it utilizes beef broth, making it a suitable option if you're looking for a dish that includes beef flavors.
 
-1. **French Pork Provençal Stew**:
-   - **Preparation**: Prepare the pork by cutting it into bite-sized pieces, ensuring any excess fat is trimmed. For the tofu, press it to remove excess moisture, and then cut it into cubes.
-   - **Why it matches**: This recipe specifically includes both pork and tofu as main ingredients and features a rich, savory preparation that pairs well with various seasonings.
+**Recipe Recommendation: French Onion Soup**  
+- **Explanation:** This dish combines the rich flavor of beef broth with caramelized onions and Gruyere cheese that melts beautifully on top. The cooking process allows for deep flavors to develop, and the recipe is straightforward, making it achievable within the 3-hour timeframe.
 
-2. **Japanese Pork Katsu**:
-   - **Preparation**: Slice the pork into thin cutlets and tenderize them if needed. For the tofu, you can either cube it or slice it similarly to the pork, depending on the dish's intended presentation.
-   - **Why it matches**: This dish uses pork and tofu, and while it includes shrimp as an additional ingredient, the fundamental preparation techniques for pork and tofu align well with your request.
+If you're looking specifically for recipes that have beef as the main ingredient, unfortunately, none is specified in the context. However, for a beef-focused dish, you could consider substituting the beef broth in the French Onion Soup with a homemade or store-bought beef stock to enhance the beef flavor if you're looking for that emphasis. 
 
-3. **Indian Pork Sandwich**:
-   - **Preparation**: Cut the pork into strips and prepare by seasoning. The tofu should be pressed, then crumbled or sliced, depending on your preference for texture in the sandwich.
-   - **Why it matches**: Even though this recipe includes potatoes, it utilizes both pork and tofu, making it a viable option for the combination you're interested in.
+Additionally, if you have access to other beef-based recipes not mentioned in the provided context, I'd recommend looking for simple beef stew, stir-fried beef dishes, or grilled steak recipes which commonly fall under a 3-hour preparation and cooking window. If you provide more details or additional dishes, I can assist further!",PARTLY_RELEVANT,"The generated answer primarily focuses on a recipe, French Onion Soup, which does include beef broth but does not use beef as the main ingredient. While it fulfills the cooking time requirement and provides an alternative that relates to beef flavors, it doesn't meet the specific request for a recipe with beef as the main ingredient. The suggestion of potential substitutes and other beef-based dishes shows an attempt to address the question, but the main response lacks direct relevance."
+55,Can you suggest a dish that includes shrimp and soy sauce?,"Based on the provided context, the **American Shrimp Sandwich** is an excellent dish that includes both shrimp and soy sauce. 
 
-4. **Spanish Pork Escabeche**:
-   - **Preparation**: Dice the pork into small pieces and prepare the tofu by cutting into cubes or slices. The key is to ensure both are ready for sautéing and flavor absorption during cooking.
-   - **Why it matches**: Featuring pork and tofu, this dish offers a unique blend of flavors and is ideal for a lunch meal.
+### American Shrimp Sandwich
+- **Ingredients**: This sandwich features shrimp as the main protein and includes soy sauce as part of the cooking process alongside cheese and tofu.
+- **Why it Matches**: The use of soy sauce contributes to the unique flavor profile of the shrimp, making it a suitable match for your request. 
 
-5. **Thai Tofu Energy Balls**:
-   - **Preparation**: While this dish is designed for snacks, you would prepare the pork by cutting it into small pieces and the tofu by pressing it to remove excess water before mixing.
-   - **Why it matches**: This recipe specifically includes pork and tofu, focusing on a blend of flavors that can be appealing in an energy ball form, highlighting versatility.
+If you don't have the exact ingredients or are looking for variations, consider these recommendations:
 
-### Summary of Closest Matches:
-If you have specific ingredients unavailable, you may substitute:
-- If you don’t have pork, chicken can be used for a similar texture and flavor, particularly in the sandwich.
-- If tofu is inaccessible, consider using tempeh as an alternative for a protein source.
+1. **Shrimp Stir-Fry**:
+   - **Substitutions**: If you don't have shrimp, you could use chicken or tofu as a protein alternative, and add in various vegetables.
+   - **Why it Matches**: This dish typically includes both shrimp and soy sauce, offering a quick-cooked dish that highlights the flavors well.
 
-For optimal flavor and integration with the main dish, cut the pork and tofu according to the preparation style of your selected recipe, and ensure they're seasoned to your liking before cooking.",RELEVANT,"The generated answer directly addresses the question by providing detailed preparation methods for both pork and tofu. It includes specific instructions for cutting, pressing, and seasoning, and offers a variety of recipes that feature both ingredients. This thorough guidance aligns well with the query about preparation techniques."
-35,What ingredients do I need to add for seasoning before serving?,"For seasoning your beef tacos, you typically want to use ingredients such as chili powder, cumin, garlic powder, and salt. These spices complement the ground beef and enhance the flavor of the tacos. Here are suggestions for recipe recommendations that align well with this:
+2. **Shrimp Fried Rice**:
+   - **Substitutions**: If rice isn’t available, you could substitute with cauliflower rice for a low-carb option.
+   - **Why it Matches**: This traditional dish features shrimp cooked with soy sauce, making it a flavorful choice that brings out the umami in the shrimp.
 
-1. **Beef Tacos**: 
-   - **Why**: This recipe requires you to brown ground beef with seasoning, which likely includes typical taco seasonings like chili powder and cumin. It's a straightforward option since it directly matches your need.
+Both of these dishes are versatile and can be customized with whatever vegetables or seasonings you have on hand, while still highlighting shrimp and soy sauce as key components.",RELEVANT,"The generated answer provides a specific dish, the American Shrimp Sandwich, that includes shrimp and soy sauce. Additionally, it offers two more relevant dishes, Shrimp Stir-Fry and Shrimp Fried Rice, both of which clearly contain shrimp and soy sauce as key ingredients. The thoroughness and variety in suggestions directly address the question's request for a shrimp and soy sauce dish."
+0,I need an easy dinner option that includes spaghetti and can be made in 35 minutes.,"Based on the provided context, a great option for an easy dinner that includes spaghetti and can be made in 35 minutes is **Spaghetti Carbonara**. 
 
-If you don't have the exact seasoning available, you can create a substitute mixture using the following combinations:
-- **Chili Powder**: Use smoked paprika with a pinch of cayenne for heat.
-- **Cumin**: If you don't have ground cumin, you can use coriander, which has a similar warm, earthy flavor profile.
-- **Garlic Powder**: Fresh minced garlic can be used instead, though you'll need a little more since it is less concentrated.
-  
-By following the instructions in the beef taco recipe, you can achieve the desired flavor by browning the beef and incorporating these spices as you cook.",RELEVANT,"The generated answer directly addresses the question by providing specific ingredients for seasoning beef tacos before serving. It details spices such as chili powder, cumin, garlic powder, and salt, which are crucial for enhancing the flavor. Additionally, the answer includes alternative substitutes for those spices, which adds further value and context. Overall, the content is highly relevant to the query about seasoning ingredients."
-61,"Can you explain the cooking method for combining the chicken, fish, and spinach?","To combine the chicken, fish, and spinach in the Vietnamese Chicken Crumble recipe, follow these instructions:
+### Reasons:
+- **Quick Preparation**: With a total prep and cook time of just 35 minutes (15 minutes prep + 20 minutes cook), it perfectly fits your time constraint.
+- **Main Ingredient**: The recipe specifically calls for spaghetti, which is the key ingredient you mentioned needing.
+- **Simplicity**: The recipe involves straightforward steps: boiling spaghetti, frying pancetta, whisking eggs with Parmesan, and combining everything. This makes it suitable for an easy dinner option.
 
-1. **Prepare**: Start by preparing the chicken, fish, and spinach as directed in the recipe.
-2. **Cooking**: In a cooking vessel, combine the prepared chicken, fish, and spinach. Add butter, onion, flour, and chili to the mix. The cooking process likely involves sautéing these ingredients together until they are well-cooked and integrated, thereby allowing the flavors to meld.
-3. **Seasoning**: Once cooked, season the mixture according to taste before serving.
+### Substitutions (if necessary):
+- **Pancetta**: If you don't have pancetta, you can use bacon as a substitute for a similar flavor and texture.
+- **Parmesan**: If Parmesan cheese is unavailable, you can use another hard cheese, such as Pecorino Romano or Grana Padano, for a slightly different taste.
 
-### Recipe Recommendations:
+Overall, Spaghetti Carbonara is a delicious, quick, and easy dinner option that aligns perfectly with your request.",RELEVANT,"The generated answer directly addresses the question by suggesting Spaghetti Carbonara, which is a spaghetti dish that can be made in the requested time frame of 35 minutes. The explanation highlights the quick preparation time, the main ingredient, and the simplicity of the recipe, all of which align well with the user's request for an easy dinner option."
+80,"I'm looking for a recipe that includes honey, yogurt, and olive oil. Any suggestions?","Based on your request for a recipe that includes honey, yogurt, and olive oil, I recommend the following options:
 
-1. **Vietnamese Chicken Crumble**: 
-   - Since it directly uses chicken, fish, and spinach, this recipe is a perfect match for your ingredient request. It combines these elements while offering an interesting dessert from Vietnamese cuisine, although it has a unique profile.
+1. **Honey Yogurt Dressing**:
+   - **Ingredients**: Greek yogurt, honey, olive oil, lemon juice, and herbs (like dill or parsley).
+   - **Explanation**: This recipe combines all three of your requested ingredients to create a creamy and tangy dressing perfect for salads or as a dip. The olive oil adds richness, while honey provides a touch of sweetness to balance the tartness of yogurt.
 
-2. **Spinach and Chickpea Curry (Substitution)**:
-   - If you’re unable to acquire fish, consider this vegetarian option which uses spinach and protein-rich chickpeas. The dish is prepared similarly by sautéing spices with vegetables, and you can add coconut milk for a creamy finish. Substitute the fish with chickpeas for a nutritious and hearty alternative.
+2. **Mediterranean Quinoa Salad**:
+   - **Ingredients**: Cooked quinoa, diced cucumbers, cherry tomatoes, red onion, parsley, olive oil, honey, and yogurt for dressing.
+   - **Explanation**: This salad incorporates honey in the dressing, which can be mixed with yogurt and olive oil for a flavorful boost. It's a fresh, healthy dish that brings all your ingredient preferences together in a delicious way.
 
-3. **Stuffed Chicken with Spinach and Feta (Substitution)**:
-   - This chicken dish features spinach as a stuffing element. While it doesn't involve fish, you can prepare the chicken by stuffing it with a mix of spinach, and feta, and season well. This matches the chicken and spinach requirement perfectly.
+3. **Honey Yogurt Dip**:
+   - **Ingredients**: Plain yogurt, honey, olive oil, garlic, and spices (like cumin or paprika).
+   - **Explanation**: This dip is made by combining yogurt with honey and a drizzle of olive oil for smoothness. The garlic adds a savory note, making it great for serving with fresh vegetables or pita chips.
 
-If you're missing any of the original ingredients, just make sure to choose suitable alternatives that can complement the overall flavor and texture of the meal you're preparing.",RELEVANT,"The generated answer provides a clear explanation of the cooking method for combining chicken, fish, and spinach, detailing the preparation and cooking processes. It includes specific steps that address the question and offers recipe recommendations that further elaborate on the combinations of the ingredients in various ways."
-46,Does this recipe contain any gluten from flour?,"Yes, the Banana Pancakes recipe contains gluten from the flour used in the mixture. The flour is one of the main ingredients, which typically contains gluten unless specified as gluten-free.
+If you don't have Greek yogurt, you can substitute it with regular plain yogurt, but using Greek yogurt will provide a thicker texture. Additionally, if you're out of honey, you can use maple syrup as a natural sweetener. Enjoy your cooking!",RELEVANT,"The generated answer contains multiple recipe suggestions that include honey, yogurt, and olive oil, which directly addresses the user's request. Each recipe describes how these ingredients are used, making the answer pertinent and useful for the user seeking cooking ideas."
+72,I'm looking for a vegetarian lunch recipe with eggs and herbs.,"Based on your request for a vegetarian lunch recipe that includes eggs and herbs, I would recommend the following:
 
-If you're looking for gluten-free options, consider the following recommendations:
+1. **Thai Tofu Stew**:
+   - **Why it matches**: This recipe includes eggs and herbs, making it suitable for your requirements. Although it also features shrimp, you can easily make it vegetarian by omitting the shrimp. The main ingredients like tofu and the various herbs will still provide a flavorful and hearty dish.
+   - **Substitutions needed**: Simply eliminate the shrimp to maintain a vegetarian profile.
 
-1. **Gluten-Free Banana Pancakes**: Replace the regular flour with a gluten-free flour blend or almond flour. This will allow you to enjoy the same delicious banana pancakes without the gluten.
+Unfortunately, there are no other vegetarian recipes provided in the context that specifically meet your criteria of including both eggs and herbs. The other recipe, **Falafel Wrap**, while vegetarian and containing herbs, does not include eggs. 
 
-2. **Oat Pancakes**: Use ground oats (oat flour) in place of regular flour. Ensure the oats are certified gluten-free to avoid any cross-contamination.
+If you're open to the idea of modifying the Thai Tofu Stew by removing the shrimp, it would be an excellent vegetarian option for lunch.",PARTLY_RELEVANT,"The generated answer provides a suggestion for a vegetarian meal but recommends a recipe (Thai Tofu Stew) that includes shrimp, which contradicts the vegetarian requirement unless modified. It acknowledges the need for a substitution to meet the vegetarian criteria but ultimately fails to offer a straightforward recipe that fully aligns with the question's request for a vegetarian lunch recipe with eggs and herbs."
+65,I'm looking for a Mediterranean dish that includes mushrooms and spinach.,"I recommend the **Mediterranean Mushrooms Mezze Bowl** as it perfectly matches your request for a Mediterranean dish that includes both mushrooms and spinach. 
 
-If you're interested in a different recipe that does not include gluten, you might consider:
+This recipe features mushrooms and spinach as key ingredients and aligns with Mediterranean cuisine. It involves a combination of cooking these ingredients with spices, cheese, and other flavorful components, making it an excellent choice for your needs. 
 
-3. **Fluffy Egg Pancakes**: These can be made using just eggs and can be flavored with mashed bananas or vanilla for sweetness. They are inherently gluten-free.
+If you're looking for alternatives and you don't have access to some specific ingredients, you can adapt the dish by using other greens like Swiss chard or kale instead of spinach. For the cheese, if desired, you could substitute with a non-dairy option to keep it vegan while maintaining the Mediterranean flavor profile. However, for a dish that strictly includes both mushrooms and spinach, the Mediterranean Mushrooms Mezze Bowl is the best fit.",RELEVANT,"The generated answer directly addresses the question by recommending a specific Mediterranean dish that includes both mushrooms and spinach, which aligns perfectly with the user's request. Additionally, it provides further details about the dish and suggestions for alternatives, enhancing its relevance."
+86,"What can I make for lunch with chicken, tomatoes, and eggs?","You can prepare **Mexican Eggs Salad** for lunch, as it features chicken, tomatoes, and eggs as the main ingredients. This recipe aligns perfectly with your requested ingredients and offers a robust flavor profile by incorporating spices, onions, and chili. 
 
-Make sure to check that all ingredients you choose to substitute or use are gluten-free to maintain dietary needs.",RELEVANT,"The generated answer directly addresses the question by confirming that the recipe contains gluten from the flour used. It also provides alternative gluten-free options, which adds value by responding to potential needs of the user seeking gluten-free recipes."
-88,Is this recipe suitable for those following a kosher diet?,"The Falafel Wrap recipe is not suitable for those following a kosher diet. The dietary information for the Falafel Wrap does not mention kosher status, and it would depend on the specific preparation methods and ingredients used (especially regarding the tahini and any additional sauces).
+If you're looking for an alternative and are open to substitutions, you might also consider making a variant of a classic salad using the ingredients you have. You could mix cooked chicken, hard-boiled eggs, and diced tomatoes, adding your preferred dressing. Although this wouldn't exactly be the Mexican Eggs Salad, it would still utilize the same key ingredients and be a satisfying lunch option.
 
-For a kosher meal option from the available recipes, consider the following:
+In summary, the **Mexican Eggs Salad** is the best match for your requested ingredients, allowing you to use chicken, tomatoes, and eggs directly.",RELEVANT,"The generated answer directly addresses the question by providing a specific recipe (Mexican Eggs Salad) that involves chicken, tomatoes, and eggs. It further elaborates on the use of these ingredients and suggests an alternative option that still utilizes them, making the response comprehensive and aligned with the user's request."
+93,Can you suggest a low-carb meal that includes rice and mushrooms?,"While the recipe for American Eggs Roast contains rice and mushrooms, it is notably categorized as low-carb, which typically may not align directly with the inclusion of rice, as traditional rice can be high in carbohydrates.
 
-1. **American Pork Pilaf**: 
-   - This dish is marked as kosher. It includes pork, tomatoes, and beef, which are cooked together with various seasonings. If someone is looking for a protein-rich dish and enjoys American cuisine, this pilaf would be appropriate. However, ensure all ingredients are certified kosher and that the dish is prepared in accordance with kosher laws.
+However, if you're looking for a low-carb meal that includes a similar flavor profile, consider the following adjustments:
 
-2. **Thai Tofu Stew**: 
-   - Also noted to be kosher, this recipe features tofu, eggs, and shrimp as the main ingredients. A person looking for a lighter and vegetarian (but still kosher) option for lunch would find this stew appealing. The combination of flavors with chili and garlic provides a vibrant taste.
+1. **Cauliflower Rice and Mushroom Stir-Fry**:
+   - **Ingredients**: Cauliflower rice (substituting traditional rice), mushrooms, eggs.
+   - **Why it matches**: This dish maintains the essence of rice while drastically lowering the carbohydrate content. The mushrooms add an earthy flavor, and the eggs can provide protein and richness.
 
-For someone specifically seeking a vegetarian kosher option, the Falafel Wrap could be modified to align with kosher standards by ensuring that all ingredients, particularly tahini and any additions, are certified kosher. This may involve checking the labels on these components or selecting alternate brands known for kosher compliance.",PARTLY_RELEVANT,"The generated answer addresses the original question by stating that the Falafel Wrap recipe is not suitable for those following a kosher diet. However, it also discusses alternatives and modifications for making the Falafel Wrap kosher, which is somewhat relevant. While it doesn't directly confirm if the original recipe is kosher or provide a straightforward answer, it offers context and suggestions that relate to the question, hence it is partially relevant."
-69,What type of oil is used in the recipe?,"The provided context does not specify any type of oil used in the Chicken Tikka Masala or any of the recipes. Therefore, I'm unable to answer the question about the type of oil used in the recipe.
+2. **Mushroom and Egg Scramble**:
+   - **Ingredients**: Eggs, sautéed mushrooms, herbs.
+   - **Why it matches**: This dish focuses on the primary protein—eggs—while incorporating mushrooms for flavor. It is naturally low in carbs and can serve as a hearty meal.
 
-Regarding recipe recommendations based on the context:
+3. **Zucchini Noodles with Mushrooms and Eggs**:
+   - **Ingredients**: Zucchini (as a substitute for rice), mushrooms, eggs.
+   - **Why it matches**: Spiralized zucchini offers a grain-like texture that pairs well with sautéed mushrooms and scrambled eggs, keeping the meal low-carb and flavorful.
 
-1. **Chicken Tikka Masala**: 
-   - This dish is ideal if you are looking for a flavorful and complex meal that combines marinated grilled chicken with a rich and spicy creamy tomato sauce. It’s suited for a dinner setting and pairs well with rice or naan.
+These suggested meals fulfill the request for low-carb inclusion of mushrooms while also providing suitable alternatives to traditional rice.",PARTLY_RELEVANT,"The generated answer provides alternatives to traditional rice, which is not low-carb, by suggesting cauliflower rice and other substitutes. While rice is included in the context, the answer ultimately does not suggest a low-carb meal that includes traditional rice, making it only partly relevant to the question."
+42,I'm looking for a recipe that I can prepare in under 30 minutes using chicken and herbs.,"Here are a couple of quick recipes using chicken and herbs that can be prepared in under 30 minutes:
 
-2. **Falafel Wrap**: 
-   - If you are considering a vegetarian option, the Falafel Wrap is a great choice. It's made from chickpeas and is simple to prepare. It offers a lighter meal option for lunch, and it's also versatile as it can be made vegan without yogurt sauce.
+1. **Herb-Crusted Chicken Breasts**
+   - **Description**: This recipe involves coating chicken breasts with a mix of fresh herbs such as parsley, thyme, and basil, then quickly searing them in a skillet. The herbs add vibrant flavor and freshness to the dish.
+   - **Why It Matches**: The use of herbs complements the chicken beautifully, and the cooking method (pan-searing) allows for quick preparation, making it ready in under 30 minutes.
 
-If you are looking for specific oil types, I could suggest commonly used oils in cooking, such as vegetable oil or olive oil, typically used for frying the falafel in the wrap. For Chicken Tikka Masala, ghee or vegetable oil is often used for cooking the sauce.",PARTLY_RELEVANT,"The generated answer acknowledges that the specific type of oil used in the recipe is not provided, which is relevant to the question. However, it also suggests common oils used in cooking and discusses oil types typically used for the Chicken Tikka Masala and Falafel Wrap, thus partially addressing the query."
-25,Is this recipe suitable for someone following a kosher diet?,"The Falafel Wrap recipe is not suitable for someone following a kosher diet. Although falafel is vegetarian and vegan (without the yogurt sauce), it does not meet kosher dietary laws which require specific guidelines on how meat and dairy should be consumed.
+2. **Lemon Herb Chicken Stir-Fry**
+   - **Description**: In this recipe, bite-sized pieces of chicken breast are stir-fried with a medley of vegetables and a sprinkle of herbs like oregano and rosemary, finished with a squeeze of lemon for brightness.
+   - **Why It Matches**: The chicken cooks quickly, and the addition of herbs elevates the dish, while the stir-fry technique ensures you can have it on the table in no time.
 
-For those following a kosher diet, I would recommend the following recipes from the context:
+**Substitutions**: If you don’t have fresh herbs, dried herbs can be used in smaller quantities (about one-third of the amount of fresh required). Chicken thighs can be used in place of breasts if you prefer dark meat, noting that cooking times may vary slightly. 
 
-1. **American Pork Pilaf**
-   - Although it contains pork, which is not kosher, it is labeled as kosher in the dietary info. Therefore, if prepared following kosher guidelines, this could be a suitable option. The combination of pork, tomatoes, and beef with herbs provides a hearty meal. However, it's essential to ensure that all ingredients are kosher-certified.
+These recipes are not only quick but also highlight the freshness of herbs with the protein in chicken, making them ideal for your needs!",RELEVANT,"The generated answer provides two specific recipes that use chicken and herbs, fulfilling the request for recipes that can be prepared in under 30 minutes. Each recipe includes a description and reasoning for its suitability, making it directly relevant to the question asked."
+66,"What can I make with fish, shrimp, and eggs for a special lunch?","Based on your request for a special lunch using fish, shrimp, and eggs, I recommend the following recipe from our database:
 
-2. **Thai Tofu Stew**
-   - This recipe is also labeled as kosher, making it suitable for those following a kosher diet. The main ingredients include tofu and shrimp, which can be combined with various vegetables and seasonings for a flavorful stew. Ensure that the tofu and shrimp used are certified kosher, and check if the cooking methods adhere to kosher rules.
+**American Fish Bake**
+- **Explanation**: This dish directly utilizes fish, shrimp, and eggs as main ingredients, making it a perfect match for your specified items. The combination of these ingredients creates a flavorful and hearty meal, which is ideal for lunch. Although it is categorized as a dessert in the recipe database, its savory components can provide a satisfying mid-day meal. 
 
-**Substitution Note:** If you’re looking for a kosher-friendly alternative to the Falafel Wrap that maintains a similar flavor profile, consider making a veggie wrap using fresh vegetables, tahini, and grilled or roasted tofu instead of falafel, ensuring all ingredients are kosher-certified.",PARTLY_RELEVANT,"The answer correctly identifies that the Falafel Wrap recipe is not suitable for a kosher diet, but it goes on to discuss other recipes, some of which directly contradict kosher guidelines (like the pork recipe). The evaluation of these other recipes may confuse the reader about what is truly safe in a kosher context, thus making it partly relevant."
-55,How do you prepare the main ingredients before cooking?,"For the recipes provided, here’s how to prepare the main ingredients before cooking:
+While this recipe is tailored for a more elaborate meal with a hard difficulty level, it's an excellent choice if you're looking to create something special.
 
-1. **Mediterranean Pasta Soup:**
-   - **Pasta:** Cook the pasta according to the package instructions until al dente, then drain and set aside.
-   - **Spinach:** Wash the spinach thoroughly to remove any dirt or grit, then chop it roughly.
-   - **Tomatoes:** Dice the tomatoes or, if using canned, drain them if necessary.
+If you are looking for a quicker and simpler option and are open to making substitutions, you could consider a basic omelet:
+- **Substitutions Needed**: Use the eggs as a base and incorporate cooked shrimp (if you have any on hand), or even flake cooked fish into the omelet. You can add vegetables like spinach, bell peppers, or cheese based on your preference.
 
-   This recipe is recommended because it incorporates the main ingredients of pasta, spinach, and tomatoes, bringing together the flavors of the Mediterranean cuisine.
+This omelet allows for a quicker preparation time and still utilizes your ingredients effectively, providing a delicious meal option for lunch.",RELEVANT,"The generated answer directly addresses the question by providing recipes that incorporate fish, shrimp, and eggs, which are the specified ingredients. It offers a detailed recipe with an explanation for a special lunch and also presents a simpler alternative, ensuring that both options utilize the main ingredients effectively. This makes the answer highly relevant to the request."
+65,Can you suggest something to cook that incorporates mushrooms and can be served as a mezze?,"Based on the context provided about the ""Mediterranean Mushrooms Mezze Bowl,"" here are two recipe recommendations that incorporate mushrooms and can be served as mezze:
 
-2. **Indian Eggs Salad:**
-   - **Eggs:** Hard boil the eggs, then cool, peel, and chop them.
-   - **Chicken:** Cook and shred or chop the chicken breast.
-   - **Pork:** Cook the pork thoroughly, then chop it into small pieces.
+1. **Stuffed Mushrooms**: 
+   - **Explanation**: Stuffed mushrooms are a classic mezze dish that can be filled with a variety of ingredients. You can use a mixture of cheese, breadcrumbs, garlic, and herbs to create a delicious filling. This dish aligns well with the mushroom component and offers a delightful flavor when baked. 
+   - **Substitutions**: If you're out of certain cheeses, you can substitute with any available cheese or even a vegan cheese alternative.
 
-   This recipe is suitable as it involves cooking eggs with proteins (chicken and pork), providing a different yet flavorful option to incorporate eggs, which matches the ingredient request.
+2. **Mushroom Hummus**: 
+   - **Explanation**: This creamy dip blends mushrooms with traditional hummus ingredients like chickpeas, tahini, lemon juice, and garlic. It offers a unique twist to the classic hummus while incorporating mushrooms, making it a perfect mezze option. 
+   - **Substitutions**: If chickpeas are not available, white beans can be used for a similar texture, and any neutral-tasting oil can substitute for tahini if needed.
 
-3. **Korean Cheese Stir-Fry:**
-   - **Cheese:** Grate or cut the cheese into small cubes.
-   - **Fish:** Clean and fillet the fish, removing any bones and skin.
-   - **Potatoes:** Peel and dice the potatoes into small cubes.
+Both of these dishes maintain the essence of mezze while ensuring mushrooms remain a central ingredient, similar to the Mediterranean Mushrooms Mezze Bowl.",RELEVANT,"The generated answer provides two specific recipe suggestions (Stuffed Mushrooms and Mushroom Hummus) that incorporate mushrooms and are suitable for serving as mezze, directly addressing the request in the question."
+59,"What can I make with spinach, beef, and rice for breakfast?","Based on the ingredients you've mentioned—spinach, beef, and rice—you can prepare the **Middle Eastern Spinach Bake**. 
 
-   This dish aligns with your ingredient request as it involves cheese and fish as main elements, showcasing a delicious Korean culinary influence.
+### Middle Eastern Spinach Bake
+**Explanation:** This recipe perfectly utilizes all your requested ingredients: spinach, beef, and rice. It is a breakfast dish that combines these main ingredients with spices and herbs, creating a flavorful and hearty meal. The preparation and cooking times are a bit longer (65 minutes prep and 43 minutes cook time), but it yields a satisfying breakfast option that is both delicious and nutritious.
 
-4. **Korean Tofu Brownies:**
-   - **Tofu:** Press the tofu to remove excess moisture, then crumble or blend it.
-   - **Fish:** Clean and prepare fillets or chunks of fish.
-   - **Pasta:** Cook the pasta according to package instructions until al dente.
+If you don't have beef or rice, you could consider substituting the beef with another protein source like chicken or turkey, and if you don't have rice, you might use quinoa or bulgur wheat instead, although this would alter the dish slightly. 
 
-   This recipe is unique as it combines sweet and savory flavors using tofu and pasta in a dessert setting, which may intrigue those looking for something different.
+In summary, the **Middle Eastern Spinach Bake** is your best match for a breakfast recipe using spinach, beef, and rice!",RELEVANT,"The generated answer provides a specific recipe (Middle Eastern Spinach Bake) that incorporates all the requested ingredients: spinach, beef, and rice. It clearly suggests that this dish is suitable for breakfast, aligning well with the question asked. Additionally, it offers alternatives in case some ingredients are missing, further enhancing its relevance."
+83,I'm looking for a healthy recipe with lentils and yogurt. Any suggestions?,"I recommend the **Spanish Lentils Salad** recipe, as it directly includes lentils and yogurt, aligning perfectly with your request. This dish features a combination of lentils, eggs, and pork, cooked with spices and served with yogurt for added creaminess and flavor. 
 
-5. **Thai Tomatoes Power Bowl:**
-   - **Tomatoes:** Slice or chop the tomatoes.
-   - **Fish:** Clean and prepare fillets or chunks of fish.
-   - **Mushrooms:** Clean and slice the mushrooms.
+Although it is listed under desserts and has a hard difficulty level, it is a nutritious option that incorporates the requested ingredients. 
 
-   This recipe is recommended for its refreshing use of tomatoes and fish, ideal for a light, healthy lunch while incorporating a quick cooking time. 
+If you're looking for a lighter or vegetarian version, consider the **Falafel Wrap** recipe, which contains chickpeas and can be served with a yogurt sauce (make sure to use a vegetarian or vegan variation, if needed). While it doesn't include lentils, it offers a healthy and filling meal option with a similar protein source. You could also consider blending some lentils into the falafel mixture to incorporate them without changing the essence of the dish.
 
-If you cannot find specific ingredients, consider:
-- For **pasta**, any type (like whole wheat or gluten-free) can be substituted based on dietary preferences.
-- If **spinach** isn't available, you can use kale or Swiss chard.
-- For the **fish**, local varieties or canned options like tuna can serve as substitutes.
+For both recipes, the Spanish Lentils Salad would be your best choice if you want to stick closely to your specified ingredients of lentils and yogurt.",PARTLY_RELEVANT,"The generated answer primarily discusses the Spanish Lentils Salad, which includes lentils and yogurt, making it relevant to the user's request. However, it also includes a falafel recipe that does not contain lentils, which detracts from the relevance. Additionally, the mention of the Spanish Lentils Salad being under desserts and having a hard difficulty level may not align with a typical healthy recipe expectation. Overall, while the answer provides a suggestion relevant to the question, the inclusion of unrelated content affects its overall relevance."
+81,I'm looking for a recipe using pork and cream that I can serve to a group. Any ideas?,"Based on your request for a recipe using pork and cream that can be served to a group, the **Middle Eastern Pork Crumble** is a suitable option. This recipe features pork as the main ingredient and includes cream, which complements the dish. 
 
-These recommendations cover a range of preparation techniques and cooking styles, highlighting versatility in using the main ingredients mentioned.",RELEVANT,"The generated answer provides detailed preparation steps for various main ingredients related to different recipes, directly addressing the question about how to prepare the main ingredients before cooking. Each recipe includes relevant ingredients and specific instructions, making the answer pertinent to the query."
-0,Is there any gluten present in this recipe?,"The Chicken Tikka Masala recipe does not mention any gluten-containing ingredients, but it typically is served with rice or naan. If naan is included, it contains gluten. Therefore, if you need a gluten-free option, it would be best to stick with serving the Chicken Tikka Masala with rice, which is gluten-free.
+### Middle Eastern Pork Crumble:
+- **Description**: This dessert combines pork with cream, cheese, and honey to create a unique flavor profile. It is easy to prepare with a prep time of only 15 minutes and requires no cooking time, making it convenient for serving to a larger group. 
+- **Dietary Info**: It is gluten-free and contains nuts, which is important to consider for dietary restrictions.
 
-For those looking for a gluten-free recipe alternative, I recommend:
+### Serving Suggestions:
+If you don't have the exact ingredients or prefer alternatives:
+- **Pork**: You could substitute the pork with a similar meat if needed, but the dish is meant to highlight pork.
+- **Cream**: You might use a dairy alternative if necessary, although this could change the flavor and texture of the dish.
 
-1. **Falafel Wrap (served in a gluten-free pita):**
-   - **Cuisine:** Middle Eastern
-   - **Meal Type:** Lunch
-   - **Prep & Cook Time:** Quick, 20 minutes prep and 15 minutes cook.
-   - **Dietary Considerations:** Vegetarian and vegan (depending on the sauce).
-   - **Explanation:** The falafel is made with chickpeas, which are naturally gluten-free, and can be served in a gluten-free pita. The combination of chickpeas and tahini provides a hearty meal without gluten.
+If the Middle Eastern Pork Crumble doesn't fit your needs, consider a variation by focusing on the pork and cream in another context, like a savory dish or sauce, if you are open to adapting into a non-dessert format.",PARTLY_RELEVANT,"The generated answer provides a recipe that includes both pork and cream, which aligns with the user's request. However, it categorizes the dish as a dessert and focuses on a specific recipe that may not be suitable for all group settings. While it addresses the ingredients, it does not explicitly suggest more common savory options for serving to a group, which could lead to relevance issues for the user’s intent."
+20,Can you suggest a dish that includes tomatoes and honey?,"Based on the context provided, a great dish that includes both tomatoes and honey is the **French Pork Provençal Stew**. 
 
-If you cannot find gluten-free pita, you could serve falafel on a bed of greens or in a lettuce wrap for a fresh, gluten-free meal option.",PARTLY_RELEVANT,"The generated answer directly addresses the presence of gluten in the Chicken Tikka Masala recipe and provides a conditional recommendation based on whether naan is included. However, the inclusion of a separate gluten-free recipe (falafel wrap) diverges slightly from the original question about gluten in the specified recipe, thus making the answer partly relevant."
-80,How long does the cooking process take for this recipe?,The cooking process for the Falafel Wrap recipe takes 15 minutes.,RELEVANT,"The generated answer directly addresses the question by providing a specific duration for the cooking process of the recipe, which is exactly what was asked."
-72,How do I prepare the eggs before cooking?,"To prepare the eggs before cooking in the recipes provided, you would typically start by boiling or poaching them as they are a main ingredient in all suggested dishes. 
+### Recipe: French Pork Provençal Stew
+- **Main Ingredients**: This stew features pork and tomatoes as primary ingredients while also incorporating honey for sweetness.
+- **Why It Matches**: This dish effectively combines the tanginess of tomatoes with the sweetness of honey, creating a balanced flavor profile. The use of pork adds a hearty element to the dish, making it suitable for lunch.
 
-Here are some recipe recommendations based on the context provided, focusing on the use of eggs:
+If you're exploring similar dishes or need alternatives:
+1. **Tomato and Honey Glazed Chicken**: If you're looking for a different protein, you can substitute pork with chicken. Simply glaze the chicken with a mixture of tomatoes and honey and roast until cooked through.
+2. **Honey Tomato Salad**: For a lighter option, a fresh salad with cherry tomatoes drizzled with honey and mixed with herbs can provide a refreshing side dish.
 
-1. **Indian Eggs Salad**
-   - **Why:** This recipe includes eggs as a main ingredient alongside chicken and pork. The preparation would involve boiling the eggs, then mixing them with the other ingredients.
-   - **Substitution Not Needed:** Requires basic eggs, no additional substitutions are needed unless dietary restrictions dictate otherwise.
-
-2. **Spanish Lentils Salad**
-   - **Why:** Eggs are also included in this dish, which is a bit more complex in terms of prep time. Preparing the eggs similarly by boiling or scrambling would incorporate well into the salad.
-   - **Substitution Not Needed:** No substitutions are necessary for the eggs.
-
-3. **Korean Tomatoes Roast**
-   - **Why:** This recipe uses eggs along with tomatoes and pork. Boiling the eggs would be a good preparation method, and they could then be added to the dish during cooking.
-   - **Substitution Not Needed:** Standard eggs are called for, and no substitutes are needed here.
-
-4. **Thai Tofu Stew**
-   - **Why:** In this dish, eggs can also be prepared similarly, either boiled or scrambled, and added to the stew during cooking for additional flavor and texture.
-   - **Substitution Not Needed:** Eggs are still the main ingredient without the need for substitutes unless dietary changes are required.
-
-5. **African Lentils Tagine**
-   - **Why:** This dish includes eggs, and they would be prepared in the same manner—boiled or poached—before being added to the stew for flavor and richness.
-   - **Substitution Not Needed:** Regular eggs fit into this recipe without needing substitutes.
-
-In all cases, boiling the eggs is the simplest method for preparation as it allows them to be easily chopped or combined with other ingredients later in the cooking process.",RELEVANT,"The generated answer directly addresses the question about preparing eggs before cooking by recommending boiling or poaching as preparation methods. Additionally, it provides specific recipe examples that involve eggs and details on how to incorporate them into each dish, enhancing the relevance and practical application of the answer."
-65,How long do I need to cook the mushrooms and spinach together?,"For cooking mushrooms and spinach together, you can refer to two recipes from our database: the Mediterranean Mushrooms Mezze Bowl and the Middle Eastern Mushrooms Salad.
-
-1. **Mediterranean Mushrooms Mezze Bowl**
-   - **Cook Time:** 109 minutes
-   - This recipe focuses on mushrooms and spinach, along with cheese and various spices. It's a bit lengthy, but the result is a flavorful dish that highlights both main ingredients well.
-
-2. **Middle Eastern Mushrooms Salad**
-   - **Cook Time:** 40 minutes
-   - This recipe combines mushrooms and spinach with lentils, cream, and garlic. While it includes lentils, the mushrooms and spinach are still primary, and it has a shorter cook time compared to the mezze bowl.
-
-If you're looking for a quicker preparation, the **Middle Eastern Mushrooms Salad** is recommended due to its 40-minute cook time focusing on the same ingredients. However, if you want a more comprehensive dish, consider the **Mediterranean Mushrooms Mezze Bowl**, though it will take longer to cook. 
-
-Both recipes are flavorful and accommodate the cooking of mushrooms and spinach effectively.",RELEVANT,"The generated answer provides specific cooking times for both mushrooms and spinach by referencing two relevant recipes. It addresses the question directly and gives a choice based on cook time, satisfying the user's inquiry about how long to cook those ingredients together."
-86,What are the main ingredients required for this recipe?,"The main ingredients required for the Falafel Wrap recipe are chickpeas, tahini, and pita.
-
-**Recipe Recommendations:**
-
-1. **Chickpea Salad:**
-   - **Why It Matches:** This dish is primarily made from chickpeas, similar to the falafel wrap. You can add ingredients like tomatoes, cucumbers, and a tahini dressing to complement the flavors.
-   - **Substitutions:** If tahini is not available, you can use another nut or seed butter, such as sunflower seed butter, though it will change the flavor slightly.
-
-2. **Hummus and Pita:**
-   - **Why It Matches:** Hummus is made from blended chickpeas and often includes tahini. It can be served with pita bread, making it a close match to the falafel wrap.
-   - **Substitutions:** If you don’t have tahini, you can use olive oil in the hummus for a different flavor but still maintain the chickpea base. 
-
-3. **Chickpea Tacos:**
-   - **Why It Matches:** Using chickpeas in a taco format can deliver a similar texture and flavor profile to the falafel, offering a fun twist. Add a tahini-based sauce for extra authenticity.
-   - **Substitutions:** If you lack taco shells, you can substitute with tortillas or even lettuce wraps as a lighter option.
-
-Each of these suggestions incorporates the primary ingredient of chickpeas and provides ways to include tahini and pita, maintaining the essence of the ingredients listed in the falafel wrap recipe.",RELEVANT,"The generated answer directly addresses the question by providing the main ingredients required for the Falafel Wrap recipe, which are chickpeas, tahini, and pita. It is pertinent and specifically answers what was asked."
-93,How long does it take to prepare and cook the dish?,"For the **Mediterranean Pasta Soup**, the total time required to prepare and cook the dish is:
-
-- Prep Time: 71 minutes
-- Cook Time: 169 minutes
-- Total: 240 minutes (or 4 hours)
-
-If you're looking for recommendations based on your interest in similar ingredients, here are some suggestions:
-
-1. **Korean Tofu Brownies**:
-   - Main Ingredients: Tofu, Fish, Pasta.
-   - Preparation and cooking time is less than the Mediterranean Pasta Soup, making it a feasible option if you're looking for something hearty. Although it includes different main elements, if you're flexible with the pasta, tofu can be a unique and protein-rich substitute.
-
-2. **Korean Cheese Stir-Fry**:
-   - Main Ingredients: Cheese, Fish, Potatoes.
-   - This dish has a medium difficulty level and includes fish, which aligns with your interest. It’s also less time-consuming than the Mediterranean Pasta Soup, which is appealing if you're short on time.
-
-3. **Thai Tomatoes Power Bowl**:
-   - Main Ingredients: Tomatoes, Fish, Mushrooms.
-   - This dish features tomatoes prominently, similar to your requested ingredients. It's quick to prepare and cook, making it perfect for a meal if you enjoy tomatoes and fish—though you would need to add some kind of starch to match the pasta aspect.
-
-If you lack specific ingredients from these recipes or prefer different elements, consider substituting the main proteins (like fish) with chicken or tofu based on your dietary preferences, and adjust the seasonings to match your palate.",RELEVANT,"The generated answer directly addresses the question about the preparation and cooking time for the Mediterranean Pasta Soup, providing detailed breakdowns of prep time, cook time, and total time. Although additional suggestions for other dishes are included, they do not detract from the main response, which is highly relevant to the inquiry."
-42,Can I substitute any ingredients if I don't have milk or cream?,"Based on the recipes provided, if you are specifically referring to the *Chicken Tikka Masala*, it contains cream, which is a dairy product. However, you can make some adjustments based on your available ingredients:
-
-1. **Greek Yogurt**: If you have Greek yogurt, you can use it as a substitute for cream. It will add creaminess and tang without straying far from the original flavors.
-
-2. **Coconut Milk**: A great alternative to cream that aligns well with Indian cuisine is coconut milk. It would provide a rich, creamy consistency and a hint of sweetness.
-
-3. **Cashew Cream**: If you have cashews, you can blend soaked cashews with water until smooth to create a dairy-free cream substitute.
-
-4. **Silken Tofu**: Blended silken tofu can also act as a substitute, providing creaminess without the dairy.
-
-If you are exploring other recipes, consider:
-
-- **Mediterranean Fish Orzo Salad**: While it includes cream, you could modify it by omitting the cream or using an alternative like Greek yogurt or coconut milk, adjusting the seasonings to balance the flavors.
-
-- **Thai Mushrooms Salad**: Similarly, if you lack cream, consider replacing it with coconut milk for the Thai recipe too, enhancing the creaminess while keeping in line with the flavors.
-
-In any case, if you omit or substitute the cream in these recipes, keep an eye on the consistency of your sauce or dressing and adjust with a little more liquid if necessary.",RELEVANT,"The generated answer directly addresses the question about substituting ingredients for milk or cream. It provides multiple suitable alternatives such as Greek yogurt, coconut milk, cashew cream, and silken tofu, as well as examples of recipes where these substitutes can be applied. This thoroughness ensures the answer is highly pertinent to the user's inquiry."
-66,What main ingredients are required for this recipe?,"The main ingredients required for the Falafel Wrap recipe are chickpeas, tahini, and pita.
-
-### Recipe Recommendations:
-
-1. **Chickpea Salad**: 
-   - **Explanation**: This salad typically includes chickpeas and can be combined with vegetables such as cucumbers, tomatoes, and onions, making it a refreshing dish. You can drizzle tahini dressing over it to retain that creamy element from the original recipe.
-
-2. **Hummus**:
-   - **Explanation**: Hummus is primarily made from chickpeas and tahini. It’s a versatile dip that can be served with pita bread and is also great to include fresh vegetables, keeping the elements of the original falafel wrap.
-
-3. **Grilled Veggie Pita Sandwich**:
-   - **Explanation**: You can create a pita sandwich using grilled vegetables and a tahini sauce. While the main filling changes from chickpeas to grilled veggies, the use of pita ensures it fits the style of the original dish while still providing that Middle Eastern flair.
-
-### Substitutions:
-- If chickpeas are not available, you could use cannelini beans or black beans as alternatives in salads or dips but note that the flavor will differ slightly.
-- For tahini, you might substitute it with sunflower seed butter or almond butter as an alternative, keeping in mind the flavor will change, especially in terms of nuttiness.
-- If pita bread isn't available, flatbreads or tortillas can be used, but they will create a different texture in the wrap. 
-
-These suggestions maintain the essence of the Falafel Wrap's flavors while introducing slight variations to accommodate ingredient availability.",RELEVANT,"The generated answer directly provides the main ingredients for the Falafel Wrap recipe, specifically mentioning chickpeas, tahini, and pita, which directly answers the question about the main ingredients required for the recipe."
-65,Is this recipe suitable for a kosher diet?,"The Falafel Wrap recipe is not suitable for a kosher diet as its dietary information does not indicate it meets kosher standards.
-
-For suitable recipes, consider the following:
-
-1. **American Pork Pilaf**: This recipe is labeled as kosher. However, it contains pork and beef, which may not be acceptable to all observant members of the kosher diet, as certain combinations of meat are not kosher. 
-
-2. **Thai Tofu Stew**: This recipe is also labeled as kosher. It features tofu, which is a plant-based protein, and does not combine meat and dairy, aligning well with kosher dietary laws.
-
-Recommendation: If you're looking for vegetarian options that meet kosher standards, the **Thai Tofu Stew** is a good choice, as it avoids any meat products and adheres to the kosher guidelines. However, be sure that all ingredients used are certified kosher, especially the tofu and any sauces or seasonings. 
-
-If you're seeking an alternative to pork in the **American Pork Pilaf**, consider using a kosher beef or chicken alternative and ensuring no dairy is included to keep it compliant.",RELEVANT,"The generated answer directly addresses the question about the suitability of the Falafel Wrap recipe for a kosher diet, clearly stating that it is not suitable and providing reasoning related to kosher standards."
-59,What are the main ingredients used in this dish?,"The main ingredients used in Chicken Tikka Masala are chicken, yogurt, tomato sauce, and spices.
-
-If you are looking for recipe recommendations based on these ingredients, here are a couple of options:
-
-1. **Chicken Tikka Masala**: Since this is the original recipe you reference, it perfectly utilizes all the main ingredients—chicken, yogurt, tomato sauce, and spices. The marinade with yogurt and spices tenderizes the chicken while adding distinct flavor, and the tomato sauce provides a rich base for the dish.
-
-2. **Butter Chicken**: Similar to Chicken Tikka Masala, Butter Chicken also includes chicken, yogurt, and spices, along with a creamy tomato sauce. While it may not have the exact same flavor profile, it shares a lot of similarities and is usually a crowd-pleaser.
-
-3. **Tomato-based Chicken Curry**: You could adapt a simple tomato-based chicken curry recipe using the chicken, tomato sauce, and some basic spices (like cumin, coriander, and garam masala). If yogurt is not readily available, you could substitute it with coconut milk or cream for a different but still creamy texture.
-
-If yogurt isn't available, it could potentially be replaced with sour cream or a non-dairy yogurt for a similar tang, depending on your dietary preferences.
-
-These alternatives should satisfy your requirements while remaining close to the flavor profile of Chicken Tikka Masala.",RELEVANT,"The generated answer directly addresses the main ingredients of the dish Chicken Tikka Masala—chicken, yogurt, tomato sauce, and spices—making it fully relevant to the question. Additionally, it provides further context and alternatives based on those ingredients, enhancing its relevance."
-83,How do I prepare the lentils before cooking?,"To prepare lentils before cooking, typically you want to rinse them under cold water to remove any dirt or debris. Depending on the recipe you choose, you might also soak them to help speed up the cooking process or simply allow them to hydrate a bit.
-
-Here are some recipe recommendations from our database that feature lentils and provide instructions on preparation:
-
-1. **Spanish Lentils Salad**
-   - **Why it matches**: This recipe includes lentils as the main ingredient and emphasizes their preparation alongside other ingredients like eggs and pork. Ideal if you're looking for a hearty salad.
-   - **Substitutions**: If you cannot find pork, you could consider using turkey or chicken for a leaner option.
-
-2. **Thai Lentils Larb**
-   - **Why it matches**: A vibrant dish that pairs lentils with shrimp and cheese, this recipe gives a unique twist by incorporating Thai flavors.
-   - **Substitutions**: If shrimp is unavailable, you might try using ground chicken or tofu as an alternative.
-
-3. **African Lentils Tagine**
-   - **Why it matches**: This recipe also highlights lentils along with shrimp and eggs, making it an exotic option with a rich flavor profile. It's suitable for lunch and adds diversity to your meal options.
-   - **Substitutions**: If shrimp is not available, you can replace it with chicken or omit it altogether for a vegetarian version.
-
-4. **Thai Lentils Tom Kha**
-   - **Why it matches**: This dish is a lighter, dessert-style preparation that combines lentils with pasta and shrimp, unique for its ease and flavor.
-   - **Substitutions**: If pasta is not available, you could opt for rice noodles or another gluten-free pasta for a similar texture.
-
-5. **Chinese Lentils Skillet**
-   - **Why it matches**: A savory snack option where lentils are paired with rice and pork, providing a cozy meal. This recipe is excellent for those who enjoy a comforting, homestyle dish.
-   - **Substitutions**: You can use chicken instead of pork and consider a plant-based milk if you're avoiding dairy.
-
-Each of these recipes utilizes lentils in different ways, and with the suggested substitutions, you can still enjoy a delicious meal even if you don’t have the exact ingredients on hand!",RELEVANT,"The generated answer directly addresses the question on how to prepare lentils before cooking. It provides specific steps, such as rinsing and the option to soak them, which are relevant to the preparation process. The additional recipe suggestions, while informative, are secondary to the primary question and do not detract from the main point."
-81,How do I prepare the tofu before cooking?,"To prepare tofu before cooking, it typically involves pressing it to remove excess moisture, cutting it into the desired shape, and sometimes marinating it to enhance its flavor. Here are some recipe recommendations that include tofu:
-
-1. **Korean Tofu Brownies**:
-   - **Explanation**: This recipe features tofu as a main ingredient. The prep involves preparing tofu before mixing it with other ingredients like fish and pasta. Since this recipe uses tofu in a unique way, pressing and possibly blending it for a smoother texture might be part of the preparation process.
-
-2. **French Pork Provençal Stew**:
-   - **Explanation**: In this recipe, tofu is used alongside pork and tomatoes. Tofu should be prepared similarly by pressing and cutting into cubes before being cooked with the other ingredients. This dish offers a blend of flavors that complements tofu well.
-
-3. **Italian Tofu Soup**:
-   - **Explanation**: For this soup, tofu is combined with chicken and rice. Preparing the tofu includes pressing and cutting it into small cubes or strips. The soup allows the tofu to absorb the flavors of the other ingredients, providing a hearty meal.
-
-4. **Thai Tofu Stew**:
-   - **Explanation**: This stew uses tofu with eggs and shrimp. Properly preparing the tofu by pressing it beforehand will ensure it holds its shape well during cooking and can absorb the stew's flavors.
-
-5. **Japanese Pork Katsu**:
-   - **Explanation**: In this dish, tofu is used alongside pork and shrimp. Preparing the tofu would involve pressing and possibly marinating it if desired for added flavor. The recipe's technique involves cooking tofu that pairs well with the crispy textures of the katsu.
-
-For any recipe, ensure you have firm or extra-firm tofu for better texture during cooking. If you can't find tofu, you might consider using tempeh or edamame as substitutes, though they will slightly alter the flavor and texture of the dish.",RELEVANT,"The generated answer directly addresses the question about preparing tofu before cooking by detailing the process of pressing, cutting, and potentially marinating the tofu. Furthermore, it provides additional context by suggesting various recipes that involve tofu, demonstrating thorough knowledge of its preparation methods while remaining focused on the main query."
-20,How long should I cook the main ingredients together?,"For the Pad Thai recipe, you should cook the main ingredients together for approximately **20 minutes** after stirring them together with the sauce mixture.
-
-If you're looking for recipes that feature similar main ingredients, here are two recommendations:
-
-1. **Pad Thai**: This is the most straightforward choice as it contains the main ingredients of rice noodles, shrimp, and peanuts. The cooking time after preparation is 20 minutes, making it a quick dinner option that aligns perfectly with your interest.
-
-2. **Mediterranean Pasta Soup**: While this recipe doesn't contain shrimp or peanuts, it features pasta, which is a similar carbohydrate to rice noodles. However, this dish has a significantly longer cook time (169 minutes). If you prefer a soup, you might consider using shrimp instead of traditional protein in this dish, but it will significantly alter the flavor profile.
-
-Since the Pad Thai has those exact main ingredients, it would be the best fit for your request. If you are able to replace any of these ingredients or adjust the dish further, we could explore more variations.",RELEVANT,"The generated answer directly addresses the question by providing the cooking time for the main ingredients together (20 minutes) specifically in the context of a Pad Thai recipe. Additionally, it offers relevant suggestions for similar recipes, further enhancing its relevance to the inquiry regarding cooking times."
+Both alternatives align closely with the requested ingredients while maintaining similar flavor elements.",RELEVANT,"The generated answer provides a dish, French Pork Provençal Stew, that includes both tomatoes and honey. It explains how these ingredients complement each other and also suggests alternative dishes that align with the requirements of including tomatoes and honey, all of which are directly related to the query."
