@@ -1,0 +1,206 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": {
+          "type": "grafana",
+          "uid": "-- Grafana --"
+        },
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "target": {
+          "limit": 100,
+          "matchAny": false,
+          "tags": [],
+          "type": "dashboard"
+        },
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "links": [],
+  "liveNow": false,
+  "panels": [
+    {
+      "datasource": "PostgreSQL",
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "gridPos": { "h": 6, "w": 12, "x": 0, "y": 0 },
+      "id": 1,
+      "options": {
+        "legend": { "showLegend": false },
+        "tooltip": { "mode": "single" }
+      },
+      "targets": [
+        {
+          "datasource": "PostgreSQL",
+          "editorMode": "code",
+          "format": "time_series",
+          "rawQuery": true,
+          "rawSql": "SELECT date_trunc('day', timestamp) AS time, COUNT(*) AS total_questions FROM conversations WHERE timestamp BETWEEN $__timeFrom() AND $__timeTo() GROUP BY time ORDER BY time",
+          "refId": "A"
+        }
+      ],
+      "title": "Total Questions Over Time",
+      "type": "timeseries"
+    },
+    {
+      "datasource": "PostgreSQL",
+      "fieldConfig": { "defaults": {}, "overrides": [] },
+      "gridPos": { "h": 6, "w": 12, "x": 12, "y": 0 },
+      "id": 2,
+      "options": {
+        "legend": { "showLegend": false },
+        "tooltip": { "mode": "single" }
+      },
+      "targets": [
+        {
+          "datasource": "PostgreSQL",
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT timestamp AS time, question, answer, relevance FROM conversations WHERE timestamp BETWEEN $__timeFrom() AND $__timeTo() ORDER BY timestamp DESC LIMIT 5",
+          "refId": "A"
+        }
+      ],
+      "title": "Last 5 Conversations",
+      "type": "table"
+    },
+    {
+      "datasource": "PostgreSQL",
+      "fieldConfig": { "defaults": {}, "overrides": [] },
+      "gridPos": { "h": 6, "w": 8, "x": 0, "y": 6 },
+      "id": 3,
+      "options": {
+        "displayLabels": ["percent"],
+        "legend": { "showLegend": true, "placement": "right" },
+        "pieType": "pie"
+      },
+      "targets": [
+        {
+          "datasource": "PostgreSQL",
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT CASE WHEN feedback > 0 THEN '+1' ELSE '-1' END AS feedback_label, COUNT(*) AS count FROM feedback WHERE timestamp BETWEEN $__timeFrom() AND $__timeTo() GROUP BY feedback_label",
+          "refId": "A"
+        }
+      ],
+      "title": "Feedback (+1 / -1)",
+      "type": "piechart"
+    },
+    {
+      "datasource": "PostgreSQL",
+      "fieldConfig": { "defaults": {}, "overrides": [] },
+      "gridPos": { "h": 6, "w": 8, "x": 8, "y": 6 },
+      "id": 4,
+      "options": {},
+      "targets": [
+        {
+          "datasource": "PostgreSQL",
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT relevance, COUNT(*) AS count FROM conversations WHERE timestamp BETWEEN $__timeFrom() AND $__timeTo() GROUP BY relevance",
+          "refId": "A"
+        }
+      ],
+      "title": "Relevance Distribution",
+      "type": "barchart"
+    },
+    {
+      "datasource": "PostgreSQL",
+      "fieldConfig": { "defaults": {}, "overrides": [] },
+      "gridPos": { "h": 6, "w": 8, "x": 16, "y": 6 },
+      "id": 5,
+      "options": {},
+      "targets": [
+        {
+          "datasource": "PostgreSQL",
+          "editorMode": "code",
+          "format": "time_series",
+          "rawQuery": true,
+          "rawSql": "SELECT date_trunc('day', timestamp) AS time, SUM(openai_cost) AS total_cost FROM conversations WHERE timestamp BETWEEN $__timeFrom() AND $__timeTo() GROUP BY time ORDER BY time",
+          "refId": "A"
+        }
+      ],
+      "title": "OpenAI Cost Over Time",
+      "type": "timeseries"
+    },
+    {
+      "datasource": "PostgreSQL",
+      "fieldConfig": { "defaults": {}, "overrides": [] },
+      "gridPos": { "h": 6, "w": 8, "x": 0, "y": 12 },
+      "id": 6,
+      "options": {},
+      "targets": [
+        {
+          "datasource": "PostgreSQL",
+          "editorMode": "code",
+          "format": "time_series",
+          "rawQuery": true,
+          "rawSql": "SELECT timestamp AS time, response_time FROM conversations WHERE timestamp BETWEEN $__timeFrom() AND $__timeTo() ORDER BY timestamp",
+          "refId": "A"
+        }
+      ],
+      "title": "Response Time",
+      "type": "timeseries"
+    },
+    {
+      "datasource": "PostgreSQL",
+      "fieldConfig": { "defaults": {}, "overrides": [] },
+      "gridPos": { "h": 6, "w": 8, "x": 8, "y": 12 },
+      "id": 7,
+      "options": {},
+      "targets": [
+        {
+          "datasource": "PostgreSQL",
+          "editorMode": "code",
+          "format": "time_series",
+          "rawQuery": true,
+          "rawSql": "SELECT timestamp AS time, total_tokens FROM conversations WHERE timestamp BETWEEN $__timeFrom() AND $__timeTo() ORDER BY timestamp",
+          "refId": "A"
+        }
+      ],
+      "title": "Tokens Used",
+      "type": "timeseries"
+    },
+    {
+      "datasource": "PostgreSQL",
+      "fieldConfig": { "defaults": {}, "overrides": [] },
+      "gridPos": { "h": 6, "w": 8, "x": 16, "y": 12 },
+      "id": 8,
+      "options": {},
+      "targets": [
+        {
+          "datasource": "PostgreSQL",
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT model_used, COUNT(*) AS count FROM conversations WHERE timestamp BETWEEN $__timeFrom() AND $__timeTo() GROUP BY model_used",
+          "refId": "A"
+        }
+      ],
+      "title": "Model Usage",
+      "type": "barchart"
+    }
+  ],
+  "refresh": "30s",
+  "schemaVersion": 37,
+  "style": "dark",
+  "tags": [],
+  "templating": { "list": [] },
+  "time": { "from": "now-1h", "to": "now" },
+  "timepicker": {},
+  "timezone": "",
+  "title": "Recipe Assistant",
+  "weekStart": ""
+}

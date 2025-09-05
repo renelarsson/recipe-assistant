@@ -6,7 +6,7 @@ Uses advanced retrieval from retrieval.py and answer evaluation.
 import json
 from time import time
 from openai import OpenAI
-import retrieval
+from recipe_assistant import retrieval
 
 client = OpenAI()
 

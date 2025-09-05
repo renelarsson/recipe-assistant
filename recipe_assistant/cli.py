@@ -49,7 +49,7 @@ def main():
             question = get_random_question(csv_file)
             print(f"\nRandom question: {question}")
         else:
-            question = questionary.text("What ingredients do you have?").ask()
+            question = questionary.text("Ask your recipe question (e.g., 'What can I cook with chicken and rice?' or 'What can I bake with milk, flour, sugar, and eggs'):").ask()
 
         # Ask the API for recipe recommendations
         response = ask_question(f"{base_url}/question", question)

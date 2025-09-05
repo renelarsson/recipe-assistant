@@ -9,8 +9,8 @@ Flask API for Recipe Assistant.
 import uuid
 import os
 from flask import Flask, request, jsonify
-from rag import rag  # Advanced RAG pipeline (uses retrieval.py)
-import db  # Database logging
+from recipe_assistant.rag import rag  # Advanced RAG pipeline (uses retrieval.py)
+from recipe_assistant import db  # Database logging
 
 app = Flask(__name__)
 
