@@ -16,6 +16,11 @@ questionary = "*"
 psycopg2-binary = "*"
 elasticsearch = ">=8.0.0,<9.0.0"
 prefect = "*"
+opentelemetry-api = "==1.36.0"
+opentelemetry-sdk = "==1.36.0"
+opentelemetry-instrumentation = "==0.57b0"
+opentelemetry-instrumentation-flask = "==0.57b0"
+opentelemetry-exporter-otlp = "==1.36.0"
 
 [dev-packages]
 jupyter = "*"

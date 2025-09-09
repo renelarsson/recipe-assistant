@@ -16,10 +16,11 @@ scrape_configs:
         labels:
           job: varlogs
           __path__: /var/log/*log
+
   - job_name: app
     static_configs:
       - targets:
           - localhost
         labels:
           job: applogs
-          __path__: /app/logs/*.log
+          __path__: /app/logs/*.log # __path__ refers to the path inside the Promtail container, not a local folder
