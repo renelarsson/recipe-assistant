@@ -2,11 +2,12 @@ apiVersion: 1
 
 groups:
   - name: response-time-alerts
+    folder: Provisioned Alerts
     interval: 1m
     rules:
       - uid: high-response-time
         title: High Response Time
-        condition: C
+        condition: A
         data:
           - refId: A
             relativeTimeRange:

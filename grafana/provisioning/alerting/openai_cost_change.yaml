@@ -2,11 +2,12 @@ apiVersion: 1
 
 groups:
   - name: openai-cost-alerts
+    folder: Provisioned Alerts
     interval: 1m
     rules:
       - uid: openai-cost-change
         title: Major Change in OpenAI Charges
-        condition: C
+        condition: A
         data:
           - refId: A
             relativeTimeRange:
