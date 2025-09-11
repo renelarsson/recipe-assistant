@@ -1,0 +1,35 @@
+apiVersion: 1
+
+groups:
+  - name: response-time-alerts
+    interval: 1m
+    rules:
+      - uid: high-response-time
+        title: High Response Time
+        condition: C
+        data:
+          - refId: A
+            relativeTimeRange:
+              from: 300
+              to: 0
+            datasourceUid: PCC52D03280B7034C
+            model:
+              rawSql: |
+                SELECT
+                  $__timeGroupAlias(timestamp, 1m),
+                  AVG(response_time) AS avg_response_time
+                FROM conversations
+                WHERE $__timeFilter(timestamp)
+                GROUP BY 1
+                ORDER BY 1
+              format: time_series
+              intervalMs: 60000
+              maxDataPoints: 43200
+        noDataState: NoData
+        execErrState: Error
+        for: 5m
+        annotations:
+          summary: "Average response time is above threshold"
+        labels:
+          severity: warning
+        isPaused: false

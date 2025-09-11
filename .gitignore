@@ -149,9 +149,11 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.ssh/
 
 # Data and datasets
 data/raw/
+grafana/loki-data/
 
 # Spyder project settings
 .spyderproject

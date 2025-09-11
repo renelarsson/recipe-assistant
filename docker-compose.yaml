@@ -33,8 +33,7 @@ services:
     volumes: # Ensure logs written inside the container to /app/logs/app.log are visible on host at logs/app.log
       - ./logs:/app/logs
       - ./data:/app/data
-    command: >
-      opentelemetry-instrument gunicorn -b 0.0.0.0:5000 recipe_assistant.app:app
+    command: "opentelemetry-instrument gunicorn -b 0.0.0.0:5000 recipe_assistant.app:app"
 
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:8.13.4
@@ -58,6 +57,7 @@ services:
       - grafana_data:/var/lib/grafana
       - ./grafana/provisioning/datasources:/etc/grafana/provisioning/datasources
       - ./grafana/provisioning/dashboards:/etc/grafana/provisioning/dashboards
+      - ./grafana/provisioning/alerting:/etc/grafana/provisioning/alerting
       - ./grafana/dashboards:/var/lib/grafana/dashboards
     environment:
       - GF_SECURITY_ADMIN_PASSWORD=${GRAFANA_ADMIN_PASSWORD:-admin}

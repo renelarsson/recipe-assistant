@@ -1,0 +1,35 @@
+apiVersion: 1
+
+groups:
+  - name: openai-cost-alerts
+    interval: 1m
+    rules:
+      - uid: openai-cost-change
+        title: Major Change in OpenAI Charges
+        condition: C
+        data:
+          - refId: A
+            relativeTimeRange:
+              from: 1440
+              to: 0
+            datasourceUid: PCC52D03280B7034C
+            model:
+              rawSql: |
+                SELECT
+                  $__timeGroupAlias(timestamp, 1h),
+                  SUM(openai_cost) AS total_cost
+                FROM conversations
+                WHERE $__timeFilter(timestamp)
+                GROUP BY 1
+                ORDER BY 1
+              format: time_series
+              intervalMs: 3600000
+              maxDataPoints: 1000
+        noDataState: NoData
+        execErrState: Error
+        for: 10m
+        annotations:
+          summary: "OpenAI charges have changed significantly in the last 24 hours"
+        labels:
+          severity: critical
+        isPaused: false
