@@ -65,12 +65,14 @@ def create_es_index_task(es_index):
     if not es_client.indices.exists(index=es_index):
         es_client.indices.create(index=es_index, body=index_settings)
 
+
 @task
 def index_to_es_task(df, es_index):
     """Index recipes into Elasticsearch."""
     es_client = Elasticsearch(os.getenv("ES_URL", "http://localhost:9200"))
     for doc in df.to_dict(orient="records"):
         es_client.index(index=es_index, document=doc)
+
     print(f"Ingested {len(df)} recipes into Elasticsearch index '{es_index}'.")
 
 @flow(name="Recipe Ingestion Pipeline")
@@ -85,5 +87,13 @@ def prefect_ingest_flow(
     index_to_es_task(df, es_index)
 
 if __name__ == "__main__":
-    # Run the Prefect ingestion flow as a script
-    prefect_ingest_flow()
+    import sys
+    if "--no-prefect" in sys.argv:
+        # Run as plain script (no Prefect)
+        df = load_data_task.fn(DATA_PATH)
+        df = compute_embeddings_task.fn(df)
+        create_es_index_task.fn(ES_INDEX)
+        index_to_es_task.fn(df, ES_INDEX)
+    else:
+        # Run as Prefect flow (default)
+        prefect_ingest_flow()

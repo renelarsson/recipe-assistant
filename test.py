@@ -8,7 +8,7 @@ import pandas as pd
 import requests
 
 # Load ground-truth questions
-df = pd.read_csv("../data/ground-truth-retrieval.csv")
+df = pd.read_csv("data/ground-truth-retrieval.csv")
 question = df.sample(n=1).iloc[0]['question']
 
 print("question:", question)

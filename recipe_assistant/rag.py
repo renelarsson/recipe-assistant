@@ -8,6 +8,7 @@ from time import time
 from openai import OpenAI
 from recipe_assistant import retrieval
 
+
 client = OpenAI()
 
 # Prompt templates for LLM answer generation and evaluation
@@ -35,14 +36,17 @@ Dietary Info: {dietary_restrictions}
 
 def build_prompt(query, search_results):
     """Builds the prompt for the LLM using retrieved recipes."""
-    context = "\n\n".join([entry_template.format(**doc) for doc in search_results])
+    context = "\n\n".join([
+        entry_template.format(**doc) for doc in search_results
+    ])
     prompt = prompt_template.format(question=query, context=context).strip()
     return prompt
 
 def llm(prompt, model="gpt-4o-mini"):
     """Calls OpenAI LLM and returns answer and token stats."""
     response = client.chat.completions.create(
-        model=model, messages=[{"role": "user", "content": prompt}]
+        model=model,
+        messages=[{"role": "user", "content": prompt}]
     )
     answer = response.choices[0].message.content
     token_stats = {
@@ -88,7 +92,8 @@ def calculate_openai_cost(model, tokens):
     openai_cost = 0
     if model == "gpt-4o-mini":
         openai_cost = (
-            tokens["prompt_tokens"] * 0.00015 + tokens["completion_tokens"] * 0.0006
+            tokens["prompt_tokens"] * 0.00015
+            + tokens["completion_tokens"] * 0.0006
         ) / 1000
     else:
         print("Model not recognized. OpenAI cost calculation failed.")
@@ -104,9 +109,13 @@ def es_best_rag_with_rerank(query, model="gpt-4o-mini", num_results=5, max_time=
     """
     t0 = time()
     # Step 1 & 2: Cover + Hybrid search (returns a diverse, semantically relevant pool)
-    candidates = retrieval.es_cover_then_hybrid_search(query, num_results=num_results, max_time=max_time)
+    candidates = retrieval.es_cover_then_hybrid_search(
+        query, num_results=num_results, max_time=max_time
+    )
     # Step 3: LLM reranking (returns best ordering for answer context)
-    reranked = retrieval.rerank_with_llm(query, candidates, max_time=max_time, model=model)
+    reranked = retrieval.rerank_with_llm(
+        query, candidates, max_time=max_time, model=model
+    )
     # Step 4: Build prompt and get answer
     prompt = build_prompt(query, reranked)
     answer, token_stats = llm(prompt, model=model)
@@ -148,13 +157,21 @@ def rag(query, model="gpt-4o-mini", approach="cover"):
         return es_best_rag_with_rerank(query, model=model)
     t0 = time()
     if approach == "cover":
-        search_results = retrieval.es_cover_ingredients_search(query, num_results=5)
+        search_results = retrieval.es_cover_ingredients_search(
+            query, num_results=5
+        )
     elif approach == "hybrid":
-        search_results = retrieval.es_hybrid_search(query, num_results=5)
+        search_results = retrieval.es_hybrid_search(
+            query, num_results=5
+        )
     elif approach == "cover_hybrid":
-        search_results = retrieval.es_cover_then_hybrid_search(query, num_results=5)
+        search_results = retrieval.es_cover_then_hybrid_search(
+            query, num_results=5
+        )
     else:
-        raise ValueError("Unknown approach: choose 'cover', 'hybrid', 'cover_hybrid', or 'best'")
+        raise ValueError(
+            "Unknown approach: choose 'cover', 'hybrid', 'cover_hybrid', or 'best'"
+        )
     prompt = build_prompt(query, search_results)
     answer, token_stats = llm(prompt, model=model)
     relevance, rel_token_stats = evaluate_relevance(query, answer)

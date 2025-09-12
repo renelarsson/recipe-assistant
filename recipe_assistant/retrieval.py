@@ -100,7 +100,9 @@ def es_hybrid_search(query, num_results=5, max_time=None):
                     }
                 },
                 "script": {
-                    "source": "cosineSimilarity(params.query_vector, 'all_ingredients_vector') + 1.0",
+                    "source": (
+                        "cosineSimilarity(params.query_vector, 'all_ingredients_vector') + 1.0"
+                    ),
                     "params": {"query_vector": query_vector},
                 }
             }
@@ -152,14 +154,19 @@ def es_cover_then_hybrid_search(query, num_results=5, max_time=None, hybrid_top_
     1. Run cover ingredients search for diversity.
     2. Rerank by semantic similarity (embedding) for relevance.
     """
-    cover_results = es_cover_ingredients_search(query, num_results=candidate_pool_size, max_time=max_time)
+    cover_results = es_cover_ingredients_search(
+        query, num_results=candidate_pool_size, max_time=max_time
+    )
     if not cover_results:
         return []
     query_emb = get_embedding(query)
     cover_embeddings = [
-        np.array(doc['all_ingredients_vector']) for doc in cover_results if 'all_ingredients_vector' in doc
+        np.array(doc['all_ingredients_vector'])
+        for doc in cover_results if 'all_ingredients_vector' in doc
     ]
-    similarities = [np.dot(query_emb, emb) for emb in cover_embeddings]
+    similarities = [
+        np.dot(query_emb, emb) for emb in cover_embeddings
+    ]
     top_indices = np.argsort(similarities)[-hybrid_top_k:][::-1]
     hybrid_results = [cover_results[i] for i in top_indices]
     for doc in hybrid_results:
@@ -173,8 +180,12 @@ def rerank_with_llm(query, candidates, max_time=None, model="gpt-4o-mini"):
     """
     if max_time is not None:
         candidates = filter_by_max_time(candidates, max_time)
-    context = "\n\n".join([f"Recipe: {doc['recipe_name']}\nIngredients: {doc['main_ingredients']}" for doc in candidates])
-    prompt = f"""
+    context = "\n\n".join([
+        f"Recipe: {doc['recipe_name']}\nIngredients: {doc['main_ingredients']}"
+        for doc in candidates
+    ])
+    prompt = (
+        f"""
 Given the following user query and candidate recipes, rank the recipes from most to least relevant.
 
 Query: {query}
@@ -184,6 +195,7 @@ Candidates:
 
 Return a JSON list of recipe names in ranked order.
 """.strip()
+    )
     response = openai_client.chat.completions.create(
         model=model,
         messages=[{"role": "user", "content": prompt}]
@@ -195,5 +207,7 @@ Return a JSON list of recipe names in ranked order.
         ranked_names = json.loads(json_match.group())
     else:
         return candidates
-    ranked_docs = [doc for name in ranked_names for doc in candidates if doc['recipe_name'] == name]
+    ranked_docs = [
+        doc for name in ranked_names for doc in candidates if doc['recipe_name'] == name
+    ]
     return ranked_docs

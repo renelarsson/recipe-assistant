@@ -17,13 +17,16 @@ groups:
             model:
               rawSql: |
                 SELECT
-                  $__timeGroupAlias(timestamp, 1m),
-                  AVG(response_time) AS avg_response_time
-                FROM conversations
-                WHERE $__timeFilter(timestamp)
-                GROUP BY 1
-                ORDER BY 1
-              format: time_series
+                  MAX(avg_response_time) AS max_avg_response_time
+                FROM (
+                  SELECT
+                    $__timeGroupAlias(timestamp, 1m),
+                    AVG(response_time) AS avg_response_time
+                  FROM conversations
+                  WHERE $__timeFilter(timestamp)
+                  GROUP BY 1
+                ) t
+              format: table
               intervalMs: 60000
               maxDataPoints: 43200
         noDataState: NoData

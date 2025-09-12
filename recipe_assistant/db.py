@@ -1,3 +1,4 @@
+
 """
 Database module for Recipe Assistant.
 Handles all interactions with the PostgreSQL database, including:
@@ -43,7 +44,8 @@ def init_db():
             cur.execute("DROP TABLE IF EXISTS feedback")
             cur.execute("DROP TABLE IF EXISTS conversations")
             # Create conversations table to store each user interaction and LLM answer
-            cur.execute("""
+            cur.execute(
+                """
                 CREATE TABLE conversations (
                     id TEXT PRIMARY KEY,
                     question TEXT NOT NULL,
@@ -61,16 +63,19 @@ def init_db():
                     openai_cost FLOAT NOT NULL,
                     timestamp TIMESTAMP WITH TIME ZONE NOT NULL
                 )
-            """)
+                """
+            )
             # Create feedback table to store user feedback on answers
-            cur.execute("""
+            cur.execute(
+                """
                 CREATE TABLE feedback (
                     id SERIAL PRIMARY KEY,
                     conversation_id TEXT REFERENCES conversations(id),
                     feedback INTEGER NOT NULL,
                     timestamp TIMESTAMP WITH TIME ZONE NOT NULL
                 )
-            """)
+                """
+            )
         conn.commit()
     finally:
         conn.close()
@@ -139,14 +144,14 @@ def get_recent_conversations(limit=5, relevance=None):
     conn = get_db_connection()
     try:
         with conn.cursor(cursor_factory=DictCursor) as cur:
-            query = """
-                SELECT c.*, f.feedback
-                FROM conversations c
-                LEFT JOIN feedback f ON c.id = f.conversation_id
-            """
+            query = (
+                "SELECT c.*, f.feedback "
+                "FROM conversations c "
+                "LEFT JOIN feedback f ON c.id = f.conversation_id "
+            )
             if relevance:
-                query += f" WHERE c.relevance = '{relevance}'"
-            query += " ORDER BY c.timestamp DESC LIMIT %s"
+                query += f"WHERE c.relevance = '{relevance}' "
+            query += "ORDER BY c.timestamp DESC LIMIT %s"
             cur.execute(query, (limit,))
             return cur.fetchall()
     finally:
@@ -193,16 +198,18 @@ def check_timezone():
             print(f"Python current time: {py_time}")
 
             # Insert a test conversation to check timestamp handling
-            cur.execute("""
+            cur.execute(
+                """
                 INSERT INTO conversations
                 (id, question, answer, model_used, response_time, relevance,
                 relevance_explanation, prompt_tokens, completion_tokens, total_tokens,
                 eval_prompt_tokens, eval_completion_tokens, eval_total_tokens, openai_cost, timestamp)
                 VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
                 RETURNING timestamp;
-            """,
-            ('test', 'test question', 'test answer', 'test model', 0.0, 0.0,
-             'test explanation', 0, 0, 0, 0, 0, 0, 0.0, py_time))
+                """,
+                ('test', 'test question', 'test answer', 'test model', 0.0, 0.0,
+                 'test explanation', 0, 0, 0, 0, 0, 0, 0.0, py_time)
+            )
 
             inserted_time = cur.fetchone()[0]
             print(f"Inserted time (UTC): {inserted_time}")
@@ -220,6 +227,7 @@ def check_timezone():
         conn.rollback()
     finally:
         conn.close()
+
 
 # Optionally run timezone check at import (for debugging)
 if RUN_TIMEZONE_CHECK:

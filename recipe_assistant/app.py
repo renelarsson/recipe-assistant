@@ -1,9 +1,9 @@
 """
 Flask API for Recipe Assistant.
-- Exposes endpoints for question answering and feedback collection.
-- Uses advanced RAG pipeline (cover, hybrid, LLM rerank) via rag.py/retrieval.py.
-- Logs conversations and feedback to PostgreSQL via db.py.
-- Designed for containerization and cloud deployment (e.g., AWS EC2).
+ Exposes endpoints for question answering and feedback collection.
+ Uses advanced RAG pipeline (cover, hybrid, LLM rerank) via rag.py/retrieval.py.
+ Logs conversations and feedback to PostgreSQL via db.py.
+ Designed for containerization and cloud deployment (e.g., AWS EC2).
 """
 
 import uuid
@@ -18,10 +18,13 @@ from opentelemetry.sdk.trace.export import BatchSpanProcessor
 from opentelemetry.exporter.otlp.proto.http.trace_exporter import OTLPSpanExporter
 from opentelemetry import trace
 
+
 logging.getLogger("opentelemetry").setLevel(logging.DEBUG)
 logging.getLogger("opentelemetry.sdk.trace.export").setLevel(logging.DEBUG)
 
+
 os.makedirs('logs', exist_ok=True)  # Ensure the logs directory exists
+
 
 logging.basicConfig(
     filename='logs/app.log',
@@ -32,15 +35,19 @@ logging.basicConfig(
 # Add a console handler for DEBUG logs
 console = logging.StreamHandler()
 console.setLevel(logging.DEBUG)
+
 formatter = logging.Formatter('%(asctime)s %(levelname)s %(name)s %(message)s')
 console.setFormatter(formatter)
 logging.getLogger().addHandler(console)
 
 app = Flask(__name__)
 
+
 trace.set_tracer_provider(TracerProvider())
 # The endpoint should include /v1/traces for OTLP HTTP
-span_processor = BatchSpanProcessor(OTLPSpanExporter(endpoint="http://tempo:4318/v1/traces"))
+span_processor = BatchSpanProcessor(
+    OTLPSpanExporter(endpoint="http://tempo:4318/v1/traces")
+)
 trace.get_tracer_provider().add_span_processor(span_processor)
 FlaskInstrumentor().instrument_app(app)
 
@@ -59,17 +66,26 @@ def handle_question():
             return jsonify({"error": "No question provided"}), 400
 
         conversation_id = str(uuid.uuid4())
-        logging.info(f"Received question: {question} (conversation_id={conversation_id}, approach={approach})")    
+
+        logging.info(
+            f"Received question: {question} (conversation_id={conversation_id}, approach={approach})"
+        )
 
         # Run the RAG pipeline (default: best approach)
-        answer_data = rag(question, approach=approach or os.getenv("RETRIEVAL_APPROACH", "best"))
+
+        answer_data = rag(
+            question,
+            approach=approach or os.getenv("RETRIEVAL_APPROACH", "best")
+        )
 
         # Log the conversation to the database
+
         db.save_conversation(
             conversation_id=conversation_id,
             question=question,
             answer_data=answer_data,
         )
+
 
         result = {
             "conversation_id": conversation_id,
@@ -97,26 +113,32 @@ def handle_feedback():
         logging.error("Invalid feedback input in /feedback endpoint")
         return jsonify({"error": "Invalid input"}), 400
 
-    logging.info(f"Received feedback: {feedback} for conversation_id={conversation_id}")
 
-
+    logging.info(
+        f"Received feedback: {feedback} for conversation_id={conversation_id}"
+    )
     db.save_feedback(
         conversation_id=conversation_id,
         feedback=feedback,
     )
+
 
     result = {
         "message": f"Feedback received for conversation {conversation_id}: {feedback}"
     }
     return jsonify(result)
 
+
+
 @app.route("/health", methods=["GET"])
 def health_check():
     """Simple health check endpoint for monitoring and cloud deployment."""
     return jsonify({"status": "ok"})
 
+
 # Force log output for testing
 logging.info("Recipe Assistant app started.")
+
 
 if __name__ == "__main__":
     # For local development only; use gunicorn or similar in production

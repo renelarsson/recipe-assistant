@@ -17,15 +17,12 @@ groups:
             model:
               rawSql: |
                 SELECT
-                  $__timeGroupAlias(timestamp, 1h),
                   SUM(openai_cost) AS total_cost
                 FROM conversations
                 WHERE $__timeFilter(timestamp)
-                GROUP BY 1
-                ORDER BY 1
-              format: time_series
+              format: table
               intervalMs: 3600000
-              maxDataPoints: 1000
+              maxDataPoints: 1
         noDataState: NoData
         execErrState: Error
         for: 10m

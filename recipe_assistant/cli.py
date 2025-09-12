@@ -1,10 +1,11 @@
+
 """
 Command-line interface (CLI) for the Recipe Assistant.
 Allows users to interactively ask for recipe recommendations and provide feedback (+1/-1).
 Communicates with the Flask API backend via HTTP requests.
 """
 
-import json
+
 import uuid
 import argparse
 import requests
@@ -33,12 +34,15 @@ def main():
         description="Interactive CLI app for recipe recommendations"
     )
     parser.add_argument(
-        "--random", action="store_true", help="Use random questions from the CSV file"
+        "--random",
+        action="store_true",
+        help="Use random questions from the CSV file"
     )
     args = parser.parse_args()
 
     base_url = "http://localhost:5000"
     csv_file = "../data/ground-truth-retrieval.csv"
+
 
     print("Welcome to the Recipe Assistant!")
     print("You can exit the program at any time when prompted.")
@@ -49,11 +53,17 @@ def main():
             question = get_random_question(csv_file)
             print(f"\nRandom question: {question}")
         else:
-            question = questionary.text("Ask your recipe question (e.g., 'What can I cook with chicken and rice?' or 'What can I bake with milk, flour, sugar, and eggs'):").ask()
+            question = questionary.text(
+                "Ask your recipe question (e.g., 'What can I cook with chicken and rice?' "
+                "or 'What can I bake with milk, flour, sugar, and eggs'):"
+            ).ask()
 
         # Ask the API for recipe recommendations
         response = ask_question(f"{base_url}/question", question)
-        print("\nRecipe recommendations:", response.get("answer", "No recommendations provided"))
+        print(
+            "\nRecipe recommendations:",
+            response.get("answer", "No recommendations provided")
+        )
 
         # Get conversation ID for feedback
         conversation_id = response.get("conversation_id", str(uuid.uuid4()))
@@ -61,7 +71,11 @@ def main():
         # Prompt user for feedback (+1, -1, or skip)
         feedback = questionary.select(
             "How would you rate this response?",
-            choices=["+1 (Positive)", "-1 (Negative)", "Pass (Skip feedback)"],
+            choices=[
+                "+1 (Positive)",
+                "-1 (Negative)",
+                "Pass (Skip feedback)"
+            ]
         ).ask()
 
         if feedback != "Pass (Skip feedback)":
@@ -71,11 +85,9 @@ def main():
         else:
             print("Feedback skipped.")
 
-        # Ask if user wants to continue
-        continue_prompt = questionary.confirm("Do you want another recommendation?").ask()
+        continue_prompt = questionary.confirm(
+            "Do you want another recommendation?"
+        ).ask()
         if not continue_prompt:
             print("Thank you for using Recipe Assistant. Goodbye!")
             break
-
-if __name__ == "__main__":
-    main()
