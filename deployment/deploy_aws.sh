@@ -8,13 +8,12 @@ set -e  # Exit on error
 echo "Installing Docker and Docker Compose..."
 sudo apt update
 sudo apt install -y docker.io docker-compose
+sudo apt install -y make
 sudo usermod -aG docker $USER
-newgrp docker
+#newgrp docker
 
-# 3. Clone the repository
-echo "Cloning the Recipe Assistant repository..."
-git clone https://github.com/renelarsson/recipe-assistant.git || true
-cd recipe-assistant
+# 3. Change to the project directory (if not already there)
+cd $(dirname "$0")/..
 
 # 4. Set up environment variables
 echo "Setting up environment variables..."
