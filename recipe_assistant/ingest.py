@@ -18,6 +18,8 @@ EMBEDDING_DIM = 1536
 def load_data_task(data_path):
     """Load recipes from CSV file."""
     df = pd.read_csv(data_path)
+    # Limit to 10 rows for test/dev runs
+    df = df.head(10)
     if 'id' not in df.columns:
         df['id'] = range(len(df))
     return df

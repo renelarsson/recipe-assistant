@@ -15,43 +15,50 @@ sudo usermod -aG docker $USER
 # 3. Change to the project directory (if not already there)
 cd $(dirname "$0")/..
 
-# 4. Set up environment variables
-echo "Setting up environment variables..."
-cp .env.template .env
-# Edit .env as needed (manual step)
-
-# 5. Build and start all services with Docker Compose
+# 4. Build and start all services with Docker Compose
 echo "Building and starting all services..."
 docker compose up --build -d
 
-# 6. Set correct permissions for Loki log storage
+# 5. Set correct permissions for Loki log storage
 echo "Setting permissions for Loki log storage..."
 sudo mkdir -p ./grafana/loki-data/chunks
 sudo chmod -R 777 ./grafana/loki-data
 
 
-# 7. Initialize/reset the PostgreSQL database schema using Makefile
+# 6. Initialize/reset the PostgreSQL database schema using Makefile
 echo "Initializing the PostgreSQL database schema (make db-init)..."
 make db-init
 
-# 8. (Optional) Verify database tables exist
+# 7. (Optional) Verify database tables exist
 echo "Verifying database tables..."
 docker compose exec postgres psql -U $POSTGRES_USER -d recipe_assistant -c '\dt'
 
-# 9. Restart app and Grafana containers
+# 8. Restart app and Grafana containers
 echo "Restarting app and Grafana containers..."
 docker compose restart app grafana
 
-# 10. Health check for Flask API
-echo "Checking API health endpoint..."
-curl -f http://localhost:5000/health
+
+# 9. Health check for Flask API (wait until ready)
+echo "Waiting for Flask API to become ready..."
+MAX_WAIT=60  # seconds
+WAITED=0
+until curl -sf http://localhost:5000/health > /dev/null; do
+	if [ $WAITED -ge $MAX_WAIT ]; then
+		echo "Flask API did not become ready after $MAX_WAIT seconds. Exiting." >&2
+		exit 1
+	fi
+	sleep 2
+	WAITED=$((WAITED+2))
+	echo "  ...waiting ($WAITED/$MAX_WAIT seconds)"
+done
+echo "Flask API is ready!"
 
 
-# 11. Ingest recipe data into Elasticsearch using Makefile
+# 10. Ingest recipe data into Elasticsearch using Makefile
 echo "Ingesting recipe data into Elasticsearch (make ingest)..."
 make ingest
 
-# 12. Automated smoke test: POST a sample question to the API to verify end-to-end functionality
+# 11. Automated smoke test: POST a sample question to the API to verify end-to-end functionality
 echo "Running smoke test: POST /question to verify API end-to-end..."
 SMOKE_TEST_RESPONSE=$(curl -s -X POST http://localhost:5000/question \
 	-H "Content-Type: application/json" \

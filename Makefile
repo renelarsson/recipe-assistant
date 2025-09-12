@@ -57,7 +57,7 @@ db-shell:
 
 # Ingest data into Elasticsearch (inside app container)/add --no-prefect if timed out 
 ingest:
-	$(COMPOSE) exec $(APP_CONTAINER) python -m recipe_assistant.ingest
+	$(COMPOSE) exec $(APP_CONTAINER) python -m recipe_assistant.ingest --no-prefect
 
 # Initialize/reset the PostgreSQL database (inside app container)
 # (creates tables: conversations, feedback)
