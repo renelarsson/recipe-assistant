@@ -1,0 +1,277 @@
+question,answer,relevance,feedback,conversation_id
+I'm looking for a vegetarian lunch recipe with eggs and herbs.,"Based on the provided context, the African Shrimp Skillet includes eggs and herbs, but it is not a vegetarian recipe as it contains shrimp. Unfortunately, there are no vegetarian lunch recipes with eggs and herbs mentioned in the context. Therefore, I cannot provide a suitable recipe that fits your criteria.",NON_RELEVANT,-1,2624585b-1030-4488-875b-ad51e43a54d4
+Can you suggest a lunch recipe that I can prepare in under an hour?,"Sure! Here’s a lunch recipe you can prepare in under an hour:
+
+**Quick Vegetable Stir-Fry**
+
+**Ingredients:**
+- 2 cups of mixed vegetables (like bell peppers, broccoli, and carrots)
+- 1 cup of cooked protein (chicken, tofu, or shrimp)
+- 2 tablespoons of soy sauce
+- 1 tablespoon of olive oil
+- 1 teaspoon of garlic (minced)
+- Cooked rice or noodles (for serving)
+
+**Instructions:**
+1. Heat the olive oil in a large skillet over medium-high heat.
+2. Add the minced garlic and sauté for 30 seconds until fragrant.
+3. Add the mixed vegetables and cooked protein to the skillet. Stir-fry for about 5-7 minutes, or until the vegetables are tender-crisp.
+4. Pour the soy sauce over the stir-fry and mix well. Cook for another 2 minutes.
+5. Serve over cooked rice or noodles.
+
+This recipe is quick, delicious, and can be made in under an hour! Enjoy your lunch!",RELEVANT,1,ad84b0d7-2754-4dc3-b194-9a5928fe7c64
+Is there a dessert option using yogurt and fish that would take less than 2 hours to cook?,"Based on the provided CONTEXT, there is no dessert option that includes yogurt and fish, as these ingredients are typically not combined in dessert recipes. Additionally, desserts usually don’t require fish, and cooking time for such a dish would likely exceed 2 hours. Therefore, there is no dessert option using yogurt and fish that fits the criteria.",RELEVANT,1,1e0e5504-f969-42dc-b855-5dd579355f0e
+"What can I make with fish, cheese, and shrimp for dessert?","You can make ""African Fish Pudding,"" which is a dessert that includes fish, cheese, and shrimp as main ingredients. The recipe involves cooking these ingredients with milk, garlic, yogurt, and herbs.",NON_RELEVANT,-1,f2c6d7a3-b8f7-4153-a900-dcc412bc4588
+"What can I cook that uses milk, sugar, and tofu?","You can cook a Japanese Tofu Casserole, which uses milk, sugar, and tofu along with other ingredients like cheese and eggs.",PARTLY_RELEVANT,1,7364cbeb-36d6-4cdc-a5cc-7736ce0b3bcc
+What can I cook with beef and rice that takes a bit longer but is worth it?,"You can cook a Middle Eastern Spinach Bake with beef and rice. This recipe takes a bit longer, with a total prep and cook time of 108 minutes, but it's definitely worth it due to its rich flavors and satisfying ingredients.",PARTLY_RELEVANT,1,6ea97958-e7e0-487e-8c3d-9b91f74c9f9a
+"Can you recommend a dish using rice, onion, and milk that I can prepare?","Sure! You can prepare a creamy rice and onion risotto. To make this dish, you'll need Arborio rice, finely chopped onions, milk, broth (or water), and your choice of seasonings. Sauté the onions until translucent, add the rice, stir it for a couple of minutes, and then gradually add in warm broth and milk, stirring constantly until the rice is cooked and creamy. You can finish it off with some grated cheese if you'd like. Enjoy your dish!",RELEVANT,1,109fa848-3bfe-41f3-8cfb-a97a5b06ee10
+I need a filling lunch option that takes less than 45 minutes to cook; any ideas?,"Sure! You can prepare a delicious stir-fried rice bowl with vegetables and protein. It takes about 30-40 minutes to cook. Just sauté your choice of protein (like chicken, tofu, or shrimp) with a mix of vegetables such as bell peppers, carrots, and broccoli. Add cooked rice, soy sauce, and any desired seasonings. Serve hot for a satisfying and filling lunch option.",RELEVANT,1,5f791e8a-0358-4633-8d8a-2566c7d32968
+I'm looking for a recipe that takes under an hour to prepare and includes cheese and meat.,"Based on the context provided, there are no recipes that include both cheese and meat which can be prepared in under an hour. The Korean Shrimp Bulgogi contains cheese but has a total preparation and cooking time of 135 minutes, and the Falafel Wrap does not include cheese or meat. Therefore, I cannot recommend a recipe that meets your criteria.",NON_RELEVANT,-1,df1fb604-db50-4385-876e-da0550e18b9d
+"Can you suggest a recipe using spinach, fish, and rice that has a French twist?","Certainly! A great recipe that fits your criteria is ""Spinach and Fish Gratin with Rice."" 
+
+Here's a simple outline for the dish:
+
+**Ingredients:**
+- Fresh spinach
+- White fish (like cod or sole)
+- Cooked rice
+- Gruyère cheese (for the French twist)
+- Heavy cream
+- Garlic
+- Butter
+- Salt and pepper
+- Nutmeg (optional)
+
+**Instructions:**
+1. Preheat your oven to 375°F (190°C).
+2. In a skillet, melt butter and sauté minced garlic until fragrant. Add fresh spinach and cook until wilted. Season with salt, pepper, and a pinch of nutmeg.
+3. In a baking dish, combine the cooked rice and sautéed spinach. Place the fish fillets on top.
+4. Pour heavy cream over the fish and rice mixture, ensuring everything is evenly coated.
+5. Sprinkle Gruyère cheese generously over the top.
+6. Bake in the preheated oven for about 25-30 minutes, or until the fish is cooked through and the cheese is bubbly and golden.
+7. Serve hot and enjoy your French-inspired spinach, fish, and rice dish! 
+
+This dish combines classic French flavors with the nutritious elements of spinach and fish, all served over a bed of rice.",RELEVANT,1,c73f00da-0785-4bff-a871-c9e508a3eb90
+I need a dinner idea that I can whip up in 30 minutes using tomato paste and spices.,"Based on the context provided, a suitable dinner idea that uses tomato paste and spices and can be prepared in 30 minutes is **Chicken Tikka Masala**. While the full recipe indicates a cook time that exceeds 30 minutes, the prep time is 30 minutes, allowing you to start the marinating and preparation process quickly. If you focus on the marinating and initial steps, it can be a quick dinner option if you have pre-prepared elements ready.",PARTLY_RELEVANT,1,4a4f0810-7245-436a-977e-332c1f4654b1
+"What can I prepare quickly with lentils and spinach, maybe under 30 minutes?","Based on the context provided, the Middle Eastern Mushrooms Salad uses lentils and spinach as main ingredients but has a total prep and cook time of 74 minutes, which exceeds your 30-minute requirement. Unfortunately, there isn't a quick recipe listed in the context that can be prepared with lentils and spinach in under 30 minutes.",PARTLY_RELEVANT,1,f7e51edd-3dbb-420e-819f-93902309eba7
+I'm looking for a recipe using pork and cream that I can serve to a group. Any ideas?,"I recommend the Korean Mushrooms Stir-Fry. It features pork and cream among its ingredients, making it suitable for your needs. The recipe includes mushrooms, spinach, sugar, herbs, and flour, and it takes about 17 minutes to prep and 57 minutes to cook. It can be a delicious option to serve to a group!",PARTLY_RELEVANT,1,c91c6487-b7cf-48aa-b76d-ed070c14ec1e
+"What dish can I create that uses spinach, potatoes, and is suitable for a low-carb diet?","Based on the provided context, the ""Middle Eastern Spinach Skillet"" is a dish that uses spinach and potatoes. However, since it contains potatoes, it may not be suitable for a low-carb diet as potatoes are generally high in carbohydrates. Unfortunately, there is no dish listed in the context that fits both the requirement of using spinach and potatoes and being suitable for a low-carb diet.",PARTLY_RELEVANT,1,00e73aec-c6c2-40c6-b8d5-4daba086585b
+"What can I whip up with milk, yogurt, and garlic for a sweet dish?","Based on the context provided, it seems that you have milk, yogurt, and garlic available, but these ingredients are not typically associated with sweet dishes. However, you could create a unique sweet dip or sauce by combining yogurt with milk to achieve a creamy texture and balance it with a touch of sweetness, such as honey or sugar. The garlic would usually add a savory note, so it might be best to skip the garlic if you want a distinctly sweet dish. 
+
+In essence, consider making a sweet yogurt parfait or a creamy yogurt dressing with added sweetness.",PARTLY_RELEVANT,1,35c639fa-dd32-483d-a0f3-ba09b0dbd863
+I need a dinner option that takes less than 120 minutes to prepare and cook. Any suggestions?,"It seems there is no specific context provided for recipes in your database. However, I can suggest some general dinner options that typically take less than 120 minutes to prepare and cook. Here are a few ideas:
+
+1. **Stir-Fried Vegetables with Chicken or Tofu**: Quick and healthy, this can be prepared in about 30-45 minutes.
+2. **Pasta Primavera**: Pasta with seasonal vegetables and a light sauce can be ready in around 30 minutes.
+3. **Tacos**: Ground meat or beans can be cooked quickly, and dinner can be made in under 30 minutes.
+4. **Grilled Salmon with Quinoa**: Salmon cooks quickly, and quinoa takes about 15 minutes, making it a great option ready in about 45 minutes.
+5. **Chili**: A quick chili made with canned beans can be prepared in about an hour.
+
+If you provide specific guidelines or a recipe context, I can offer more tailored suggestions!",RELEVANT,1,6e43b874-32e8-41ac-926a-247d5067193e
+"What can I make for lunch with pork, mushrooms, and lentils?","You can make an American Pork Stir-Fry for lunch using pork, mushrooms, and lentils. The dish involves preparing these ingredients along with butter, flour, olive oil, and yogurt, then cooking them together. It has a medium difficulty level, with a total prep and cook time of about 95 minutes.",RELEVANT,1,6d0e2702-5191-456d-9ff2-40a24b4ac3d4
+"What can I make with onions, beef broth, and Gruyere cheese?","You can make French Onion Soup with onions, beef broth, and Gruyere cheese.",RELEVANT,1,d93f9997-3a8e-4fe5-a28a-0127e97b69cd
+"I have lentils, butter, and yogurt—what can I cook quickly?","You can quickly make a simple lentil dish by cooking the lentils until tender, then mixing them with melted butter and serving with a dollop of yogurt on top. This will provide a hearty meal with minimal preparation and cooking time.",RELEVANT,1,b3a2db58-e490-4b00-b866-58ec9d05845d
+I need a lunch recipe that requires 42 minutes of prep time. What can I cook?,"I'm sorry, but it appears that the CONTEXT you referenced does not provide any specific recipes or details for lunch recipes that require 42 minutes of prep time. If you have more information or specific recipes in mind, please share, and I would be happy to assist you!",NON_RELEVANT,-1,5cc896cb-188e-4620-a1c5-449b375fa070
+"Can you suggest a dish that includes eggs, tofu, and pasta?","You can make an Indian Tofu Curry, which includes eggs, tofu, and pasta. The recipe is easy to prepare, with a total prep and cook time of about 183 minutes.",PARTLY_RELEVANT,1,cb02202a-c16b-43c3-ae60-911370b39178
+"What can I make with eggs, cream, and onions for a vegetarian meal?","With eggs, cream, and onions, you can make a dish inspired by the African Shrimp Skillet by using the same method and ingredients but omitting the shrimp to keep it vegetarian. You can sauté the onions and then cook them with the eggs and cream, incorporating any herbs or spices you enjoy. This mixture can be seasoned and served as a creamy egg dish with caramelized onions.",PARTLY_RELEVANT,1,156b8efb-1acf-4477-942b-0c96d7c25396
+"I'm looking for a recipe that uses beef, tomatoes, and potatoes.","I found a recipe that uses beef, tomatoes, and potatoes. It's called Indian Beef Dip. This recipe falls under Indian cuisine and is categorized as a snack. It has an easy difficulty level and requires a total of 137 minutes for preparation and cooking. The main ingredients are beef, tomatoes, and potatoes, cooked together with spices, soy sauce, olive oil, and milk.",RELEVANT,1,358ff493-b866-419b-8044-ec23766c767c
+"I have tomatoes, rice, and cream; any suggestions for a dish?","Based on the ingredients you have (tomatoes, rice, and cream), you could make a dish inspired by the Thai Lentils Bites recipe. You can prepare the rice and combine it with tomatoes and cream, seasoning it with herbs and spices to enhance the flavor. While the original recipe includes lentils, you can adjust it by making a creamy tomato rice dish, which would still capture the essence of the flavors.",PARTLY_RELEVANT,1,786e0f57-8bb3-4685-ab5e-e84e5351a139
+"What can I make with pork, garlic, and honey?","You can make a dish that includes pork, garlic, and honey by using them in combination with tofu and tomatoes, as suggested in the recipe for Thai Tofu Energy Balls. The dish involves cooking the pork with garlic and honey, along with tofu and tomatoes, to create a flavorful meal.",PARTLY_RELEVANT,1,2196830d-a277-471d-baed-4b1c0f1f3ee6
+"I'm looking for a recipe that includes chicken, soy sauce, and chili. Any ideas?","You can try the ""Thai Spinach Bowl"" recipe, which includes chicken and soy sauce. It also features chili as one of the ingredients. The dish combines spinach, chicken, lentils, soy sauce, cream, butter, and chili for a flavorful meal.",RELEVANT,1,0ac4d9d7-82a6-4345-842f-6bd798f9eb07
+Can you suggest a dish that uses lentils and butter as the main ingredients?,"Based on the context provided, a dish that uses lentils and butter as main ingredients is the ""Vietnamese Mushrooms Bake."" This recipe includes lentils, butter, and other ingredients like mushrooms and tofu.",PARTLY_RELEVANT,1,5bc53866-1176-4489-8442-f2d362e10eb6
+"I have some beef and cream, what Mediterranean dish can I prepare?","Based on the context provided, a Mediterranean dish you can prepare with beef and cream is ""Beef Stroganoff."" This dish typically includes sautéed beef, onions, and mushrooms in a creamy sauce, often served over pasta or rice. Though it has Eastern European origins, it is enjoyed in various Mediterranean countries as well. If you're looking for a specific Mediterranean twist, consider incorporating herbs like oregano or serving it with Mediterranean-style sides.",PARTLY_RELEVANT,1,dada9ada-3a16-4649-8f25-def6e1b11a62
+I'm looking for a gluten-free recipe using pork and tofu.,"You can make the Thai Tofu Energy Balls, which include pork and tofu, and are gluten-free. The main ingredients are tofu, tomatoes, and pork, and the recipe involves cooking with honey, butter, yogurt, and garlic. Just ensure that any additional ingredients you use are also gluten-free.",PARTLY_RELEVANT,1,04c739c9-d66f-4e9f-a485-63bbe1935916
+"What can I cook for two people using fish, shrimp, and some olive oil?","You can cook the African Rice Groundnut Stew for two people using fish, shrimp, and some olive oil. The recipe includes preparing rice, fish, and shrimp, and cooking them together with milk, onion, herbs, and olive oil.",PARTLY_RELEVANT,1,5efdc551-3760-43ad-9156-270ac799eab0
+"What can I make for breakfast with mushrooms, potatoes, and fish?","You can make a breakfast dish using mushrooms, potatoes, and fish by preparing a meal similar to the Thai Mushrooms Salad. Cook the mushrooms, potatoes, and fish together with ingredients like cream, butter, flour, and milk. Season the mixture to your taste and serve it as a hearty breakfast.",PARTLY_RELEVANT,1,e6d7d724-7ef8-4d09-9265-102a232020ed
+"Looking for a recipe that uses soy sauce, chili, and cream.","It seems that there is no specific recipe provided in the CONTEXT that lists the use of soy sauce, chili, and cream together. If you have any other specific ingredients or types of dishes you are interested in, I would be happy to help you find a suitable recipe!",PARTLY_RELEVANT,1,704c313d-bfc1-4d3d-a7e5-696e8e8e074f
+"What can I make with beef, cheese, and garlic for lunch?","You can make an African Beef Roast for lunch using beef, cheese, and garlic. The recipe includes preparing beef, cheese, and eggs, then cooking them with garlic, cream, butter, and flour.",PARTLY_RELEVANT,1,bb63c9cb-6c72-47d2-ac9f-d30e7b81d33c
+I need a quick breakfast recipe that uses spinach and takes less than 10 minutes to cook.,"Based on the provided context, the Thai Spinach Breakfast Bowl does not fit your requirement as it has a prep time of 75 minutes and a cook time of 0 minutes. Unfortunately, there is no quick breakfast recipe using spinach that takes less than 10 minutes to cook in the given database.",NON_RELEVANT,-1,0f2fabdf-7e64-4b28-b9b6-4d4631f21323
+"Can you give me a dinner recipe using eggs, black pepper, and parmesan?","Here's a dinner recipe using eggs, black pepper, and parmesan: 
+
+**Spaghetti Carbonara**
+
+- **Cuisine**: Italian
+- **Meal Type**: Dinner
+- **Difficulty**: Medium
+- **Prep Time**: 15 minutes
+- **Cook Time**: 20 minutes
+
+**Main Ingredients**:
+- Spaghetti
+- Eggs
+- Pancetta
+- Parmesan
+- Black pepper
+
+**Instructions**:
+1. Boil spaghetti until al dente.
+2. Fry pancetta until crispy.
+3. Whisk eggs with grated Parmesan.
+4. Toss hot spaghetti with the pan-fried pancetta and the egg mixture off heat.
+5. Serve immediately with a generous amount of black pepper.
+
+**Dietary Info**: Contains gluten, dairy, pork. Enjoy your meal!",RELEVANT,1,815d2b31-0678-40c7-83d4-d4986d420bc3
+I'm looking for a lunch recipe that I can finish in under 30 minutes. Any ideas?,"A great lunch recipe you can finish in under 30 minutes is a Falafel Wrap. It has a prep time of 20 minutes and a cook time of 15 minutes. You'll blend chickpeas with spices and herbs, shape them into balls, and fry them. Serve the falafel in pita with lettuce, tomato, and tahini sauce. It's a delicious vegetarian and vegan option!",RELEVANT,1,218404fb-3f08-41f6-92fb-71b32005776b
+Can you suggest a meal with lentils and honey that I can prepare in under three hours?,"You can prepare Japanese Eggs Roast, which includes lentils and honey. The total prep and cook time is under three hours, making it suitable for your requirements. The main ingredients are eggs, lentils, mushrooms, along with sugar, garlic, honey, and yogurt used for seasoning and serving.",PARTLY_RELEVANT,1,092c55e1-657d-40b1-a353-55dcb0a48679
+"What can I make with shrimp, cheese, and garlic?","You can make Korean Shrimp Bulgogi, which includes shrimp, cheese, and garlic as main ingredients along with spinach and other components.",PARTLY_RELEVANT,1,6006a3bd-dfa1-41c0-aa49-608813b94847
+"Can I get ideas for cooking with chicken, honey, and milk for a quick meal?","Sure! Here are a few ideas for a quick meal using chicken, honey, and milk:
+
+1. **Honey Glazed Chicken**: Sauté chicken pieces in a pan until cooked through. In a separate bowl, mix honey and a splash of milk to create a glaze. Pour the glaze over the chicken and cook for a few more minutes until the sauce thickens and coats the chicken.
+
+2. **Creamy Honey Chicken**: Cook chicken breasts in a skillet. Once cooked, add a mixture of honey and milk, along with some herbs and spices (like garlic or thyme) to create a creamy sauce. Simmer until the sauce is slightly thickened.
+
+3. **Honey Mustard Chicken with Milk**: Combine honey, mustard, and a bit of milk to make a quick marinade. Marinate the chicken for a short time, then grill or bake until cooked through.
+
+These simple dishes can be prepared in about 30 minutes or less, making them perfect for a quick meal!",RELEVANT,1,09f4f619-00d1-4f79-b223-cd4cf55cedd3
+"I need a meal that I can prepare in about 70 minutes, what should I try?","It seems that there is no specific context provided about your recipe database. If you could share a few recipes or meal types from your database, I'd be happy to suggest a meal that you can prepare in about 70 minutes.",NON_RELEVANT,-1,99ea0923-8a4b-4dc3-aff1-c69759bf98d0
+"What should I cook if I have spinach, pork, and honey, and I want it ready in about 2 hours?","You can cook a Middle Eastern Spinach Casserole. It includes spinach, pork, and honey among its ingredients. The total time needed is about 1 hour and 4 minutes (22 minutes for prep and 42 minutes for cooking), so you can easily have it ready in about 2 hours.",RELEVANT,1,8113df5c-8e3b-4824-9b14-57ca82a4ab6b
+I need a recipe for a dessert that I can prepare in under an hour. Tips?,"It seems that you haven't provided the specific CONTEXT from your recipe database. However, I can still offer some general tips for preparing a dessert in under an hour:
+
+1. **Choose Quick Recipes**: Look for recipes that involve no-bake elements, such as parfaits, mousses, or simple fruit salads.
+
+2. **Use Pre-made Ingredients**: Consider using store-bought components like pre-made crusts, whipped cream, or cake mixes to save time.
+
+3. **Focus on Simple Techniques**: Desserts that require minimal mixing or baking time, like brownies or cookies, are good options.
+
+4. **Time Management**: While one component is baking, prepare another part of the dessert, such as sauces or toppings.
+
+5. **Keep It Simple**: Aim for recipes with fewer ingredients that are easy to prepare.
+
+If you can provide the CONTEXT from the recipe database, I can give you more specific advice or recipes!",RELEVANT,1,9ce830b9-b844-49c9-9dcf-e8f533e3d34f
+"What can I make for breakfast with tomatoes, spinach, and eggs?","Based on the provided context, you can make a dish using tomatoes, spinach, and eggs by preparing an American-style tomato soup that includes these ingredients. The recipe involves cooking them with honey, olive oil, butter, and onion, making it a suitable option for breakfast. This dish is also gluten-free.",PARTLY_RELEVANT,1,f65d436b-552b-4a5c-8b26-4f69a78fc0c2
+"What can I make with pork, fish, and cheese?","You can make a Middle Eastern Pork Crumble with pork, fish, and cheese as the main ingredients. The recipe involves preparing and cooking these ingredients along with cream, butter, onion, and honey.",PARTLY_RELEVANT,1,48cfcb41-cf9e-43cd-b942-033311dcfd0d
+I want to prepare a meal in under an hour using onions and some cheese. What do you recommend?,"I recommend preparing French Onion Soup. It features onions and Gruyere cheese as key ingredients. However, please note that the total cooking time is 60 minutes, which exceeds your 1-hour goal. If you're open to extending the time slightly, this classic dish is delicious and perfect for dinner.",PARTLY_RELEVANT,1,88fc20f3-ee1b-4f1d-8d11-ad8a0292eafd
+"I have eggs, chili, and onion on hand. Any quick lunch ideas?","You can make a quick lunch idea by preparing a simple egg dish using your eggs, chili, and onion. Since you have eggs, you can scramble or fry them, and then mix in chopped chili and onion for added flavor. This dish can be made quickly and would make for a satisfying meal. Enjoy your lunch!",RELEVANT,1,ffe43843-b783-4e8b-9f53-3e8273907529
+"What can I make with spaghetti, eggs, and pancetta?","You can make Spaghetti Carbonara with spaghetti, eggs, and pancetta.",RELEVANT,1,dffada53-9466-44ae-b387-95f7f7776343
+I'm looking for a quick breakfast that uses avocado and takes no longer than 10 minutes.,"You can make Avocado Toast for a quick breakfast that uses avocado and takes no longer than 10 minutes. The prep time is 5 minutes, and there is no cooking time needed. Just toast some bread slices, mash avocado with lemon juice, salt, and pepper, spread it on the toast, and drizzle with olive oil. It's easy and delicious!",RELEVANT,1,2dd8bbd4-2453-4daa-be11-6270cdecfdf1
+"What can I make with lentils, chicken, and cheese for dinner?","You can make a Mediterranean Lentils Bowl for dinner using lentils, chicken, and cheese. The recipe is easy to prepare and includes cooking lentils with chicken and cheese, along with some added seasonings and herbs.",RELEVANT,1,8138caa2-6f30-49be-9622-fe646214b919
+"Can you suggest a meal that includes ground beef, salsa, and tortillas?","A delicious meal you can make is Beef Tacos. This easy dinner recipe includes ground beef and tortillas, and you can add salsa as a topping. Simply brown the beef with seasoning, warm the tortillas, and then assemble the tacos with the beef and any desired toppings such as lettuce, tomato, cheese, and salsa.",RELEVANT,1,dcb77ee2-fa2a-49a0-878b-a30f9691c212
+"I have shrimp, honey, and soy sauce at home. What can I whip up?","Based on the ingredients you have—shrimp, honey, and soy sauce—you can whip up a quick and flavorful honey-soy glazed shrimp. Just marinate the shrimp in a mixture of honey and soy sauce, then sauté or grill them until cooked through. This dish pairs well with rice or vegetables for a complete meal. Enjoy your cooking!",RELEVANT,1,a3bee0f1-a6c8-449b-96c7-ba4aff1df5e5
+Can you suggest a recipe using lentils and pork for dinner?,"I suggest making Thai Pork Energy Balls for dinner. This recipe includes lentils and pork as main ingredients. The preparation involves cooking pork and lentils along with fish, sugar, garlic, and herbs. It's a bit complex, but the flavors are sure to be rewarding!",RELEVANT,1,36f709a3-cd02-4682-9bf7-48276273f16a
+"I have flour, garlic, and some herbs. What can I cook with those ingredients?","It seems that the CONTEXT from our recipe database is missing. However, based on your ingredients of flour, garlic, and some herbs, you could consider making garlic herb flatbreads or focaccia. You can combine the flour with water to create a dough, add minced garlic and chopped herbs for flavor, and then bake it until golden. Another option would be to make a dough for pasta, infusing it with the garlic and herbs for added taste.",RELEVANT,1,f70cafea-9933-4e90-9a08-bbc995c5d84c
+"I'm looking for a snack recipe using eggs, lentils, and tofu. What can I make?","You can make a snack called ""Chinese Eggs Dip"" using eggs, lentils, and tofu. The recipe involves preparing and cooking these ingredients together with honey, onion, chili, and spices. It has a medium difficulty level, with a total prep and cook time of approximately 97 minutes. This dish is also halal.",PARTLY_RELEVANT,1,5a4044b3-297a-4c85-bc91-826a967e3194
+Can you recommend a recipe that takes more than 2 hours to cook?,"I apologize, but it seems that the CONTEXT has not been provided. Please provide the relevant details or recipes, and I would be happy to recommend one that takes more than 2 hours to cook!",NON_RELEVANT,-1,bf9aa720-12d0-4e4d-a057-33671ff60978
+"What can I make with tomatoes, tofu, and spinach for dinner?","You can make a dish called Vietnamese Tomatoes Dip using tomatoes, tofu, and spinach. This recipe involves cooking these ingredients along with onion, herbs, cream, and butter. It fits the vegetarian and kosher dietary preferences, though it is designated as a snack rather than a full dinner.",PARTLY_RELEVANT,1,cb97d202-a636-4191-875b-e8eaaddb4bcc
+I need a dinner option that I can prepare in about 3 hours. Any ideas?,"I'm sorry, but it seems that there is no specific context provided from your recipe database for me to reference. However, I can suggest a dinner option that typically takes about 3 hours to prepare. A slow-roasted beef brisket or a braised pork shoulder are great choices as they benefit from low and slow cooking, resulting in tender and flavorful dishes. You can serve them with roasted vegetables and a side of mashed potatoes or polenta for a complete meal. If you provide more specific information from the recipe database, I could give a more tailored suggestion!",RELEVANT,1,c13f490e-2c44-43dd-9402-ae5a2e9cb72f
+"I need a recipe that includes rice vinegar, avocado, and soy sauce. What can I cook?",You can make Sushi Rolls. This recipe includes sushi rice seasoned with rice vinegar and served with soy sauce. You can also include avocado as a filling in the rolls along with fish or other vegetables.,RELEVANT,1,539dc664-29d8-456d-ba50-0b67c34d2431
+"What's a good pork dish I can make with garlic and flour, and does it fit a paleo diet?","A good pork dish you can make with garlic and flour is ""Garlic Pork Chops."" In this recipe, you would typically season the pork chops with minced garlic and then coat them lightly with flour before pan-searing or baking. 
+
+However, flour is not suitable for a paleo diet, as it is a grain product. To fit a paleo diet, you could substitute the flour with almond flour or coconut flour, which are both considered paleo-friendly alternatives. This way, you can enjoy a delicious garlic pork dish that aligns with paleo dietary principles.",RELEVANT,1,a115436c-abbb-4af9-89a0-a5128744bc96
+Can you suggest a meal that I can make in about an hour with chicken and eggs?,"Based on the provided context, the Korean Chicken Soup requires a total of 213 minutes (90 minutes prep time and 123 minutes cook time), which exceeds one hour. Unfortunately, it doesn't fit your request for a meal that can be made in about an hour with chicken and eggs. 
+
+You may want to consider a different recipe that includes chicken and eggs but can be prepared within your desired timeframe.",PARTLY_RELEVANT,1,0283d173-29a3-47f2-9506-84c8ea9ae0d5
+I need a recipe that takes about 25 minutes to prepare and includes eggs and cream.,"The recipe for African Shrimp Skillet includes eggs and cream, but it takes a total of 63 minutes to prepare (46 minutes prep and 17 minutes cook time), which exceeds your 25-minute requirement. Unfortunately, I don't have a recipe in the database that specifically matches your timing and ingredient criteria.",PARTLY_RELEVANT,1,9cb2260e-6d48-40ce-ba06-a669d7673002
+"I have shrimp, butter, and honey at home. What can I cook with those ingredients?","Based on the ingredients you have—shrimp, butter, and honey—you can cook a dish similar to the Thai Tomatoes Curry. The recipe includes shrimp and butter as well as honey, with additional ingredients such as tomatoes and lentils. You can use your available ingredients to make a simplified version of the dish by cooking the shrimp in butter and adding honey for a sweet glaze. However, to fully replicate the Thai Tomatoes Curry, you would need to include tomatoes and lentils as well.",PARTLY_RELEVANT,1,39ccf90b-7dfe-481e-9ab7-0f38d9dbbf28
+I need a recipe that I can prepare in under 90 minutes with beef and onions.,"You can prepare French Onion Soup in under 90 minutes. The recipe includes beef broth and onions as key ingredients. The total time for preparation and cooking is 80 minutes, with 20 minutes for prep and 60 minutes for cooking. Enjoy your meal!",PARTLY_RELEVANT,1,34e2d790-2783-485f-9c4b-19a26b2f33ef
+"I'm looking for a breakfast option that I can prepare in about 35 minutes, what do you recommend?","I'm sorry, but it seems that I do not have access to the specific CONTEXT from your recipe database to provide a recommendation. If you can share details or examples from the database, I'd be happy to help you find a breakfast option that fits your time frame!",NON_RELEVANT,-1,d7005bd8-83b9-4ba7-a555-1459203ff32a
+"I need a simple dish that features both pork and garlic, taking less than an hour to prepare.","For a simple dish featuring both pork and garlic that takes less than an hour to prepare, consider making Garlic Pork Stir-Fry. 
+
+**Ingredients:**
+- Pork tenderloin, sliced into thin strips
+- Fresh garlic, minced or sliced
+- Vegetables of your choice (e.g., bell peppers, broccoli, or snap peas)
+- Soy sauce
+- Olive oil
+- Salt and pepper
+
+**Instructions:**
+1. Heat olive oil in a large skillet over medium-high heat.
+2. Add the minced garlic and sauté for about 30 seconds until fragrant.
+3. Add the sliced pork to the skillet and season with salt and pepper. Cook for 5-7 minutes, or until the pork is browned and cooked through.
+4. Add the vegetables and stir-fry for another 3-4 minutes, until they are tender but still crisp.
+5. Drizzle with soy sauce and toss to combine. Cook for an additional minute.
+6. Serve immediately with rice or noodles, if desired.
+
+This dish is quick to make and deliciously highlights both pork and garlic!",RELEVANT,1,c3287896-8350-46d8-a23d-741b99c6afaf
+"What can I cook with onion, cumin, and coriander that can be served in pita?","You can cook Falafel Wraps using onion, cumin, and coriander. These ingredients can be blended with chickpeas to make the falafel, which is then formed into balls, fried, and served in pita with lettuce, tomato, and tahini sauce.",RELEVANT,1,3be26b6c-5a46-4405-a6f9-e1365df89148
+I have some spinach and fish; what can I make that is low-carb?,"You can make a dish using your spinach and fish by following a similar preparation to the Vietnamese Chicken Crumble recipe. Even though the recipe primarily focuses on chicken, you can replace the chicken with your fish and incorporate the spinach. Just prepare the fish and spinach, cook them with butter and season accordingly. This approach will create a low-carb dish as it primarily focuses on proteins and greens, while excluding high-carb ingredients like flour.",RELEVANT,1,0ee0199e-4a03-4fa5-8468-3e8566f58a7d
+I have some tofu and bean sprouts; what can I cook with them for dinner?,"You can make Pad Thai with your tofu. Although the traditional recipe includes shrimp, you can omit it and focus on stir-frying the tofu with the rice noodles and sauce mixture. Just remember to add the bean sprouts while mixing the ingredients together for extra texture and flavor. Enjoy your dinner!",RELEVANT,1,74268aa7-8b08-4880-9d4d-d35645c0d993
+I have shrimp and tofu on hand; what can I cook that won't take more than 15 minutes?,"Based on the context provided, the recipe for Korean Rice Cheesecake includes shrimp and tofu but has a total prep time of 67 minutes and a cook time of 180 minutes, making it unsuitable for a meal that won’t take more than 15 minutes. Unfortunately, there are no specific quick recipes listed in the context that utilize shrimp and tofu in such a short timeframe. You might need to consider other quick cooking methods such as stir-frying the shrimp and tofu together with some seasonings for a fast meal instead.",PARTLY_RELEVANT,1,7e3b4f1e-1f27-413b-b710-22d4865af2e6
+"What can I whip up using pork, beef, and some chili for a unique flavor?","You can whip up a dish inspired by the French Beef Skillet, which uses beef, pork, and chili for a unique flavor. The recipe combines these meats with potatoes, milk, yogurt, and honey, allowing you to create a rich and hearty meal. This dish is also gluten-free and low-carb.",RELEVANT,1,e3b70605-542f-4ef8-a1a4-e6509a4b286e
+"Can you suggest a gluten-free recipe with chicken, shrimp, and olive oil?","Yes, you can use the Vietnamese Chicken Banh Mi recipe. It includes chicken, shrimp, olive oil, and is gluten-free.",PARTLY_RELEVANT,1,d7917ec1-2730-4621-89c4-9a60b8a92f9a
+"I have lentils, garlic, and herbs. What can I cook in less than two hours?","You can cook a dish using lentils, garlic, and herbs, but based on the provided recipe for Thai Pork Energy Balls, the cook time is 128 minutes, which exceeds your two-hour limit. Unfortunately, there is no specific recipe in the context that fits your ingredient list and time requirement. You may need to look for a different recipe that uses lentils, garlic, and herbs within your time frame.",PARTLY_RELEVANT,1,787dc2cd-a8b7-4040-913d-03f5eed4cdcf
+Can you suggest a dish that includes shrimp and soy sauce?,A dish that includes shrimp and soy sauce is the Vietnamese Shrimp Clay Pot.,RELEVANT,1,6ba247b1-41e0-42ad-b525-700da11dae78
+"What can I make with beef, lentils, and herbs?","You can make a Mediterranean Beef Mezze Bowl using beef, lentils, and herbs. This dish is easy to prepare and takes a total of 165 minutes (25 minutes prep and 140 minutes cook time).",RELEVANT,1,a9f1b8df-6c6a-4bd5-8435-e95854bcd3b8
+"Looking for a recipe that uses shrimp, onion, and sugar; any ideas?","You can use the **Thai Lentils Larb** recipe, which includes shrimp, onion, and sugar among its ingredients. The main ingredients are lentils, shrimp, and cheese, and it also requires butter, sugar, honey, and onion in the cooking process.",PARTLY_RELEVANT,1,b3d23f7c-20e7-4a22-b0f9-8838295dde59
+What can I cook with fish and potatoes that will be ready in under two hours?,"You can cook Spanish Pork Fabada, which includes fish and potatoes, and it will be ready in under two hours.",NON_RELEVANT,-1,ccfc0b68-32a4-4e27-994f-e91934dcf5d2
+"I'm looking for a recipe that takes over an hour to cook, with mushrooms and tomatoes.","Based on the provided context, the recipe that meets your criteria of taking over an hour to cook, with mushrooms and tomatoes, is the African Mushrooms Bake. It has a prep time of 74 minutes and requires cooking mushrooms and tomatoes along with chicken and other ingredients, making it suitable for your request.",RELEVANT,1,49bac13d-b7c9-46f5-90b7-ba74baa2b345
+I need a nutritious dish with chicken and spices that I can make for breakfast.,It seems that the CONTEXT portion is missing. Could you please provide the necessary details or information from your recipe database? This will help me suggest a nutritious chicken and spice dish for breakfast based on the available recipes.,NON_RELEVANT,-1,db06270a-b01f-41d4-a65a-4fa9673a2bb9
+"I have chicken, rice, and some spices. What can I make for breakfast?","Based on the context provided, you can prepare a dish using chicken and rice, along with your spices. Unfortunately, there isn't a direct breakfast recipe that features chicken and rice in the provided recipes. However, you could adapt the Spanish Tofu Salad recipe by using chicken instead of tofu and potentially modifying the preparation to suit breakfast. You would cook the chicken with rice and your spices, creating a savory morning meal.",PARTLY_RELEVANT,1,aa883b01-72e2-478b-853e-28867fbcc8bf
+"What can I make with eggs, rice, and mushrooms for dinner?","You can make American Eggs Roast for dinner using eggs, rice, and mushrooms. The recipe involves preparing these ingredients and cooking them with additional items such as milk, garlic, flour, and herbs.",PARTLY_RELEVANT,1,b613be03-4529-4d64-b246-71d4c3fb10be
+"What dinner can I prepare with beef, pork, and soy sauce that serves 8?","Based on the provided context, you can prepare a dish using rice, pork, beef, and soy sauce that serves 8. Follow the instructions to combine these ingredients along with cream, sugar, and chili for a flavorful meal.",PARTLY_RELEVANT,1,71eae85c-ce15-4182-baaa-065ac002dd88
+I have some pasta and olive oil at home. What can I cook with those ingredients?,"With pasta and olive oil, you can cook a Vietnamese Beef Salad. The recipe includes beef, spinach, and pasta, and you'll need to prepare these ingredients along with spices, sugar, and garlic. Season and serve the dish for a delicious meal.",NON_RELEVANT,-1,bc86ddfd-99b3-4776-92c8-b453f0c30d8e
+Can you suggest a recipe using potatoes and garlic that doesn't take too long?,"Sure! Here's a quick and easy recipe for Garlic Mashed Potatoes that you can prepare in about 30 minutes.
+
+**Garlic Mashed Potatoes**
+
+**Ingredients:**
+- 4 medium potatoes, peeled and cubed
+- 4 cloves garlic, peeled
+- 1/2 cup milk (or cream for richer flavor)
+- 1/4 cup butter
+- Salt and pepper to taste
+
+**Instructions:**
+1. In a large pot, combine the cubed potatoes and garlic cloves. Cover with water and add a pinch of salt.
+2. Bring to a boil and cook for about 15-20 minutes, or until the potatoes are fork-tender.
+3. Drain the potatoes and garlic, then return them to the pot.
+4. Add milk and butter to the pot. Mash until smooth and creamy.
+5. Season with salt and pepper to taste.
+6. Serve warm.
+
+Enjoy your Garlic Mashed Potatoes!",RELEVANT,1,a0dac77f-4c29-437a-ac46-b578d7093a4d
+"Can you suggest a recipe using yogurt, herbs, and flour that I can prepare in under 90 minutes?","Sure! Here's a simple recipe you can prepare using yogurt, herbs, and flour in under 90 minutes:
+
+**Yogurt Herb Flatbread**
+
+**Ingredients:**
+- 1 cup plain yogurt
+- 2 cups all-purpose flour
+- 1/2 teaspoon salt
+- 1 tablespoon olive oil
+- Fresh herbs (such as rosemary, thyme, or parsley), chopped
+- Water (as needed)
+
+**Instructions:**
+1. In a mixing bowl, combine the flour and salt.
+2. Add the yogurt and olive oil to the flour mixture and stir until the dough begins to come together.
+3. Incorporate the chopped herbs into the dough.
+4. If the dough is too dry, add a little water, one tablespoon at a time, until it is soft and pliable.
+5. Knead the dough on a floured surface for about 5 minutes until smooth.
+6. Let the dough rest for 10-15 minutes.
+7. Preheat a skillet or griddle over medium heat.
+8. Divide the dough into small balls and roll each one into a flat circle about 1/4 inch thick.
+9. Cook each flatbread in the skillet for 2-3 minutes on each side, until lightly browned and cooked through.
+10. Serve warm, optionally brushed with olive oil and sprinkled with more fresh herbs.
+
+This recipe is quick, easy, and perfect for a delicious flatbread that pairs well with various dishes! Enjoy your cooking!",RELEVANT,1,12368752-5222-4abf-a650-82632c11e1f5
+I have some leftover beef and potatoes; what can I cook with these ingredients?,"You can make a French Beef Skillet using your leftover beef and potatoes. The recipe involves preparing the beef and potatoes, cooking them with milk, yogurt, chili, and honey, and seasoning to your taste. This dish is gluten-free and low-carb, making it a suitable option for lunch.",RELEVANT,1,7c4e79a8-766b-4c2b-886e-61780c36515d
+Can I find a dessert recipe that uses tofu and cream?,"It appears that there is no specific context provided regarding the recipe database. However, generally speaking, tofu can be used in desserts to create a creamy texture, and it can be combined with cream in various recipes. If you're looking for a dessert recipe that includes both tofu and cream, it would be best to search the database using those keywords or check for specific desserts that traditionally incorporate both ingredients.",PARTLY_RELEVANT,1,afe903c0-1fbe-4864-a73a-5333c6556385
+"What can I make with lentils, shrimp, and pork?","You can make African Pork Pilau using lentils, shrimp, and pork.",RELEVANT,1,ee1b2a02-9172-48e0-97fa-0e5b69eb5d2d
+"Can you help me find a recipe that uses eggs, onion, and spices for a flavorful appetizer?","I couldn't find a recipe that specifically matches your request for an appetizer using eggs, onion, and spices. However, the ""Chinese Eggs Dip"" recipe includes eggs and onion, along with spices. While it also contains lentils and tofu, it may still be a flavorful option for your needs.",PARTLY_RELEVANT,1,ea9eb4de-1a65-455e-bd08-ed209c02297f
+"What can I cook with shrimp, chili, and olive oil that fits a gluten-free diet?","You can cook a dish that fits a gluten-free diet using shrimp, chili, and olive oil by preparing a Vietnamese-style meal similar to a Mushroom & Spinach Vermicelli Bowl. Make sure to use gluten-free vermicelli or substitute with other gluten-free ingredients while incorporating shrimp, chili, and olive oil for flavor.",PARTLY_RELEVANT,1,ca8d2c88-bfc6-4204-ad87-5dca29a7ccd6
+I need a meal idea with pork and spinach that takes less than two hours to prepare.,"You can make a Korean Mushrooms Stir-Fry that features pork and spinach. The total time for preparation and cooking is 1 hour and 14 minutes, which is under two hours. The recipe involves preparing mushrooms, pork, and spinach, and cooking them together with additional ingredients like sugar, cream, herbs, and flour. Enjoy this low-carb dinner option!",PARTLY_RELEVANT,1,921a1258-9396-4ad3-8ff2-39f91fb56205
+"What can I make with rice, flour, and chili? I'm in the mood for something savory.","You can make an American Rice Breakfast Bowl. It uses rice, flour, and chili, along with mushrooms and tofu, all cooked together with various spices. This dish will satisfy your craving for something savory.",PARTLY_RELEVANT,1,19eb2021-faa2-42dc-99e1-a49cf2a3c4a8
+I need a recipe that uses mushrooms and olive oil alongside eggs and takes less than 2.5 hours to cook.,"You can make the Middle Eastern Eggs Toast, which includes mushrooms and olive oil along with eggs. The total time for preparation and cooking is 55 minutes + 35 minutes = 90 minutes, so it fits within your 2.5-hour limit.",RELEVANT,1,83afb5e3-7a78-434f-b374-2e2ade8e6f6f
+"Can you suggest a dish that has yogurt, soy sauce, and tomatoes?","Based on the provided context, I suggest making a dish similar to the Korean Fish Stir-Fry, which includes yogurt, soy sauce, and tomatoes as part of its ingredients. The recipe features fish, tomatoes, mushrooms, yogurt, and soy sauce, making it a suitable dish that includes all three of your requested ingredients.",RELEVANT,1,4edd49e2-7565-4220-9aa5-8d61cfd25b80
+"What can I make for lunch with eggs, honey, and potatoes?","Based on the ingredients you have—eggs, honey, and potatoes—you can make a dish similar to the ""Middle Eastern Spinach Skillet."" While the original recipe includes spinach, you can modify it by focusing on the key ingredients you have. 
+
+To create a simple dish, you could scramble the eggs and cook the potatoes (possibly diced and sautéed) in a skillet, adding honey for a touch of sweetness. Season as desired and serve it warm. This would provide a hearty and flavorful lunch using the ingredients you listed.",RELEVANT,1,439ca509-9120-4808-8b90-ab8e0a387bff
+I have some tomatoes and olive oil; what simple recipe can I prepare?,"You can prepare a simple Vietnamese Tofu Salad using your tomatoes and olive oil. Here's a quick outline based on the recipe:
+
+1. Prepare tofu, tomatoes, and mushrooms.
+2. Cook these ingredients together with honey, herbs, and olive oil.
+3. Season to taste and serve.
+
+This dish is gluten-free and kosher, making it a light and healthy option for breakfast!",PARTLY_RELEVANT,1,1db1d95b-f7ad-4a77-9f92-0899c0f3c6a0
+"What can I prepare for dinner that involves milk, honey, and pasta?","You can prepare a Mexican Pork Bake for dinner, which involves milk, honey, and pasta. The recipe includes pork, pasta, and tomatoes, and requires you to cook these ingredients together along with milk, garlic, onion, and honey.",RELEVANT,1,bc13d5ad-5c4b-4167-ab5f-4f5171709b31
+"Can you suggest a recipe using cheese, honey, and milk?","I'm sorry, but it seems you haven't provided the CONTEXT from the recipe database. Please provide the relevant details so I can assist you with a recipe suggestion using cheese, honey, and milk.",NON_RELEVANT,-1,f038283c-f963-4068-8f3b-ac2970eb4ebc
+"I'm looking for a recipe that uses eggs, chicken, and onions.","The recipe database does not include a recipe that specifically uses eggs, chicken, and onions together. The closest recipes feature chicken and eggs in the Korean Chicken Soup but do not include onions. You may need to look for a different recipe that includes all three ingredients.",PARTLY_RELEVANT,1,4d0f8534-bc6c-4b9e-929e-a0c397462ed3
+I have some eggs and butter. What Mediterranean snack recipes can I try?,"It looks like there is no provided CONTEXT with specific Mediterranean snack recipes. However, based on common Mediterranean cuisine, with eggs and butter, you can try making:
+
+1. **Shakshuka** - a dish of poached eggs in a sauce of tomatoes and spices, often served with crusty bread.
+2. **Spanish Tortilla** - a thick omelette made with eggs and potatoes, cooked in butter or olive oil.
+3. **Menemen** - a Turkish dish of scrambled eggs with tomatoes, green peppers, and spices, typically cooked in butter.
+
+If you have access to some additional ingredients or spices, these recipes can be enhanced further.",RELEVANT,1,40284b59-48ba-419f-b0bf-98e4f0d1f3f7
+"What can I make for lunch with sushi rice, avocado, and cucumber?","You can make Sushi Rolls for lunch with sushi rice, avocado, and cucumber. Simply cook the sushi rice and season it with a vinegar mixture. Lay down a sheet of nori, spread the sushi rice, and add the avocado and cucumber as fillings. Roll the nori tightly, slice it, and serve with soy sauce and wasabi.",RELEVANT,1,233e27ac-d083-4701-8bb4-30dd47512637

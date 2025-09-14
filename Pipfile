@@ -24,6 +24,7 @@ opentelemetry-instrumentation-flask = "==0.57b0"
 opentelemetry-exporter-otlp = "==1.36.0"
 dlt = "*"
 duckdb = "*"
+prometheus-client = "*"
 
 [dev-packages]
 jupyter = "*"

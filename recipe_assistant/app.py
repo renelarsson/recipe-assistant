@@ -8,40 +8,39 @@ Flask API for Recipe Assistant.
 
 import uuid
 import os
+import logging
+from prometheus_client import start_http_server, Counter
 from flask import Flask, request, jsonify
 from recipe_assistant.rag import rag  # Advanced RAG pipeline (uses retrieval.py)
 from recipe_assistant import db  # Database logging
-import logging
+# Distributed Tracing: OpenTelemetry/Tempo
 from opentelemetry.instrumentation.flask import FlaskInstrumentor
 from opentelemetry.sdk.trace import TracerProvider
 from opentelemetry.sdk.trace.export import BatchSpanProcessor
 from opentelemetry.exporter.otlp.proto.http.trace_exporter import OTLPSpanExporter
 from opentelemetry import trace
 
-
-logging.getLogger("opentelemetry").setLevel(logging.DEBUG)
-logging.getLogger("opentelemetry.sdk.trace.export").setLevel(logging.DEBUG)
-
-
 os.makedirs('logs', exist_ok=True)  # Ensure the logs directory exists
 
-
+# Monitoring: Logging for Grafana/Loki
 logging.basicConfig(
-    filename='logs/app.log',
     level=logging.INFO,
-    format='%(asctime)s %(levelname)s %(message)s'
+    format='%(asctime)s %(levelname)s %(message)s',
+    handlers=[
+        logging.FileHandler("logs/app.log"),
+        logging.StreamHandler()
+    ]
 )
 
-# Add a console handler for DEBUG logs
-console = logging.StreamHandler()
-console.setLevel(logging.DEBUG)
-
-formatter = logging.Formatter('%(asctime)s %(levelname)s %(name)s %(message)s')
-console.setFormatter(formatter)
-logging.getLogger().addHandler(console)
+# Prometheus metrics
+questions_total = Counter('api_questions_total', 'Total questions received by API')
+errors_total = Counter('api_errors_total', 'Total API errors')
+feedback_total = Counter('feedback_total', 'Total feedback received')
+positive_feedback_total = Counter('positive_feedback_total', 'Total positive feedback received')
+negative_feedback_total = Counter('negative_feedback_total', 'Total negative feedback received')
+start_http_server(8000, "0.0.0.0")  # Exposes metrics at :8000/metrics
 
 app = Flask(__name__)
-
 
 trace.set_tracer_provider(TracerProvider())
 # The endpoint should include /v1/traces for OTLP HTTP
@@ -63,29 +62,26 @@ def handle_question():
         question = data.get("question")
         approach = data.get("approach")
         if not question:
+            logging.error("No question provided in /question endpoint")
+            errors_total.inc()
             return jsonify({"error": "No question provided"}), 400
 
         conversation_id = str(uuid.uuid4())
-
-        logging.info(
-            f"Received question: {question} (conversation_id={conversation_id}, approach={approach})"
-        )
+        logging.info(f"Received question: {question} (conversation_id={conversation_id}, approach={approach})")
+        questions_total.inc()
 
         # Run the RAG pipeline (default: best approach)
-
         answer_data = rag(
             question,
             approach=approach or os.getenv("RETRIEVAL_APPROACH", "best")
         )
 
         # Log the conversation to the database
-
         db.save_conversation(
             conversation_id=conversation_id,
             question=question,
             answer_data=answer_data,
         )
-
 
         result = {
             "conversation_id": conversation_id,
@@ -97,6 +93,7 @@ def handle_question():
             "response_time": answer_data.get("response_time"),
             "openai_cost": answer_data.get("openai_cost"),
         }
+        logging.info(f"Answered question for conversation_id={conversation_id}")
         return jsonify(result)
 
 @app.route("/feedback", methods=["POST"])
@@ -111,34 +108,34 @@ def handle_feedback():
 
     if not conversation_id or feedback not in [1, -1]:
         logging.error("Invalid feedback input in /feedback endpoint")
+        errors_total.inc()
         return jsonify({"error": "Invalid input"}), 400
-
-
-    logging.info(
-        f"Received feedback: {feedback} for conversation_id={conversation_id}"
-    )
+    
+    if feedback == 1:
+        positive_feedback_total.inc()
+    else:
+        negative_feedback_total.inc()
+        
+    logging.info(f"Received feedback: {feedback} for conversation_id={conversation_id}")
+    feedback_total.inc()
     db.save_feedback(
         conversation_id=conversation_id,
         feedback=feedback,
     )
 
-
     result = {
         "message": f"Feedback received for conversation {conversation_id}: {feedback}"
     }
+    logging.info(f"Feedback processed for conversation_id={conversation_id}")
     return jsonify(result)
-
-
 
 @app.route("/health", methods=["GET"])
 def health_check():
     """Simple health check endpoint for monitoring and cloud deployment."""
     return jsonify({"status": "ok"})
 
-
 # Force log output for testing
 logging.info("Recipe Assistant app started.")
-
 
 if __name__ == "__main__":
     # For local development only; use gunicorn or similar in production

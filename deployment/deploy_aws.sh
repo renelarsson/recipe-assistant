@@ -19,6 +19,21 @@ cd $(dirname "$0")/..
 echo "Building and starting all services..."
 docker compose up --build -d
 
+# Wait for Postgres to become ready
+echo "Waiting for Postgres to become ready..."
+MAX_WAIT=60  # seconds
+WAITED=0
+until docker compose exec postgres pg_isready -U $POSTGRES_USER > /dev/null 2>&1; do
+	if [ $WAITED -ge $MAX_WAIT ]; then
+		echo "Postgres did not become ready after $MAX_WAIT seconds. Exiting." >&2
+		exit 1
+	fi
+	sleep 2
+	WAITED=$((WAITED+2))
+	echo "  ...waiting for Postgres ($WAITED/$MAX_WAIT seconds)"
+done
+echo "Postgres is ready!"
+
 # 5. Set correct permissions for Loki log storage
 echo "Setting permissions for Loki log storage..."
 sudo mkdir -p ./grafana/loki-data/chunks
@@ -36,6 +51,21 @@ docker compose exec postgres psql -U $POSTGRES_USER -d recipe_assistant -c '\dt'
 # 8. Restart app and Grafana containers
 echo "Restarting app and Grafana containers..."
 docker compose restart app grafana
+
+# Wait for Elasticsearch to become ready
+echo "Waiting for Elasticsearch to become ready..."
+MAX_WAIT=60  # seconds
+WAITED=0
+until curl -sf http://localhost:9200/_cluster/health > /dev/null; do
+	if [ $WAITED -ge $MAX_WAIT ]; then
+		echo "Elasticsearch did not become ready after $MAX_WAIT seconds. Exiting." >&2
+		exit 1
+	fi
+	sleep 2
+	WAITED=$((WAITED+2))
+	echo "  ...waiting for Elasticsearch ($WAITED/$MAX_WAIT seconds)"
+done
+echo "Elasticsearch is ready!"
 
 
 # 9. Health check for Flask API (wait until ready)

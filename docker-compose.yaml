@@ -1,3 +1,5 @@
+version: '3.8'
+
 services:
   postgres:
     image: postgres:13
@@ -24,13 +26,15 @@ services:
       OTEL_EXPORTER_OTLP_PROTOCOL: "http/protobuf"
       OTEL_TRACES_EXPORTER: "otlp"
       OTEL_PYTHON_LOG_LEVEL: "debug"
-      OTEL_SERVICE_NAME: "recipe-assistant" # Set a meaningful service name
+      OTEL_SERVICE_NAME: "recipe-assistant"
     ports:
       - "${APP_PORT:-5000}:5000"
+      - "8000:8000"
+
     depends_on:
       - postgres
       - elasticsearch
-    volumes: # Ensure logs written inside the container to /app/logs/app.log are visible on host at logs/app.log
+    volumes:
       - ./logs:/app/logs
       - ./data:/app/data
     command: "opentelemetry-instrument gunicorn -b 0.0.0.0:5000 recipe_assistant.app:app"
@@ -40,7 +44,6 @@ services:
     environment:
       - discovery.type=single-node
       - ES_JAVA_OPTS=-Xms512m -Xmx512m
-      # Enable/disable security based on ES_SECURITY_ENABLED (default: false)
       - xpack.security.enabled=${ES_SECURITY_ENABLED:-false}
       - xpack.security.http.ssl.enabled=false
       - ELASTIC_PASSWORD=${ES_PASSWORD:-changeme}
@@ -80,7 +83,7 @@ services:
       - ./grafana/tempo-config.yaml:/etc/tempo.yaml
     ports:
       - "3200:3200"
-      - "4318:4318"  # Required for OTLP HTTP
+      - "4318:4318"
 
   loki:
     image: grafana/loki:2.9.7
@@ -97,10 +100,63 @@ services:
     volumes:
       - ./grafana/promtail-config.yaml:/etc/promtail/config.yaml
       - /var/log:/var/log
-      - ./logs:/app/logs # The local logs/ folder is available as /app/logs/ inside the Promtail container
+      - ./logs:/app/logs
     command: -config.file=/etc/promtail/config.yaml
     depends_on:
       - loki
+
+  prometheus:
+    image: prom/prometheus:latest
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./grafana/prometheus-config.yaml:/etc/prometheus/prometheus.yml
+    command:
+      - --config.file=/etc/prometheus/prometheus.yml
+    depends_on:
+      - app
+    restart: unless-stopped
+
+  ingestion:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python -u ingestion/dlt_pipeline.py
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+    depends_on:
+      - postgres
+      - elasticsearch
+
+  cli:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python -u recipe_assistant/cli.py
+    ports:
+      - "8002:8002"
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+    depends_on:
+      - app
+
+  ingest:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python -u recipe_assistant/ingest.py
+    ports:
+      - "8003:8003"
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+    depends_on:
+      - postgres
+      - elasticsearch
 
 volumes:
   postgres_data:
