@@ -156,6 +156,9 @@ $ source .env
 $ set +a
 ```
 
+![terminal_6](images/terminal_6.png)
+
+---
 # Run the deployment script
 
 ```sh
@@ -168,8 +171,62 @@ $ chmod +x deployment/deploy_aws.sh
 $ ./deployment/deploy_aws.sh
 ```
 
+![terminal_7](images/terminal_7.png)
+
+---
+![terminal_8](images/terminal_8.png)
+
+---
+![terminal_9](images/terminal_9.png)
+
+---
+
+
 - The script installs Docker, builds the stack, waits for services, initializes DB, ingests data, runs a smoke test, and prints API/Grafana URLs for dashboard analytics. 
-- After the initial setup, you can use the same Makefile targets described in the local setup section (e.g. make up, make ingest, etc. or make all) to run, monitor, and manage your deployment end-to-end on AWS EC2.
+- After the initial setup, you can use the same Makefile targets described in the local setup section (e.g. make up, make ingest, etc. or make all) to run, monitor, and manage your deployment end-to-end on AWS EC2:
+
+---
+
+
+After deploying with `deploy_aws.sh`, you can:
+
+- **Check running containers:**
+  ```sh
+  docker compose ps
+  ```
+
+- **Check API health:**
+  ```sh
+  curl http://localhost:5000/health
+  ```
+
+- **Test the API with a sample question:**
+  ```sh
+  curl -X POST http://localhost:5000/question \
+      -H "Content-Type: application/json" \
+      -d '{"question": "What can I cook with salmon and broccoli?"}'
+  ```
+
+- **View application logs:**
+  ```sh
+  tail -f logs/app.log
+  ```
+---
+![terminal_10](images/terminal_10.png)
+
+---
+- **Export data from Postgres (shown "Example Usage" bellow):**
+  ```sh
+  make db-shell
+  # Then inside the container:
+  psql -U your_username -d recipe_assistant
+  \copy (SELECT * FROM conversations LIMIT 5) TO 'conversations.csv' CSV HEADER
+  \q
+  exit
+  ```
+
+- **Open Grafana dashboard (see "Monitoring Dashboard" below):**  
+  Visit `http://<ec2-public-ip>:3000` in your browser (default user: admin, password: admin).
 
 ---
 
