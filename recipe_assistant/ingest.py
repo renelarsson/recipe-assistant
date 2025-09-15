@@ -33,8 +33,8 @@ def load_data_task(data_path):
     """Load recipes from CSV file."""
     logging.info("Ingestion started: loading data from %s", data_path)
     df = pd.read_csv(data_path)
-    # Limit to 10 rows for test/dev runs
-    df = df.head(10)
+    # Limit to 100 rows for test/dev runs
+    df = df.head(100)
     if 'id' not in df.columns:
         df['id'] = range(len(df))
     logging.info("Loaded %d recipes from CSV", len(df))

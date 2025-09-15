@@ -19,7 +19,7 @@ services:
     environment:
       OPENAI_API_KEY: ${OPENAI_API_KEY}
       DATA_PATH: "data/recipes_clean.csv"
-      ES_URL: "http://elasticsearch:9200"
+      ES_URL: ${ES_URL}
       ES_USER: ${ES_USER:-}
       ES_PASSWORD: ${ES_PASSWORD:-}
       OTEL_EXPORTER_OTLP_ENDPOINT: "http://tempo:4318"
@@ -130,6 +130,8 @@ services:
     depends_on:
       - postgres
       - elasticsearch
+    environment:
+      ES_URL: ${ES_URL}
 
   cli:
     build:
@@ -143,6 +145,8 @@ services:
       - ./data:/app/data
     depends_on:
       - app
+    environment:
+      ES_URL: ${ES_URL}
 
   ingest:
     build:
@@ -157,6 +161,9 @@ services:
     depends_on:
       - postgres
       - elasticsearch
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      ES_URL: ${ES_URL}
 
 volumes:
   postgres_data:

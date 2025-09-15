@@ -19,12 +19,58 @@ POSTGRES_CONTAINER=postgres
 .PHONY: all up down build restart logs shell app-shell db-shell ingest db-init health test lint dlt grafana applog default
 
 # 'all' target: Run the main workflow steps in order (useful for fresh setup or CI)
-all: up ingest db-init health test lint
+
+# Wait for Postgres to become ready
+wait-postgres:
+	@bash -c ' \
+  echo "Waiting for Postgres to become ready..."; \
+  MAX_WAIT=60; WAITED=0; \
+  while ! $(COMPOSE) exec -T $(POSTGRES_CONTAINER) pg_isready -U $$POSTGRES_USER > /dev/null 2>&1; do \
+    if [ $$WAITED -ge $$MAX_WAIT ]; then \
+      echo "Postgres did not become ready after $$MAX_WAIT seconds. Exiting." >&2; exit 1; \
+    fi; \
+    sleep 2; \
+    WAITED=$$((WAITED+2)); \
+  done; \
+  echo "Postgres is ready!"; \
+'
+
+# Wait for Elasticsearch to become ready
+wait-elasticsearch:
+	@bash -c ' \
+  echo "Waiting for Elasticsearch to become ready..."; \
+  MAX_WAIT=60; WAITED=0; \
+  while ! curl -sf http://localhost:9200/_cluster/health > /dev/null; do \
+    if [ $$WAITED -ge $$MAX_WAIT ]; then \
+      echo "Elasticsearch did not become ready after $$MAX_WAIT seconds. Exiting." >&2; exit 1; \
+    fi; \
+    sleep 2; \
+    WAITED=$$((WAITED+2)); \
+  done; \
+  echo "Elasticsearch is ready!"; \
+'
+
+# Wait for Flask API to become ready
+wait-api:
+	@bash -c ' \
+  echo "Waiting for Flask API to become ready..."; \
+  MAX_WAIT=60; WAITED=0; \
+  while ! curl -sf http://localhost:5000/health > /dev/null; do \
+    if [ $$WAITED -ge $$MAX_WAIT ]; then \
+      echo "Flask API did not become ready after $$MAX_WAIT seconds. Exiting." >&2; exit 1; \
+    fi; \
+    sleep 2; \
+    WAITED=$$((WAITED+2)); \
+  done; \
+  echo "Flask API is ready!"; \
+'
+
+# 'all' target: Run all main workflow steps in order, waiting for service readiness
+all: up wait-postgres wait-elasticsearch wait-api ingest db-init health test
 
 # Build and start all services (Docker Compose)
 up:
 	$(COMPOSE) up --build -d
-
 
 # Stop all running containers (but do not remove them)
 stop:
@@ -41,7 +87,6 @@ build:
 # Restart app and grafana containers
 restart:
 	$(COMPOSE) restart $(APP_CONTAINER) grafana
-
 
 # Show all container logs (real-time, follow with -f)
 logs:
